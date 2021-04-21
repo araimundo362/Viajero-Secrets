@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: darkorange;
+
+    border-bottom: thin solid black;
+
+    &__linksContainer {
+        align-self: center;
+    }
+}

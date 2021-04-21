@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkorange;
+  border-bottom: thin solid black; }
+  .header__linksContainer {
+    align-self: center; }
+
+body {
+  margin: 0 !important; }
