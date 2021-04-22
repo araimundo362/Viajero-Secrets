@@ -1,10 +1,82 @@
+* {
+  scroll-behavior: smooth;
+  transition: .5s; }
+
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: darkorange;
-  border-bottom: thin solid black; }
-  .header__linksContainer {
+  background-color: transparent;
+  border-bottom: thin solid black;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  .header__nav {
     align-self: center; }
+    @media screen and (max-width: 500px) {
+      .header__nav {
+        display: none; } }
+  @media screen and (max-width: 500px) {
+    .header__containerMenu {
+      display: flex;
+      justify-content: space-between;
+      width: 100%; } }
+  .header__dropHeader {
+    display: none; }
+    @media screen and (max-width: 500px) {
+      .header__dropHeader {
+        display: flex; }
+        .header__dropHeader__dropdownMenu {
+          background: beige;
+          display: flex;
+          flex-direction: column; }
+        .header__dropHeader__button {
+          background: transparent;
+          border: none; }
+        .header__dropHeader__button:focus {
+          outline: none !important; } }
+
+.mainHome__dropdownMenu {
+  display: none; }
+  @media screen and (max-width: 500px) {
+    .mainHome__dropdownMenu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: absolute;
+      top: 68px;
+      background: beige;
+      width: 100%;
+      height: 25px; }
+      .mainHome__dropdownMenu a {
+        text-decoration: none; } }
+
+.mainHome__imageBackground {
+  width: 100%;
+  height: 540px; }
+
+.mainHome__titleContainer {
+  position: absolute;
+  top: 20%;
+  left: 5%; }
+  .mainHome__titleContainer h1 {
+    margin: 0 !important;
+    font-size: 55px; }
+  .mainHome__titleContainer h2 {
+    margin: 0 !important;
+    font-size: 21px; }
+  @media screen and (max-width: 500px) {
+    .mainHome__titleContainer {
+      left: 20%; }
+      .mainHome__titleContainer h1 {
+        font-size: 40px; }
+      .mainHome__titleContainer h2 {
+        font-size: 15px; } }
+
+@media screen and (max-width: 500px) {
+  .hide {
+    opacity: 0; }
+  .notHide {
+    opacity: 1; } }
 
 body {
   margin: 0 !important; }

@@ -1,0 +1,69 @@
+.mainHome {
+
+    &__dropdownMenu {
+        display: none;
+
+        @media screen and (max-width: 500px) {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            position: absolute;
+            top: 68px;
+
+            background: beige;
+
+            width: 100%;
+            height: 25px;
+
+            a {
+                text-decoration: none;
+            }
+
+        }
+    }
+
+    &__imageBackground {
+        width: 100%;
+        height: 540px;
+    }
+
+    &__titleContainer {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+
+        h1 {
+            margin: 0 !important;
+            font-size: 55px;
+        }
+
+        h2 {
+            margin: 0 !important;
+            font-size: 21px;
+        }
+
+        @media screen and (max-width: 500px) {
+            left: 20%;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 15px;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hide {
+        opacity: 0;
+    }
+
+    .notHide {
+        opacity: 1;
+    }
+}
