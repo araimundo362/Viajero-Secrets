@@ -12,9 +12,12 @@ $(() => {
 
 $('#dropdownMenuButton').on("click", () => {
     let menu = $('#horizontalNav');
+    let title = $('#homeTitle');
     if(menu.hasClass("hide")) {
         menu.removeClass("hide");
+        title.addClass("hide")
     } else {
         menu.addClass("hide");
+        title.removeClass("hide");
     }
 })
