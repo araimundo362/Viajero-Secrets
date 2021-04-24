@@ -9,6 +9,7 @@
     top: 0;
 
     width: 100%;
+    z-index: 1000;
 
     &__containerMenu {
         display: flex;
@@ -25,11 +26,12 @@
             color: black;
             font-weight: 700;
 
-            cursor: pointer;        
+            cursor: pointer;
+            margin: 2px;        
         }
 
         a:hover {
-            color: royalblue;
+            color: blue !important;
         }
 
         @media screen and (max-width: 500px) {
