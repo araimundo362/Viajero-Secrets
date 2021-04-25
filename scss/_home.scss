@@ -1,5 +1,153 @@
 .mainHome {
 
+    &__suscriptionContainer {
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
+
+        &__content {
+            width: 80%;
+            background-color: lightgray;
+
+            text-align: center;
+
+            &__button {
+                margin-bottom: 25px;
+            }
+            
+            &__label {
+                padding: 15px;
+                
+                h6 {
+                    margin: 0;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    &__modal {
+
+        &__footer {
+            justify-content: space-around !important;
+        }
+
+        &__formSection {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            width: 100%;
+
+            legend {
+                font-size: 15px;
+            }
+
+            form {
+                width: 75%;
+
+                input {
+                    margin: 5px;
+                }
+            }
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            width: 100%;
+
+            h6 {
+                font-size: 13px;
+                margin-bottom: 0;
+                margin-top: 2px;
+            }
+        }
+
+        &__line {
+            border: gray solid 2px;
+            width: 25%;
+        }
+
+        &__header {
+            justify-content: center !important;
+        }
+
+        &__body {
+            p {
+                font-size: 11px;
+            }
+        }
+    }
+
+    &__telegramContainer {
+        width: 100%;
+        display: flex;
+
+        margin-top: 320px;
+        margin-left: 25px;
+        @media screen and (max-width: 500px) {
+            flex-direction: column;
+            margin-left: 5px;
+        }
+
+        &__textExplanation {
+            width: 50%;
+            margin-left: 15px;
+            @media screen and (max-width: 500px) {
+                width: 100%;
+                margin-left: 5px;
+            }
+        }
+
+        &__tgBotonera {
+            display: flex;
+            flex-wrap: wrap;
+            width: 48%;
+            margin: 1px 5px 15px 40px;
+
+            @media screen and (max-width: 500px) {
+                width: 100%;
+                margin: 0;
+            }
+
+            &__sizes {
+                width: 215px;
+                margin: 10px;
+
+                cursor: pointer;
+                border-radius: 3px;
+
+                box-shadow: 2px 2px 2px gray;
+
+                @media screen and (max-width: 500px) {
+                    width: 150px;
+                }
+            }
+
+            &__sizes:hover {
+                background-color: dodgerblue !important;
+            }
+
+            &__panels {
+                color: black;
+
+                @media screen and (max-width: 500px) {
+                    h5 {
+                        font-size: 13px;
+                    }
+                }   
+            }
+        }
+
+        &__border {
+            border-bottom: black 2px solid;
+        }
+    }
+
     &__dropdownMenu {
         display: none;
 
@@ -37,14 +185,18 @@
 
             &__firstRowCards {
                 height: 150px;
-                width: 420px;
+                width: 50%;
 
-                max-width: 450px !important;
+                max-width: 500px !important;
                 border-radius: 4px;
 
                 box-shadow: 2px 2px 2px grey;
 
                 cursor: pointer;
+
+                @media screen and (max-width: 975px) {
+                    width: 35%;
+                }
 
                 &__content {
                     height: inherit;
@@ -58,7 +210,7 @@
 
             &__secondRowCards {
                 height: 150px;
-                width: 275px;
+                width: 30%;
 
                 max-width: 450px !important;
                 border-radius: 4px;
@@ -114,6 +266,13 @@
     }
 }
 
+.successInput {
+    border-color: lightgreen !important;
+}
+
+.errorInput {
+    border-color: red !important;
+}
 @media screen and (max-width: 500px) {
     .hide {
         opacity: 0;

@@ -20,7 +20,7 @@
       color: black;
       font-weight: 700;
       cursor: pointer;
-      margin: 2px; }
+      margin: 2px 10px; }
     .header__nav a:hover {
       color: blue !important; }
     @media screen and (max-width: 500px) {
@@ -40,6 +40,101 @@
           border: none; }
         .header__dropHeader__button:focus {
           outline: none !important; } }
+
+.mainHome__suscriptionContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+  .mainHome__suscriptionContainer__content {
+    width: 80%;
+    background-color: lightgray;
+    text-align: center; }
+    .mainHome__suscriptionContainer__content__button {
+      margin-bottom: 25px; }
+    .mainHome__suscriptionContainer__content__label {
+      padding: 15px; }
+      .mainHome__suscriptionContainer__content__label h6 {
+        margin: 0;
+        font-size: 20px; }
+
+.mainHome__modal__footer {
+  justify-content: space-around !important; }
+
+.mainHome__modal__formSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .mainHome__modal__formSection legend {
+    font-size: 15px; }
+  .mainHome__modal__formSection form {
+    width: 75%; }
+    .mainHome__modal__formSection form input {
+      margin: 5px; }
+
+.mainHome__modal__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .mainHome__modal__text h6 {
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 2px; }
+
+.mainHome__modal__line {
+  border: gray solid 2px;
+  width: 25%; }
+
+.mainHome__modal__header {
+  justify-content: center !important; }
+
+.mainHome__modal__body p {
+  font-size: 11px; }
+
+.mainHome__telegramContainer {
+  width: 100%;
+  display: flex;
+  margin-top: 320px;
+  margin-left: 25px; }
+  @media screen and (max-width: 500px) {
+    .mainHome__telegramContainer {
+      flex-direction: column;
+      margin-left: 5px; } }
+  .mainHome__telegramContainer__textExplanation {
+    width: 50%;
+    margin-left: 15px; }
+    @media screen and (max-width: 500px) {
+      .mainHome__telegramContainer__textExplanation {
+        width: 100%;
+        margin-left: 5px; } }
+  .mainHome__telegramContainer__tgBotonera {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    margin: 1px 5px 15px 40px; }
+    @media screen and (max-width: 500px) {
+      .mainHome__telegramContainer__tgBotonera {
+        width: 100%;
+        margin: 0; } }
+    .mainHome__telegramContainer__tgBotonera__sizes {
+      width: 215px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 3px;
+      box-shadow: 2px 2px 2px gray; }
+      @media screen and (max-width: 500px) {
+        .mainHome__telegramContainer__tgBotonera__sizes {
+          width: 150px; } }
+    .mainHome__telegramContainer__tgBotonera__sizes:hover {
+      background-color: dodgerblue !important; }
+    .mainHome__telegramContainer__tgBotonera__panels {
+      color: black; }
+      @media screen and (max-width: 500px) {
+        .mainHome__telegramContainer__tgBotonera__panels h5 {
+          font-size: 13px; } }
+  .mainHome__telegramContainer__border {
+    border-bottom: black 2px solid; }
 
 .mainHome__dropdownMenu {
   display: none; }
@@ -68,11 +163,14 @@
     justify-content: space-evenly; }
     .mainHome__cardsContainer__row__firstRowCards {
       height: 150px;
-      width: 420px;
-      max-width: 450px !important;
+      width: 50%;
+      max-width: 500px !important;
       border-radius: 4px;
       box-shadow: 2px 2px 2px grey;
       cursor: pointer; }
+      @media screen and (max-width: 975px) {
+        .mainHome__cardsContainer__row__firstRowCards {
+          width: 35%; } }
       .mainHome__cardsContainer__row__firstRowCards__content {
         height: inherit;
         display: flex;
@@ -81,7 +179,7 @@
         color: black; }
     .mainHome__cardsContainer__row__secondRowCards {
       height: 150px;
-      width: 275px;
+      width: 30%;
       max-width: 450px !important;
       border-radius: 4px;
       box-shadow: 2px 2px 2px grey;
@@ -115,11 +213,21 @@
       .mainHome__titleContainer h2 {
         font-size: 15px; } }
 
+.successInput {
+  border-color: lightgreen !important; }
+
+.errorInput {
+  border-color: red !important; }
+
 @media screen and (max-width: 500px) {
   .hide {
     opacity: 0; }
   .notHide {
     opacity: 1; } }
+
+.customFooter {
+  display: flex;
+  justify-content: space-around; }
 
 body {
   margin: 0 !important; }
