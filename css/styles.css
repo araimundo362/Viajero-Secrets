@@ -511,6 +511,59 @@
       margin: 3px;
       padding: 5px; }
 
+.workHolidayMain__countryButtonsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .workHolidayMain__countryButtonsContainer__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center; }
+    .workHolidayMain__countryButtonsContainer__buttons__countryButton {
+      margin: 5px;
+      width: 140px;
+      height: 75px; }
+      @media screen and (max-width: 450px) {
+        .workHolidayMain__countryButtonsContainer__buttons__countryButton {
+          width: 125px;
+          height: 65px; } }
+
+.workHolidayMain__textContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .workHolidayMain__textContainer__text {
+    width: 90%; }
+
+.workHolidayMain__titleContainer {
+  width: 100%; }
+  .workHolidayMain__titleContainer__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+.line {
+  border: gray 1px solid;
+  width: 25%;
+  margin-top: 5px; }
+
+.modalCountry {
+  display: flex;
+  flex-direction: column; }
+  .modalCountry__line {
+    border: black 2px solid;
+    width: 30%;
+    margin-top: 15px;
+    border-radius: 20px; }
+  .modalCountry__header {
+    border-bottom: none !important;
+    justify-content: center !important;
+    flex-direction: column; }
+  .modalCountry__button {
+    margin: 5px; }
+
 body {
   margin: 0 !important; }
 

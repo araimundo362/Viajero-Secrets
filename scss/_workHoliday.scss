@@ -54,3 +54,25 @@
     width: 25%;
     margin-top: 5px;
 }
+
+.modalCountry {
+    display: flex;
+    flex-direction: column;
+
+    &__line {
+        border: black 2px solid;
+        width: 30%;
+        margin-top: 15px;
+        border-radius: 20px;
+    }
+
+    &__header {
+        border-bottom: none !important;
+        justify-content: center !important;
+        flex-direction: column;
+    }
+
+    &__button {
+        margin: 5px;
+    }
+}
