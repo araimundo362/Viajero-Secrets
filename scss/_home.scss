@@ -1,14 +1,15 @@
 .mainHome {
+    margin-top: 250px;
 
     &__suscriptionContainer {
         display: flex;
         justify-content: center;
 
         width: 100%;
-        margin-top: 560px;
+        margin-top: 70px;
 
         @media screen and (max-width: 500px) {
-            margin-top: 805px;            
+            margin-top: 35px;            
         }
 
         &__content {
