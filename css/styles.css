@@ -80,7 +80,7 @@
       margin-top: 805px; } }
   .mainHome__suscriptionContainer__content {
     width: 80%;
-    background-color: lightgray;
+    background-color: #2A3251;
     text-align: center; }
     .mainHome__suscriptionContainer__content__button {
       margin-bottom: 25px; }
@@ -88,7 +88,8 @@
       padding: 15px; }
       .mainHome__suscriptionContainer__content__label h6 {
         margin: 0;
-        font-size: 20px; }
+        font-size: 20px;
+        color: white; }
 
 .mainHome__modal__footer {
   justify-content: space-around !important; }
