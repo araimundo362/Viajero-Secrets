@@ -3,12 +3,33 @@
   transition: .5s; }
 
 .header {
-  background-color: transparent;
-  border-bottom: thin solid black;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000; }
+  background-image: url("../assets/viajanding.jpg");
+  background-size: cover;
+  height: 400px; }
+  .header__mobileMenu {
+    display: none; }
+    @media screen and (max-width: 600px) {
+      .header__mobileMenu {
+        background: white;
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+        height: 100vh;
+        text-align: end; }
+        .header__mobileMenu nav a {
+          padding: 20px;
+          font-weight: 600;
+          font-size: 20px; } }
+  .header__title {
+    position: absolute;
+    top: 15%;
+    left: 5%; }
+    .header__title h1 {
+      margin: 0 !important;
+      font-size: 55px; }
+    .header__title h2 {
+      margin: 0 !important;
+      font-size: 21px; }
   .header__containerMenu {
     display: flex;
     justify-content: space-between;
@@ -41,10 +62,22 @@
         .header__dropHeader__button:focus {
           outline: none !important; } }
 
+@media screen and (max-width: 500px) {
+  .headerIsActive {
+    display: block; }
+  .headerIsNotActive {
+    display: none; }
+  .contentIsNotActive {
+    display: none; } }
+
 .mainHome__suscriptionContainer {
   display: flex;
   justify-content: center;
-  width: 100%; }
+  width: 100%;
+  margin-top: 560px; }
+  @media screen and (max-width: 500px) {
+    .mainHome__suscriptionContainer {
+      margin-top: 805px; } }
   .mainHome__suscriptionContainer__content {
     width: 80%;
     background-color: lightgray;
@@ -95,8 +128,7 @@
 .mainHome__telegramContainer {
   width: 100%;
   display: flex;
-  margin-top: 320px;
-  margin-left: 25px; }
+  margin-top: 60px; }
   @media screen and (max-width: 500px) {
     .mainHome__telegramContainer {
       flex-direction: column;
@@ -112,7 +144,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 48%;
-    margin: 1px 5px 15px 40px; }
+    margin: 1px 5px 15px 15px; }
     @media screen and (max-width: 500px) {
       .mainHome__telegramContainer__tgBotonera {
         width: 100%;
@@ -135,24 +167,6 @@
           font-size: 13px; } }
   .mainHome__telegramContainer__border {
     border-bottom: black 2px solid; }
-
-.mainHome__dropdownMenu {
-  display: none; }
-  @media screen and (max-width: 500px) {
-    .mainHome__dropdownMenu {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      position: absolute;
-      top: 68px;
-      background: beige;
-      width: 100%;
-      height: 100vh; }
-      .mainHome__dropdownMenu a {
-        text-decoration: none;
-        margin: 15px;
-        color: black;
-        font-weight: 700; } }
 
 .mainHome__cardsContainer {
   position: absolute;
@@ -190,40 +204,15 @@
         align-items: flex-end;
         justify-content: flex-end;
         color: black; }
-
-.mainHome__imageBackground {
-  width: 100%;
-  height: 300px; }
-
-.mainHome__titleContainer {
-  position: absolute;
-  top: 20%;
-  left: 5%; }
-  .mainHome__titleContainer h1 {
-    margin: 0 !important;
-    font-size: 55px; }
-  .mainHome__titleContainer h2 {
-    margin: 0 !important;
-    font-size: 21px; }
-  @media screen and (max-width: 500px) {
-    .mainHome__titleContainer {
-      left: 20%; }
-      .mainHome__titleContainer h1 {
-        font-size: 40px; }
-      .mainHome__titleContainer h2 {
-        font-size: 15px; } }
+        @media screen and (max-width: 500px) {
+          .mainHome__cardsContainer__row__secondRowCards__content h5 {
+            font-size: 15px; } }
 
 .successInput {
   border-color: lightgreen !important; }
 
 .errorInput {
   border-color: red !important; }
-
-@media screen and (max-width: 500px) {
-  .hide {
-    opacity: 0; }
-  .notHide {
-    opacity: 1; } }
 
 .customFooter {
   display: flex;

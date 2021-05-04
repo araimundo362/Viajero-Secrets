@@ -1,15 +1,46 @@
 *{scroll-behavior: smooth; transition: .5s;}
 
 .header {
-    background-color: transparent;
 
-    border-bottom: thin solid black;
+    background-image: url('../assets/viajanding.jpg');
+    background-size: cover;
 
-    position: fixed;
-    top: 0;
+    height: 400px;
+    &__mobileMenu {
+        display: none;
+        @media screen and (max-width: 600px) {
+            background: white;
+            position: absolute;
+            width: 100%;
+            z-index: 5;
+            height: 100vh;
+            text-align: end;
 
-    width: 100%;
-    z-index: 1000;
+            nav {
+                a {
+                    padding: 20px;
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+            }   
+        }
+    }
+
+    &__title {
+        position: absolute;
+        top: 15%;
+        left: 5%;
+
+        h1 {
+            margin: 0 !important;
+            font-size: 55px;
+        }
+
+        h2 {
+            margin: 0 !important;
+            font-size: 21px;
+        }
+    }
 
     &__containerMenu {
         display: flex;
@@ -63,3 +94,16 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .headerIsActive {
+        display: block;
+    }
+ 
+    .headerIsNotActive {
+        display: none;
+    }
+
+    .contentIsNotActive {
+        display: none;
+    }
+}

@@ -12,14 +12,18 @@ $(() => {
 
 $('#dropdownMenuButton').on("click", () => {
     let menu = $('#horizontalNav');
-    document.querySelectorAll('im')
     let title = $('#homeTitle');
-    if(menu.hasClass("hide")) {
-        menu.removeClass("hide");
-        title.addClass("hide")
+    let main = $('#mainHome');
+    if(menu.hasClass("headerIsNotActive")) {
+        menu.removeClass("headerIsNotActive");
+        menu.addClass("headerIsActive");
+        title.addClass("contentIsNotActive");
+        main.addClass("contentIsNotActive");
     } else {
-        menu.addClass("hide");
-        title.removeClass("hide");
+        menu.removeClass("contentIsNotActive");
+        title.removeClass("contentIsNotActive");
+        menu.addClass('headerIsNotActive');
+        main.removeClass("contentIsNotActive");
     }
 })
 
