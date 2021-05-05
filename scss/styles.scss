@@ -2,4 +2,7 @@
 
 body {
     margin: 0 !important;
+@import './componentes/variables';
+@import './componentes/mixins';
+@import './componentes/viajeros';
 }
