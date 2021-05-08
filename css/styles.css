@@ -211,7 +211,26 @@
 
 .customFooter {
   display: flex;
-  justify-content: space-around; }
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px; }
+  .customFooter__secondRow {
+    width: 100%;
+    justify-content: space-around;
+    display: flex; }
+    .customFooter__secondRow__iconsContainer {
+      display: flex;
+      justify-content: space-around;
+      width: 40%;
+      align-items: center; }
+  @media screen and (max-width: 500px) {
+    .customFooter__logo {
+      width: 50%; } }
+  @media screen and (max-width: 500px) {
+    .customFooter__email {
+      font-size: 14px;
+      margin: 0; } }
 
 .voluntariados__mainContainer {
   margin-top: 55px;
@@ -314,6 +333,76 @@
   .faqsContainer__accordeonCards {
     margin: 10px;
     box-shadow: 0px 2px 4px 0px gray; }
+
+.asesoriasMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .asesoriasMain__introductionText {
+    text-align: center;
+    font-size: 13px;
+    padding: 10px; }
+  .asesoriasMain__plansContainer {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around; }
+    .asesoriasMain__plansContainer__plan {
+      width: 45%; }
+      .asesoriasMain__plansContainer__plan__header {
+        background-color: #2A3251 !important; }
+        .asesoriasMain__plansContainer__plan__header h6 {
+          color: white;
+          text-align: center; }
+        @media screen and (max-width: 500px) {
+          .asesoriasMain__plansContainer__plan__header {
+            height: 65px; }
+            .asesoriasMain__plansContainer__plan__header h6 {
+              font-size: 15px; } }
+      .asesoriasMain__plansContainer__plan__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .asesoriasMain__plansContainer__plan__body h5 {
+          font-size: 30px; }
+        .asesoriasMain__plansContainer__plan__body p {
+          text-align: center;
+          font-size: 12px; }
+        .asesoriasMain__plansContainer__plan__body a {
+          font-style: italic; }
+  @media screen and (max-width: 500px) {
+    .asesoriasMain__customP {
+      font-size: 13px;
+      text-align: center; } }
+  .asesoriasMain__formContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .asesoriasMain__formContainer form {
+      width: 80%; }
+    .asesoriasMain__formContainer__customInput {
+      margin-bottom: 12px; }
+    .asesoriasMain__formContainer__customButton {
+      background-color: #2A3251 !important; }
+  .asesoriasMain__modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .asesoriasMain__modalContent__body {
+      text-align: center;
+      padding: 10px; }
+      .asesoriasMain__modalContent__body p {
+        font-size: 14px; }
+      .asesoriasMain__modalContent__body__customCard {
+        border-color: #2A3251 !important; }
+        .asesoriasMain__modalContent__body__customCard__backgroundHeader {
+          background-color: #2A3251 !important; }
+          .asesoriasMain__modalContent__body__customCard__backgroundHeader h4, .asesoriasMain__modalContent__body__customCard__backgroundHeader p {
+            color: white; }
+        @media screen and (max-width: 500px) {
+          .asesoriasMain__modalContent__body__customCard__button {
+            width: 130px;
+            margin: 15px; } }
 
 body {
   margin: 0 !important; }
