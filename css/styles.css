@@ -24,6 +24,9 @@
     position: absolute;
     top: 15%;
     left: 5%; }
+    @media screen and (max-width: 500px) {
+      .header__title {
+        text-align: center; } }
     .header__title h1 {
       margin: 0 !important;
       font-size: 55px; }
@@ -224,9 +227,11 @@
       justify-content: space-around;
       width: 40%;
       align-items: center; }
-  @media screen and (max-width: 500px) {
-    .customFooter__logo {
-      width: 50%; } }
+  .customFooter__logo {
+    width: 35%; }
+    @media screen and (max-width: 500px) {
+      .customFooter__logo {
+        width: 50%; } }
   @media screen and (max-width: 500px) {
     .customFooter__email {
       font-size: 14px;
@@ -415,7 +420,9 @@
       font-size: 13px; }
   .workTravelMain__otherDataContainer {
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px; }
     .workTravelMain__otherDataContainer p, .workTravelMain__otherDataContainer b {
       margin: 0; }
       @media screen and (max-width: 500px) {
@@ -443,15 +450,13 @@
         border: gray 2px solid;
         border-radius: 5px;
         margin: 3px;
-        padding: 5px; }
+        padding: 5px;
+        width: 40%; }
     .workTravelMain__otherDataContainer__thirdRow {
       padding: 4px;
       border: gray 2px solid;
       border-radius: 5px;
       margin: 3px; }
-      @media screen and (max-width: 500px) {
-        .workTravelMain__otherDataContainer__thirdRow {
-          margin: 8px; } }
   .workTravelMain__moreData {
     text-align: center;
     padding: 5px; }
