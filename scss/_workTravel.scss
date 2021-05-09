@@ -23,6 +23,8 @@
         text-align: center;
         width: 100%;
 
+        margin-left: 10px;
+        margin-right: 10px;
         p,b {
             margin: 0;
 
@@ -58,15 +60,13 @@
             &__boxTwo {
                 @include boxBorder();
                 padding: 5px;
+                width: 40%;
             }
         }
 
         &__thirdRow {
             padding: 4px;
             @include boxBorder();
-            @media screen and (max-width: 500px) {
-                margin: 8px;
-            }
         }
     }
 
