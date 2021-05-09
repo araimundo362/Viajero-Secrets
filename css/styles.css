@@ -404,6 +404,105 @@
             width: 130px;
             margin: 15px; } }
 
+.workTravelMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .workTravelMain__text {
+    text-align: center;
+    padding: 15px; }
+    .workTravelMain__text p {
+      font-size: 13px; }
+  .workTravelMain__otherDataContainer {
+    text-align: center;
+    width: 100%; }
+    .workTravelMain__otherDataContainer p, .workTravelMain__otherDataContainer b {
+      margin: 0; }
+      @media screen and (max-width: 500px) {
+        .workTravelMain__otherDataContainer p, .workTravelMain__otherDataContainer b {
+          font-size: 13px; } }
+    .workTravelMain__otherDataContainer__firstData {
+      padding: 5px; }
+      @media screen and (max-width: 500px) {
+        .workTravelMain__otherDataContainer__firstData p {
+          font-size: 13px; } }
+    .workTravelMain__otherDataContainer__firstRow__boxOne {
+      border: gray 2px solid;
+      border-radius: 5px;
+      margin: 3px; }
+    .workTravelMain__otherDataContainer__secondRow {
+      display: inline-flex;
+      width: 100%; }
+      .workTravelMain__otherDataContainer__secondRow__boxOne {
+        border: gray 2px solid;
+        border-radius: 5px;
+        margin: 3px;
+        padding: 5px;
+        width: 65%; }
+      .workTravelMain__otherDataContainer__secondRow__boxTwo {
+        border: gray 2px solid;
+        border-radius: 5px;
+        margin: 3px;
+        padding: 5px; }
+    .workTravelMain__otherDataContainer__thirdRow {
+      padding: 4px;
+      border: gray 2px solid;
+      border-radius: 5px;
+      margin: 3px; }
+      @media screen and (max-width: 500px) {
+        .workTravelMain__otherDataContainer__thirdRow {
+          margin: 8px; } }
+  .workTravelMain__moreData {
+    text-align: center;
+    padding: 5px; }
+    @media screen and (max-width: 500px) {
+      .workTravelMain__moreData p {
+        font-size: 13px; } }
+  .workTravelMain__boxesContainer {
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px; }
+    .workTravelMain__boxesContainer p, .workTravelMain__boxesContainer b {
+      margin: 0; }
+      @media screen and (max-width: 500px) {
+        .workTravelMain__boxesContainer p, .workTravelMain__boxesContainer b {
+          font-size: 13px; } }
+    .workTravelMain__boxesContainer__firstRow {
+      display: inline-flex; }
+      .workTravelMain__boxesContainer__firstRow__boxOne {
+        border: gray 2px solid;
+        border-radius: 5px;
+        margin: 3px;
+        padding: 10px;
+        width: 40%; }
+      .workTravelMain__boxesContainer__firstRow__boxTwo {
+        border: gray 2px solid;
+        border-radius: 5px;
+        margin: 3px;
+        width: 60%; }
+    .workTravelMain__boxesContainer__secondRow {
+      border: gray 2px solid;
+      border-radius: 5px;
+      margin: 3px;
+      padding: 5px; }
+    .workTravelMain__boxesContainer__thirdRow {
+      display: inline-flex; }
+      .workTravelMain__boxesContainer__thirdRow__boxOne {
+        border: gray 2px solid;
+        border-radius: 5px;
+        margin: 3px; }
+      .workTravelMain__boxesContainer__thirdRow__boxTwo {
+        border: gray 2px solid;
+        border-radius: 5px;
+        margin: 3px; }
+    .workTravelMain__boxesContainer__fourthRow {
+      border: gray 2px solid;
+      border-radius: 5px;
+      margin: 3px;
+      padding: 5px; }
+
 body {
   margin: 0 !important; }
 
