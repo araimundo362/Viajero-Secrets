@@ -1,0 +1,19 @@
+.seguros-main {
+    .seguros-main_img {
+    display: flex;
+    justify-content: center;
+    }
+    .seguros_barLine {
+        display: flex;
+        justify-content: center;
+    }
+    .btn {
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .logo-seccion {
+        height: 12rem;
+    }
+}

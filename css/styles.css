@@ -1,114 +1,498 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  background-color: darkorange;
-  border-bottom: thin solid black; }
-  .header__linksContainer {
-    align-self: center; }
+* {
+  scroll-behavior: smooth;
+  transition: .5s; }
 
-body {
-  margin: 0 !important; }
-  body header div {
-    background-image: url("../assets/viajerosecrets-5.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 55%;
-    height: 7rem; }
-  body .main-viajeros {
-    padding: 1rem 0rem; }
-    body .main-viajeros section {
-      margin: 2rem 12rem 3rem 12rem;
-      padding: 0.5rem;
-      box-shadow: 0 0 10px gray;
+.header {
+  background-image: url("../assets/viajanding.jpg");
+  background-size: cover;
+  height: 400px; }
+  .header__mobileMenu {
+    display: none; }
+    @media screen and (max-width: 600px) {
+      .header__mobileMenu {
+        background: white;
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+        height: 100vh;
+        text-align: end; }
+        .header__mobileMenu nav a {
+          padding: 20px;
+          font-weight: 600;
+          font-size: 20px; } }
+  .header__title {
+    position: absolute;
+    top: 15%;
+    left: 5%; }
+    .header__title h1 {
+      margin: 0 !important;
+      font-size: 55px; }
+    .header__title h2 {
+      margin: 0 !important;
+      font-size: 21px; }
+  .header__containerMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+  .header__nav {
+    align-self: center; }
+    .header__nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: 700;
+      cursor: pointer;
+      margin: 2px 10px; }
+    .header__nav a:hover {
+      color: blue !important; }
+    @media screen and (max-width: 500px) {
+      .header__nav {
+        display: none; } }
+  .header__dropHeader {
+    display: none; }
+    @media screen and (max-width: 500px) {
+      .header__dropHeader {
+        display: flex; }
+        .header__dropHeader__dropdownMenu {
+          background: beige;
+          display: flex;
+          flex-direction: column; }
+        .header__dropHeader__button {
+          background: transparent;
+          border: none; }
+        .header__dropHeader__button:focus {
+          outline: none !important; } }
+
+@media screen and (max-width: 500px) {
+  .headerIsActive {
+    display: block; }
+  .headerIsNotActive {
+    display: none; }
+  .contentIsNotActive {
+    display: none; } }
+
+.mainHome {
+  margin-top: 250px; }
+  .mainHome__suscriptionContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px; }
+    @media screen and (max-width: 500px) {
+      .mainHome__suscriptionContainer {
+        margin-top: 35px; } }
+    .mainHome__suscriptionContainer__content {
+      width: 80%;
+      background-color: #2A3251;
+      text-align: center; }
+      .mainHome__suscriptionContainer__content__button {
+        margin-bottom: 25px; }
+      .mainHome__suscriptionContainer__content__label {
+        padding: 15px; }
+        .mainHome__suscriptionContainer__content__label h6 {
+          margin: 0;
+          font-size: 20px;
+          color: white; }
+  .mainHome__modal__footer {
+    justify-content: space-around !important; }
+  .mainHome__modal__formSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+    .mainHome__modal__formSection legend {
+      font-size: 15px; }
+    .mainHome__modal__formSection form {
+      width: 75%; }
+      .mainHome__modal__formSection form input {
+        margin: 5px; }
+  .mainHome__modal__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+    .mainHome__modal__text h6 {
+      font-size: 13px;
+      margin-bottom: 0;
+      margin-top: 2px; }
+  .mainHome__modal__line {
+    border: gray solid 2px;
+    width: 25%; }
+  .mainHome__modal__header {
+    justify-content: center !important; }
+  .mainHome__modal__body p {
+    font-size: 11px; }
+  .mainHome__telegramContainer {
+    width: 100%;
+    display: flex;
+    margin-top: 60px; }
+    @media screen and (max-width: 500px) {
+      .mainHome__telegramContainer {
+        flex-direction: column;
+        margin-left: 5px; } }
+    .mainHome__telegramContainer__textExplanation {
+      width: 50%;
+      margin-left: 15px; }
+      @media screen and (max-width: 500px) {
+        .mainHome__telegramContainer__textExplanation {
+          width: 100%;
+          margin-left: 5px; } }
+    .mainHome__telegramContainer__tgBotonera {
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
+      width: 48%;
+      margin: 1px 5px 15px 15px; }
+      @media screen and (max-width: 500px) {
+        .mainHome__telegramContainer__tgBotonera {
+          width: 100%;
+          margin: 0; } }
+      .mainHome__telegramContainer__tgBotonera__sizes {
+        width: 215px;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 3px;
+        box-shadow: 2px 2px 2px gray; }
+        @media screen and (max-width: 500px) {
+          .mainHome__telegramContainer__tgBotonera__sizes {
+            width: 150px; } }
+      .mainHome__telegramContainer__tgBotonera__sizes:hover {
+        background-color: dodgerblue !important; }
+      .mainHome__telegramContainer__tgBotonera__panels {
+        color: black; }
+        @media screen and (max-width: 500px) {
+          .mainHome__telegramContainer__tgBotonera__panels h5 {
+            font-size: 13px; } }
+    .mainHome__telegramContainer__border {
+      border-bottom: black 2px solid; }
+  .mainHome__cardsContainer {
+    position: absolute;
+    width: 100%;
+    top: 40%; }
+    .mainHome__cardsContainer__row {
+      display: flex;
+      justify-content: space-evenly; }
+      .mainHome__cardsContainer__row__firstRowCards {
+        height: 150px;
+        width: 50%;
+        max-width: 500px !important;
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px grey;
+        cursor: pointer; }
+        @media screen and (max-width: 975px) {
+          .mainHome__cardsContainer__row__firstRowCards {
+            width: 35%; } }
+        .mainHome__cardsContainer__row__firstRowCards__content {
+          height: inherit;
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+          color: black; }
+      .mainHome__cardsContainer__row__secondRowCards {
+        height: 150px;
+        width: 30%;
+        max-width: 450px !important;
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px grey;
+        cursor: pointer; }
+        .mainHome__cardsContainer__row__secondRowCards__content {
+          height: inherit;
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+          color: black; }
+          @media screen and (max-width: 500px) {
+            .mainHome__cardsContainer__row__secondRowCards__content h5 {
+              font-size: 15px; } }
+
+.successInput {
+  border-color: lightgreen !important; }
+
+.errorInput {
+  border-color: red !important; }
+
+.customFooter {
+  display: flex;
+  justify-content: space-around; }
+
+.voluntariados__mainContainer {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .voluntariados__mainContainer__textContainer {
+    text-align: center;
+    padding: 10px; }
+    @media screen and (max-width: 500px) {
+      .voluntariados__mainContainer__textContainer p {
+        font-size: 11px; } }
+  .voluntariados__mainContainer__bannerFaqs {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .voluntariados__mainContainer__bannerFaqs__box {
+      padding: 10px;
+      width: 80%;
+      background-color: #2A3251;
+      box-shadow: 0px 3px 3px 2px gray;
+      border-radius: 3px;
+      height: 100px;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
       align-items: center; }
       @media screen and (max-width: 500px) {
-        body .main-viajeros section {
-          margin: 1rem 2rem 2rem 2rem; } }
-      body .main-viajeros section a {
-        text-decoration: none; }
-      body .main-viajeros section h2 {
-        color: black;
-        text-shadow: 0 0 10px gray;
-        font-family: "Quicksand", sans-serif;
-        font-weight: 900;
+        .voluntariados__mainContainer__bannerFaqs__box {
+          height: 75px; } }
+      .voluntariados__mainContainer__bannerFaqs__box h2 {
         text-align: center;
-        font-size: 1.5rem;
-        margin-bottom: -0.7rem; }
-        body .main-viajeros section h2:hover {
-          color: grey; }
+        color: blanchedalmond; }
         @media screen and (max-width: 500px) {
-          body .main-viajeros section h2 {
-            font-size: 0.8rem;
-            margin-bottom: -0.2rem; } }
-      body .main-viajeros section p {
-        color: black;
-        font-family: "Nunito Sans", sans-serif;
-        text-align: center;
-        font-size: 1.3rem;
-        font-weight: 600;
-        letter-spacing: 0.2px; }
-        body .main-viajeros section p:hover {
-          color: grey; }
+          .voluntariados__mainContainer__bannerFaqs__box h2 {
+            font-size: 15px;
+            margin-top: 15px; } }
+  .voluntariados__mainContainer__otherPlatformsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%; }
+    .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms {
+      width: 100%;
+      justify-content: space-around; }
+      .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms__button {
+        margin: 10px;
+        border-radius: 7px !important;
+        width: 0;
+        height: 65px; }
         @media screen and (max-width: 500px) {
-          body .main-viajeros section p {
-            font-size: 0.7rem;
-            margin-bottom: -0.7rem; } }
-      body .main-viajeros section img {
-        height: 15rem;
-        box-shadow: 2px 2px 12px #373434;
-        margin: 1.5rem 0rem 0.3rem 0rem; }
-        @media screen and (max-width: 500px) {
-          body .main-viajeros section img {
-            height: 8rem;
-            margin-top: 1rem; } }
-      body .main-viajeros section .div-europa {
-        display: flex;
-        flex-direction: column; }
-        body .main-viajeros section .div-europa .div-europa1 {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-evenly;
-          width: 80vw; }
-          @media screen and (max-width: 500px) {
-            body .main-viajeros section .div-europa .div-europa1 {
-              margin-bottom: 0.5rem; } }
-        body .main-viajeros section .div-europa .div-europa2 {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-evenly;
-          width: 80vw; }
-          @media screen and (max-width: 500px) {
-            body .main-viajeros section .div-europa .div-europa2 {
-              margin-bottom: 0.5rem; } }
-        body .main-viajeros section .div-europa .div-europa3 {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-evenly;
-          width: 80vw; }
-          @media screen and (max-width: 500px) {
-            body .main-viajeros section .div-europa .div-europa3 {
-              margin-bottom: 0.5rem; } }
-      body .main-viajeros section .div-america {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 80vw; }
-        @media screen and (max-width: 500px) {
-          body .main-viajeros section .div-america {
-            margin-bottom: 0.5rem; } }
-      body .main-viajeros section .div-asia {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 80vw; }
-        @media screen and (max-width: 500px) {
-          body .main-viajeros section .div-asia {
-            margin-bottom: 0.5rem; } }
-  body footer {
-    height: 3rem;
-    background-color: grey; }
+          .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms__button {
+            height: 60px; }
+            .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms__button a {
+              font-size: 13px; } }
+    .voluntariados__mainContainer__otherPlatformsContainer p {
+      text-align: center;
+      font-size: 11px; }
+      @media screen and (max-width: 500px) {
+        .voluntariados__mainContainer__otherPlatformsContainer p {
+          font-size: 11px; } }
+  .voluntariados__mainContainer__mostImportant {
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
     @media screen and (max-width: 500px) {
-      body footer {
-        height: 3rem; } }
+      .voluntariados__mainContainer__mostImportant h5 {
+        font-size: 13px; } }
+    .voluntariados__mainContainer__mostImportant__boxPromotion {
+      width: 80%;
+      box-shadow: 0px 3px 3px 2px gray;
+      border-radius: 5px;
+      text-align: center;
+      padding: 7px;
+      margin-top: 10px; }
+      .voluntariados__mainContainer__mostImportant__boxPromotion h3 {
+        font-weight: 700; }
+      .voluntariados__mainContainer__mostImportant__boxPromotion p {
+        padding: 5px;
+        font-size: 13px;
+        font-weight: 600; }
+
+.headerVoluntariados {
+  text-align: center;
+  margin-top: 40px; }
+  @media screen and (max-width: 450px) {
+    .headerVoluntariados__title {
+      font-size: 25px; } }
+  @media screen and (max-width: 450px) {
+    .headerVoluntariados__subTitles {
+      font-size: 13px; } }
+
+.faqsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .faqsContainer__accordeonCards {
+    margin: 10px;
+    box-shadow: 0px 2px 4px 0px gray; }
+
+.main-viajeros {
+  padding: 1rem 0rem; }
+  .main-viajeros section {
+    margin: 2rem 12rem 3rem 12rem;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    @media screen and (max-width: 500px) {
+      .main-viajeros section {
+        margin: 1rem 2rem 2rem 2rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1200px) {
+      .main-viajeros section {
+        margin: 2rem 2rem; } }
+    .main-viajeros section a {
+      text-decoration: none; }
+    .main-viajeros section h2 {
+      color: black;
+      font-family: "Quicksand", sans-serif;
+      font-weight: 900;
+      text-align: center;
+      font-size: 1.7rem;
+      margin-bottom: -0.7rem; }
+      .main-viajeros section h2:hover {
+        color: grey; }
+      @media screen and (max-width: 500px) {
+        .main-viajeros section h2 {
+          font-size: 0.9rem;
+          margin: 0.4rem 0rem 0.1rem 0rem; } }
+      @media screen and (min-width: 500px) and (max-width: 1200px) {
+        .main-viajeros section h2 {
+          font-size: 1.1rem;
+          margin: 1rem 0.2rem 0.4rem 0.2rem; } }
+    .main-viajeros section p {
+      color: black;
+      font-family: "Gudea", sans-serif;
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: 100; }
+      .main-viajeros section p:hover {
+        color: grey; }
+      @media screen and (max-width: 500px) {
+        .main-viajeros section p {
+          font-size: 0.8rem;
+          margin-bottom: -0.2rem; } }
+      @media screen and (min-width: 500px) and (max-width: 1200px) {
+        .main-viajeros section p {
+          font-size: 0.9rem;
+          margin-bottom: -0.3rem;
+          letter-spacing: 0px; } }
+    .main-viajeros section img {
+      height: 15rem;
+      box-shadow: 2px 2px 2px gray;
+      margin: 1.5rem 0rem 0.3rem 0rem; }
+      @media screen and (max-width: 500px) {
+        .main-viajeros section img {
+          height: 12rem;
+          margin: 1rem 0rem 0.5rem 0rem; } }
+      @media screen and (min-width: 1200px) {
+        .main-viajeros section img {
+          height: 25rem; } }
+    .main-viajeros section .div-europa {
+      display: flex;
+      flex-direction: column; }
+      .main-viajeros section .div-europa .div-europa1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 80vw; }
+        @media screen and (max-width: 500px) {
+          .main-viajeros section .div-europa .div-europa1 {
+            margin-bottom: 0.5rem; } }
+      .main-viajeros section .div-europa .div-europa2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 80vw; }
+        @media screen and (max-width: 500px) {
+          .main-viajeros section .div-europa .div-europa2 {
+            margin-bottom: 0.5rem; } }
+      .main-viajeros section .div-europa .div-europa3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 80vw; }
+        @media screen and (max-width: 500px) {
+          .main-viajeros section .div-europa .div-europa3 {
+            margin-bottom: 0.5rem; } }
+    .main-viajeros section .div-america {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 80vw; }
+      @media screen and (max-width: 500px) {
+        .main-viajeros section .div-america {
+          margin-bottom: 0.5rem; } }
+    .main-viajeros section .div-asia {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 80vw; }
+      @media screen and (max-width: 500px) {
+        .main-viajeros section .div-asia {
+          margin-bottom: 0.5rem; } }
+
+@media screen and (max-width: 500px) {
+  .quienes-somos_main .quienes-somos_section .quienes-somos_subtitulo {
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem 0rem 1.5rem; } }
+
+@media screen and (max-width: 500px) {
+  .quienes-somos_main .quienes-somos_section .quienes-somos_p1 {
+    font-size: 1rem;
+    padding: 0rem 1.5rem; } }
+
+.quienes-somos_main .quienes-somos_section .quienes-somos_p2 {
+  text-align: center;
+  font-weight: 900; }
+  @media screen and (max-width: 500px) {
+    .quienes-somos_main .quienes-somos_section .quienes-somos_p2 {
+      font-size: 0.8rem; } }
+
+.quienes-somos_main .quienes-somos_section .quienes-somos_img {
+  display: flex;
+  justify-content: center; }
+  @media screen and (max-width: 500px) {
+    .quienes-somos_main .quienes-somos_section .quienes-somos_img img {
+      font-size: 0.9rem;
+      height: 12rem; } }
+
+.quienes-somos_main .embajadores_section .embajadores_titulo {
+  text-align: center; }
+  @media screen and (max-width: 500px) {
+    .quienes-somos_main .embajadores_section .embajadores_titulo {
+      padding: 1rem 0rem;
+      font-size: 2rem; } }
+
+.quienes-somos_main .embajadores_p a {
+  text-decoration: none; }
+
+@media screen and (max-width: 500px) {
+  .quienes-somos_main .embajadores_p {
+    font-size: 1rem;
+    padding: 0rem 1.5rem; } }
+
+@media screen and (max-width: 500px) {
+  .quienes-somos_main .mainHome__suscriptionContainer {
+    margin-top: 0.05rem;
+    padding-bottom: 1.5rem; } }
+
+.seguros-main .seguros-main_img {
+  display: flex;
+  justify-content: center; }
+
+.seguros-main .seguros_barLine {
+  display: flex;
+  justify-content: center; }
+
+.seguros-main .btn a {
+  text-decoration: none;
+  color: white; }
+
+.seguros-main .logo-seccion {
+  height: 12rem; }
+
+body {
+  margin: 0 !important;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800; }
+
+.barLine {
+  border: black 2px solid;
+  width: 30%;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.transparentLink {
+  color: white;
+  text-decoration: none; }

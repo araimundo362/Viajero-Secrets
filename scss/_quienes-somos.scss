@@ -1,0 +1,78 @@
+.quienes-somos_main {
+    .quienes-somos_section {
+        .quienes-somos_subtitulo {
+            @media screen and (max-width: 500px) {
+                font-size: 1.3rem;
+                padding: 0.7rem 1.5rem 0rem 1.5rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1200px) {
+                
+            }
+        }
+        .quienes-somos_p1 {
+            @media screen and (max-width: 500px) {
+                font-size: 1rem;
+                padding: 0rem 1.5rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1200px) {
+                
+            }
+        }
+        .quienes-somos_p2 {
+            text-align: center;
+            font-weight: 900;
+            @media screen and (max-width: 500px) {
+                font-size: 0.8rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1200px) {
+                
+            }
+        }
+        .quienes-somos_img {
+            display: flex;
+            justify-content: center;
+            img {
+                @media screen and (max-width: 500px) {
+                    font-size: 0.9rem;
+                    height: 12rem;
+                }
+                @media screen and (min-width: 500px) and (max-width: 1200px) {
+                    
+                }
+            }
+        }
+    }
+    .embajadores_section {
+        .embajadores_titulo {
+            text-align: center;
+            @media screen and (max-width: 500px) {
+                padding: 1rem 0rem;
+                font-size: 2rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1200px) {
+                
+            }
+        }
+    }
+    .embajadores_p {
+        a {
+            text-decoration: none;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 1rem;
+                padding: 0rem 1.5rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            
+        }
+    }
+    .mainHome__suscriptionContainer {
+        @media screen and (max-width: 500px) {
+            margin-top: 0.05rem;
+            padding-bottom: 1.5rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            
+        }
+    }
+}
