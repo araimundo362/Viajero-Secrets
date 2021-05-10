@@ -1,0 +1,109 @@
+.plataformasMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__platformsCardsContainer {
+        margin: 10px;
+        width: 100%;
+
+        &__firstRow {
+            display: inline-flex;
+            justify-content: space-around;
+            width: inherit;
+
+            &__cards {
+                width: 50%;
+                margin: 10px;
+
+                box-shadow: 0px 2px 5px gray;
+
+                min-height: 112px;
+                @media screen and (max-width: 500px) {
+                    min-height: 60px;
+                }
+
+                h5, p {
+                    @media screen and (max-width: 500px) {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        &__thirdRow {
+            display: inline-flex;
+            justify-content: space-around;
+            width: inherit;
+
+            &__cards {
+                width: 50%;
+                margin: 10px;
+
+                box-shadow: 0px 2px 5px gray;
+
+                min-height: 112px;
+            }
+
+            h5 {
+                @media screen and (max-width: 500px) {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    &__cardsGroupContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 12px;
+
+        &__cardGroup {
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__customCard {
+            width: 75%;
+            font-size: 1em;
+            overflow: hidden;
+            padding: 5;
+            border: none;
+            border-radius: .28571429rem;
+            box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+            margin-top:20px;
+
+            &__title {
+                position: absolute;
+            }
+
+            &__body {
+                font-size: 1em;
+                position: relative;
+                margin: 0;
+                padding: 1em;
+                border: none;
+                border-top: 1px solid rgba(34, 36, 38, .1);
+                box-shadow: none; 
+                p {
+                    font-size: 11px;
+                    margin: 0;
+                }
+            }
+
+            &__left {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            &__image {
+                opacity: 0.4;
+                z-index: 0;
+            }
+        }
+    }
+}

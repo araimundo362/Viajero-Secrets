@@ -1113,6 +1113,79 @@
     flex-direction: column; }
   .modalCountry__button {
     margin: 5px; }
+.plataformasMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .plataformasMain__platformsCardsContainer {
+    margin: 10px;
+    width: 100%; }
+    .plataformasMain__platformsCardsContainer__firstRow {
+      display: inline-flex;
+      justify-content: space-around;
+      width: inherit; }
+      .plataformasMain__platformsCardsContainer__firstRow__cards {
+        width: 50%;
+        margin: 10px;
+        box-shadow: 0px 2px 5px gray;
+        min-height: 112px; }
+        @media screen and (max-width: 500px) {
+          .plataformasMain__platformsCardsContainer__firstRow__cards {
+            min-height: 60px; } }
+        @media screen and (max-width: 500px) {
+          .plataformasMain__platformsCardsContainer__firstRow__cards h5, .plataformasMain__platformsCardsContainer__firstRow__cards p {
+            font-size: 12px; } }
+    .plataformasMain__platformsCardsContainer__thirdRow {
+      display: inline-flex;
+      justify-content: space-around;
+      width: inherit; }
+      .plataformasMain__platformsCardsContainer__thirdRow__cards {
+        width: 50%;
+        margin: 10px;
+        box-shadow: 0px 2px 5px gray;
+        min-height: 112px; }
+      @media screen and (max-width: 500px) {
+        .plataformasMain__platformsCardsContainer__thirdRow h5 {
+          font-size: 12px; } }
+  .plataformasMain__cardsGroupContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px; }
+    .plataformasMain__cardsGroupContainer__cardGroup {
+      margin: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .plataformasMain__cardsGroupContainer__customCard {
+      width: 75%;
+      font-size: 1em;
+      overflow: hidden;
+      padding: 5;
+      border: none;
+      border-radius: .28571429rem;
+      box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+      margin-top: 20px; }
+      .plataformasMain__cardsGroupContainer__customCard__title {
+        position: absolute; }
+      .plataformasMain__cardsGroupContainer__customCard__body {
+        font-size: 1em;
+        position: relative;
+        margin: 0;
+        padding: 1em;
+        border: none;
+        border-top: 1px solid rgba(34, 36, 38, 0.1);
+        box-shadow: none; }
+        .plataformasMain__cardsGroupContainer__customCard__body p {
+          font-size: 11px;
+          margin: 0; }
+      .plataformasMain__cardsGroupContainer__customCard__left {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .plataformasMain__cardsGroupContainer__customCard__image {
+        opacity: 0.4;
+        z-index: 0; }
 
 body {
   margin: 0 !important;
