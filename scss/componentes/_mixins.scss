@@ -19,3 +19,8 @@
         text-align: center;
     }
 }
+
+@mixin viajeros-img {
+    background-size: cover;
+    background-position: center;
+}

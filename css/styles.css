@@ -315,158 +315,93 @@
     margin: 10px;
     box-shadow: 0px 2px 4px 0px gray; }
 
-.viajeros-main {
-  /*
-    padding: 1rem 0rem;
-    section {
-        margin: 2rem 12rem 3rem 12rem;
-        padding: 0.5rem;
-        box-shadow: $box-shadow;
-        @media screen and (max-width: 500px) {
-            margin: 1rem 2rem 2rem 2rem;
-        }
-        @media screen and (min-width: 500px) and (max-width: 1200px) {
-            margin: 2rem 2rem;
-        }
-        a {
-            text-decoration: none;
-        }
-        h2 {
-            color: black;
-            font-family: $font1;
-            font-weight: 900;
-            text-align: center;
-            font-size: 1.7rem;
-            margin-bottom: -0.7rem;
-            &:hover {
-                color: grey;
-            }
-            @media screen and (max-width: 500px) {
-                font-size: 0.9rem;
-                margin: 0.4rem 0rem 0.1rem 0rem;
-            }
-            @media screen and (min-width: 500px) and (max-width: 1200px) {
-                font-size: 1.1rem;
-                margin: 1rem 0.2rem 0.4rem 0.2rem;
-            }
-        }
-        p {
-            color: black;
-            text-align: center;
-            font-family: $font2;
-            font-size: 1.3rem;
-            font-weight: 100;
-            &:hover {
-                color: grey;
-            }
-            @media screen and (max-width: 500px) {
-                font-size: 0.8rem;
-                margin-bottom: -0.2rem;
-            }
-            @media screen and (min-width: 500px) and (max-width: 1200px) {
-                font-size: 0.9rem;
-                margin-bottom: -0.3rem;
-                letter-spacing: 0px;
-            }
-        }
-        img {
-            height: 15rem;
-            box-shadow: $box-shadow;
-            margin: 1.5rem 0rem 0.3rem 0rem;
-            @media screen and (max-width: 500px) {
-                height: 12rem;
-                margin: 1rem 0rem 0.5rem 0rem;
-            }
-            @media screen and (min-width: 1200px) {
-                height: 25rem;
-            }
-        }
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .div-europa {
-            display: flex;
-            flex-direction: column;
-            .div-europa1 {
-                @include viajeros-divs;
-                @media screen and (max-width: 500px) {
-                    margin-bottom: 0.5rem;
-                }
-            }
-            .div-europa2 {
-                @include viajeros-divs;
-                @media screen and (max-width: 500px) {
-                    margin-bottom: 0.5rem;
-                }
-            }
-            .div-europa3 {
-                @include viajeros-divs;
-                @media screen and (max-width: 500px) {
-                    margin-bottom: 0.5rem;
-                }
-            }
-        }
-        .div-america {
-            @include viajeros-divs;
-            @media screen and (max-width: 500px) {
-                margin-bottom: 0.5rem;
-            }
-        }
-        .div-asia {
-            @include viajeros-divs;
-            @media screen and (max-width: 500px) {
-                margin-bottom: 0.5rem;
-            }
-        }
-    }
-*/ }
+@media screen and (max-width: 500px) {
+  .viajeros-main .viajeros_barLine1 {
+    padding: 1rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeros-main .viajeros_barLine2 {
+    padding: 1.5rem 0rem 0rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeros-main h2 {
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    margin-bottom: -0.5rem; } }
+
+.viajeros-main .cards {
+  display: flex;
+  justify-content: flex-start; }
   @media screen and (max-width: 500px) {
-    .viajeros-main .viajeros_barLine {
-      padding: 1rem 0rem; } }
-  @media screen and (max-width: 500px) {
-    .viajeros-main h2 {
-      font-size: 1.2rem;
-      padding-left: 2rem;
-      margin-bottom: -0.5rem; } }
-  .viajeros-main .cards {
-    display: flex;
-    justify-content: flex-start; }
+    .viajeros-main .cards {
+      padding: 1rem 1rem; } }
+  .viajeros-main .cards .viajeros-card {
+    box-shadow: 2px 2px 2px gray; }
     @media screen and (max-width: 500px) {
-      .viajeros-main .cards {
-        padding: 1rem 1rem; } }
-    .viajeros-main .cards .viajeros-card {
-      box-shadow: 2px 2px 2px gray; }
+      .viajeros-main .cards .viajeros-card {
+        width: 25vw;
+        height: 17vh;
+        margin: 0rem 0.8rem; } }
+    .viajeros-main .cards .viajeros-card .card-body {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .viajeros-main .cards .viajeros-card a {
+      text-align: center;
+      font-weight: 700;
+      text-decoration: none;
+      color: black;
+      text-shadow: 2px 2px 2px white; }
       @media screen and (max-width: 500px) {
-        .viajeros-main .cards .viajeros-card {
-          width: 25vw;
-          height: 17vh;
-          margin: 0rem 0.8rem; } }
-      .viajeros-main .cards .viajeros-card .card-body {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-      .viajeros-main .cards .viajeros-card h5 {
-        text-align: center;
-        font-weight: 700; }
-        @media screen and (max-width: 500px) {
-          .viajeros-main .cards .viajeros-card h5 {
-            font-size: 0.9rem; } }
-  @media screen and (max-width: 500px) {
-    .viajeros-main .viajeros-america, .viajeros-main .viajeros-asia {
-      padding-bottom: 1rem; } }
-  .viajeros-main .viajeros-europa {
-    display: flex;
-    justify-content: center; }
-    .viajeros-main .viajeros-europa .carousel {
-      overflow-x: hidden; }
-      @media screen and (max-width: 500px) {
-        .viajeros-main .viajeros-europa .carousel {
-          width: 90vw; } }
-      .viajeros-main .viajeros-europa .carousel .carousel-item {
-        display: flex;
-        flex-direction: row; }
-        .viajeros-main .viajeros-europa .carousel .carousel-item .card {
-          width: 30rem; }
+        .viajeros-main .cards .viajeros-card a {
+          font-size: 0.9rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeros-main .viajeros-america {
+    padding-bottom: 1rem; } }
+
+.viajeros-main .viajeros-america #cuba {
+  background-image: url("../assets/Viajeros En/cuba.png");
+  background-size: cover;
+  background-position: center; }
+
+.viajeros-main .viajeros-america #eeuu {
+  background-image: url("../assets/Viajeros En/eeuu.png");
+  background-size: cover;
+  background-position: center; }
+
+.viajeros-main .viajeros-america #colombia {
+  background-image: url("../assets/Viajeros En/colombia.png");
+  background-size: cover;
+  background-position: center; }
+
+@media screen and (max-width: 500px) {
+  .viajeros-main .viajeros-asia {
+    padding-bottom: 1rem; } }
+
+.viajeros-main .viajeros-asia #india {
+  background-image: url("../assets/Viajeros En/india.png");
+  background-size: cover;
+  background-position: center; }
+
+.viajeros-main .viajeros-asia #tailandia {
+  background-image: url("../assets/Viajeros En/tailandia.png");
+  background-size: cover;
+  background-position: center; }
+
+.viajeros-main .viajeros-europa {
+  display: flex;
+  justify-content: center; }
+  .viajeros-main .viajeros-europa .carousel {
+    overflow-x: hidden; }
+    @media screen and (max-width: 500px) {
+      .viajeros-main .viajeros-europa .carousel {
+        width: 90vw; } }
+    .viajeros-main .viajeros-europa .carousel .carousel-item {
+      display: flex;
+      flex-direction: row; }
+      .viajeros-main .viajeros-europa .carousel .carousel-item .card {
+        width: 30rem; }
 
 @media screen and (max-width: 500px) and (max-width: 500px) {
   .quienes-somos_main .quienes-somos_section .quienes-somos_subtitulo {
