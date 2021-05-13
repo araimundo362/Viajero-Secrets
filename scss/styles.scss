@@ -24,6 +24,11 @@ body {
     margin-bottom: 15px;
 }
 
+.barLine-div {
+    display: flex;
+    justify-content: center;
+}
+
 .transparentLink {
     color: white; //Ojo con esto, aplica a todos los a que tengan esta clase
     text-decoration: none;

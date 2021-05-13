@@ -1,4 +1,84 @@
-.main-viajeros {
+.viajeros-main {
+    .viajeros_barLine {
+        @media screen and (max-width: 500px) {
+            padding: 1rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+                
+        }
+    }
+    h2 {
+        @media screen and (max-width: 500px) {
+            font-size: 1.2rem;
+            padding-left: 2rem;
+            margin-bottom: -0.5rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+                
+        }
+    }
+    .cards {
+        display: flex;
+        justify-content: flex-start;
+        @media screen and (max-width: 500px) {
+            padding: 1rem 1rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+                
+        }
+        .viajeros-card {
+            box-shadow: $box-shadow;
+            @media screen and (max-width: 500px) {
+                width: 25vw;
+                height: 17vh;
+                margin: 0rem 0.8rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1200px) {
+                    
+            }
+            .card-body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            h5 {
+                text-align: center;
+                font-weight: 700;
+                @media screen and (max-width: 500px) {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+    .viajeros-america, .viajeros-asia {
+        @media screen and (max-width: 500px) {
+        padding-bottom: 1rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            
+        }
+    }
+    .viajeros-europa {
+        display: flex;
+        justify-content: center;
+        .carousel {
+            overflow-x: hidden;
+            @media screen and (max-width: 500px) {
+                width: 90vw;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1200px) {
+                
+            }
+            .carousel-item {
+                display: flex;
+                flex-direction: row;
+                .card {
+                    width: 30rem;
+                }
+            }
+        }
+    }
+    /*
     padding: 1rem 0rem;
     section {
         margin: 2rem 12rem 3rem 12rem;
@@ -34,8 +114,8 @@
         }
         p {
             color: black;
-            font-family: $font3;
             text-align: center;
+            font-family: $font2;
             font-size: 1.3rem;
             font-weight: 100;
             &:hover {
@@ -101,5 +181,5 @@
             }
         }
     }
-
+*/
 }

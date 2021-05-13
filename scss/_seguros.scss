@@ -1,19 +1,121 @@
 .seguros-main {
-    .seguros-main_img {
-    display: flex;
-    justify-content: center;
+    .seguros-main_img-assist {
+        display: flex;
+        justify-content: center;
+        @media screen and (max-width: 500px) {
+            height: 15vh;
+            margin: -1rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            
+        }
+    }
+    .seguros-main_img-universal {
+        display: flex;
+        justify-content: center;
+        img {
+            @media screen and (max-width: 500px) {
+                height: 7vh;
+                margin: 2rem 0rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1200px) {
+                
+            }
+        }
     }
     .seguros_barLine {
         display: flex;
         justify-content: center;
     }
-    .btn {
-        a {
-            text-decoration: none;
-            color: white;
+    .seguros_barLine1 {
+        @media screen and (max-width: 500px) {
+            padding: 1rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            
         }
     }
-    .logo-seccion {
-        height: 12rem;
+    .seguros_barLine2 {
+        @media screen and (max-width: 500px) {
+            padding-bottom: 1rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            
+        }
+    }
+    .seguros_barLine3 {
+        @media screen and (max-width: 500px) {
+            padding-bottom: 1rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            
+        }
+    }
+    .seguros-div_experiencia {
+        a {
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            @media screen and (max-width: 500px) {
+                color: black;
+                @include titulos;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1200px) {
+                
+            }
+        }
+        .seguros_p1-experiencia {
+            @media screen and (max-width: 500px) {
+                padding-top: 1rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1200px) {
+                
+            }
+        }
+    }
+    .seguros-btn {
+        display: flex;
+        justify-content: center;
+        @media screen and (max-width: 500px) {
+            padding: 1rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            
+        }
+        .btn {
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    .seguros_p1 {
+        @media screen and (max-width: 500px) {
+            @include parrafos;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            
+        }
+    }
+}
+.logo-seccion_div {
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width: 500px) {
+        
+    }
+    @media screen and (min-width: 500px) and (max-width: 1200px) {
+        
+    }
+    img {
+        height: 10rem;
+    }
+    .logo-seccion_seguros {
+        @media screen and (max-width: 500px) {
+            height: 25vh;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            
+        }
     }
 }

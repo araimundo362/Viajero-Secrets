@@ -315,143 +315,213 @@
     margin: 10px;
     box-shadow: 0px 2px 4px 0px gray; }
 
-.main-viajeros {
-  padding: 1rem 0rem; }
-  .main-viajeros section {
-    margin: 2rem 12rem 3rem 12rem;
-    padding: 0.5rem;
-    box-shadow: 2px 2px 2px gray;
+.viajeros-main {
+  /*
+    padding: 1rem 0rem;
+    section {
+        margin: 2rem 12rem 3rem 12rem;
+        padding: 0.5rem;
+        box-shadow: $box-shadow;
+        @media screen and (max-width: 500px) {
+            margin: 1rem 2rem 2rem 2rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            margin: 2rem 2rem;
+        }
+        a {
+            text-decoration: none;
+        }
+        h2 {
+            color: black;
+            font-family: $font1;
+            font-weight: 900;
+            text-align: center;
+            font-size: 1.7rem;
+            margin-bottom: -0.7rem;
+            &:hover {
+                color: grey;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 0.9rem;
+                margin: 0.4rem 0rem 0.1rem 0rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1200px) {
+                font-size: 1.1rem;
+                margin: 1rem 0.2rem 0.4rem 0.2rem;
+            }
+        }
+        p {
+            color: black;
+            text-align: center;
+            font-family: $font2;
+            font-size: 1.3rem;
+            font-weight: 100;
+            &:hover {
+                color: grey;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 0.8rem;
+                margin-bottom: -0.2rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1200px) {
+                font-size: 0.9rem;
+                margin-bottom: -0.3rem;
+                letter-spacing: 0px;
+            }
+        }
+        img {
+            height: 15rem;
+            box-shadow: $box-shadow;
+            margin: 1.5rem 0rem 0.3rem 0rem;
+            @media screen and (max-width: 500px) {
+                height: 12rem;
+                margin: 1rem 0rem 0.5rem 0rem;
+            }
+            @media screen and (min-width: 1200px) {
+                height: 25rem;
+            }
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .div-europa {
+            display: flex;
+            flex-direction: column;
+            .div-europa1 {
+                @include viajeros-divs;
+                @media screen and (max-width: 500px) {
+                    margin-bottom: 0.5rem;
+                }
+            }
+            .div-europa2 {
+                @include viajeros-divs;
+                @media screen and (max-width: 500px) {
+                    margin-bottom: 0.5rem;
+                }
+            }
+            .div-europa3 {
+                @include viajeros-divs;
+                @media screen and (max-width: 500px) {
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+        .div-america {
+            @include viajeros-divs;
+            @media screen and (max-width: 500px) {
+                margin-bottom: 0.5rem;
+            }
+        }
+        .div-asia {
+            @include viajeros-divs;
+            @media screen and (max-width: 500px) {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+*/ }
+  @media screen and (max-width: 500px) {
+    .viajeros-main .viajeros_barLine {
+      padding: 1rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .viajeros-main h2 {
+      font-size: 1.2rem;
+      padding-left: 2rem;
+      margin-bottom: -0.5rem; } }
+  .viajeros-main .cards {
     display: flex;
-    flex-direction: column;
-    align-items: center; }
+    justify-content: flex-start; }
     @media screen and (max-width: 500px) {
-      .main-viajeros section {
-        margin: 1rem 2rem 2rem 2rem; } }
-    @media screen and (min-width: 500px) and (max-width: 1200px) {
-      .main-viajeros section {
-        margin: 2rem 2rem; } }
-    .main-viajeros section a {
-      text-decoration: none; }
-    .main-viajeros section h2 {
-      color: black;
-      font-family: "Quicksand", sans-serif;
-      font-weight: 900;
-      text-align: center;
-      font-size: 1.7rem;
-      margin-bottom: -0.7rem; }
-      .main-viajeros section h2:hover {
-        color: grey; }
+      .viajeros-main .cards {
+        padding: 1rem 1rem; } }
+    .viajeros-main .cards .viajeros-card {
+      box-shadow: 2px 2px 2px gray; }
       @media screen and (max-width: 500px) {
-        .main-viajeros section h2 {
-          font-size: 0.9rem;
-          margin: 0.4rem 0rem 0.1rem 0rem; } }
-      @media screen and (min-width: 500px) and (max-width: 1200px) {
-        .main-viajeros section h2 {
-          font-size: 1.1rem;
-          margin: 1rem 0.2rem 0.4rem 0.2rem; } }
-    .main-viajeros section p {
-      color: black;
-      font-family: "Gudea", sans-serif;
-      text-align: center;
-      font-size: 1.3rem;
-      font-weight: 100; }
-      .main-viajeros section p:hover {
-        color: grey; }
-      @media screen and (max-width: 500px) {
-        .main-viajeros section p {
-          font-size: 0.8rem;
-          margin-bottom: -0.2rem; } }
-      @media screen and (min-width: 500px) and (max-width: 1200px) {
-        .main-viajeros section p {
-          font-size: 0.9rem;
-          margin-bottom: -0.3rem;
-          letter-spacing: 0px; } }
-    .main-viajeros section img {
-      height: 15rem;
-      box-shadow: 2px 2px 2px gray;
-      margin: 1.5rem 0rem 0.3rem 0rem; }
-      @media screen and (max-width: 500px) {
-        .main-viajeros section img {
-          height: 12rem;
-          margin: 1rem 0rem 0.5rem 0rem; } }
-      @media screen and (min-width: 1200px) {
-        .main-viajeros section img {
-          height: 25rem; } }
-    .main-viajeros section .div-europa {
-      display: flex;
-      flex-direction: column; }
-      .main-viajeros section .div-europa .div-europa1 {
+        .viajeros-main .cards .viajeros-card {
+          width: 25vw;
+          height: 17vh;
+          margin: 0rem 0.8rem; } }
+      .viajeros-main .cards .viajeros-card .card-body {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 80vw; }
+        justify-content: center;
+        align-items: center; }
+      .viajeros-main .cards .viajeros-card h5 {
+        text-align: center;
+        font-weight: 700; }
         @media screen and (max-width: 500px) {
-          .main-viajeros section .div-europa .div-europa1 {
-            margin-bottom: 0.5rem; } }
-      .main-viajeros section .div-europa .div-europa2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 80vw; }
-        @media screen and (max-width: 500px) {
-          .main-viajeros section .div-europa .div-europa2 {
-            margin-bottom: 0.5rem; } }
-      .main-viajeros section .div-europa .div-europa3 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 80vw; }
-        @media screen and (max-width: 500px) {
-          .main-viajeros section .div-europa .div-europa3 {
-            margin-bottom: 0.5rem; } }
-    .main-viajeros section .div-america {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      width: 80vw; }
+          .viajeros-main .cards .viajeros-card h5 {
+            font-size: 0.9rem; } }
+  @media screen and (max-width: 500px) {
+    .viajeros-main .viajeros-america, .viajeros-main .viajeros-asia {
+      padding-bottom: 1rem; } }
+  .viajeros-main .viajeros-europa {
+    display: flex;
+    justify-content: center; }
+    .viajeros-main .viajeros-europa .carousel {
+      overflow-x: hidden; }
       @media screen and (max-width: 500px) {
-        .main-viajeros section .div-america {
-          margin-bottom: 0.5rem; } }
-    .main-viajeros section .div-asia {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      width: 80vw; }
-      @media screen and (max-width: 500px) {
-        .main-viajeros section .div-asia {
-          margin-bottom: 0.5rem; } }
+        .viajeros-main .viajeros-europa .carousel {
+          width: 90vw; } }
+      .viajeros-main .viajeros-europa .carousel .carousel-item {
+        display: flex;
+        flex-direction: row; }
+        .viajeros-main .viajeros-europa .carousel .carousel-item .card {
+          width: 30rem; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (max-width: 500px) {
   .quienes-somos_main .quienes-somos_section .quienes-somos_subtitulo {
     font-size: 1.3rem;
-    padding: 0.7rem 1.5rem 0rem 1.5rem; } }
+    font-weight: 500;
+    text-align: center; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (max-width: 500px) {
   .quienes-somos_main .quienes-somos_section .quienes-somos_p1 {
     font-size: 1rem;
     padding: 0rem 1.5rem; } }
 
 .quienes-somos_main .quienes-somos_section .quienes-somos_p2 {
   text-align: center;
-  font-weight: 900; }
+  font-style: italic; }
   @media screen and (max-width: 500px) {
     .quienes-somos_main .quienes-somos_section .quienes-somos_p2 {
-      font-size: 0.8rem; } }
+      font-size: 1.2rem; } }
 
-.quienes-somos_main .quienes-somos_section .quienes-somos_img {
+@media screen and (max-width: 500px) {
+  .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
+    font-size: 1.2rem;
+    margin: -1.5rem 0rem -0.2rem 0rem; } }
+
+.quienes-somos_main .quienes-somos_section .quienes-somos_div-img {
   display: flex;
-  justify-content: center; }
+  justify-content: flex-end; }
   @media screen and (max-width: 500px) {
-    .quienes-somos_main .quienes-somos_section .quienes-somos_img img {
-      font-size: 0.9rem;
-      height: 12rem; } }
+    .quienes-somos_main .quienes-somos_section .quienes-somos_div-img .quienes-somos_img {
+      padding: 0rem 1rem 1rem 0rem;
+      height: 10vh; } }
+
+.quienes-somos_main .quienes-somos_barLine {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem; }
+
+@media screen and (max-width: 500px) {
+  .quienes-somos_main .quienes-somos_barLine {
+    padding: 1rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .quienes-somos_main #quienes-somos_barLine3 {
+    padding-bottom: 2rem; } }
 
 .quienes-somos_main .embajadores_section .embajadores_titulo {
   text-align: center; }
   @media screen and (max-width: 500px) {
     .quienes-somos_main .embajadores_section .embajadores_titulo {
-      padding: 1rem 0rem;
-      font-size: 2rem; } }
+      padding: 1rem 0rem; } }
+  @media screen and (max-width: 500px) and (max-width: 500px) {
+    .quienes-somos_main .embajadores_section .embajadores_titulo {
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-align: center; } }
 
 .quienes-somos_main .embajadores_p a {
   text-decoration: none; }
@@ -466,20 +536,88 @@
     margin-top: 0.05rem;
     padding-bottom: 1.5rem; } }
 
-.seguros-main .seguros-main_img {
+.logo-seccion_quienes-somos {
   display: flex;
   justify-content: center; }
+  @media screen and (max-width: 500px) {
+    .logo-seccion_quienes-somos {
+      margin-top: -0.7rem; } }
+  @media screen and (max-width: 500px) {
+    .logo-seccion_quienes-somos .logo-seccion_quienes-somos {
+      height: 25vh; } }
+
+.seguros-main .seguros-main_img-assist {
+  display: flex;
+  justify-content: center; }
+  @media screen and (max-width: 500px) {
+    .seguros-main .seguros-main_img-assist {
+      height: 15vh;
+      margin: -1rem 0rem; } }
+
+.seguros-main .seguros-main_img-universal {
+  display: flex;
+  justify-content: center; }
+  @media screen and (max-width: 500px) {
+    .seguros-main .seguros-main_img-universal img {
+      height: 7vh;
+      margin: 2rem 0rem; } }
 
 .seguros-main .seguros_barLine {
   display: flex;
   justify-content: center; }
 
-.seguros-main .btn a {
-  text-decoration: none;
-  color: white; }
+@media screen and (max-width: 500px) {
+  .seguros-main .seguros_barLine1 {
+    padding: 1rem 0rem; } }
 
-.seguros-main .logo-seccion {
-  height: 12rem; }
+@media screen and (max-width: 500px) {
+  .seguros-main .seguros_barLine2 {
+    padding-bottom: 1rem; } }
+
+@media screen and (max-width: 500px) {
+  .seguros-main .seguros_barLine3 {
+    padding-bottom: 1rem; } }
+
+.seguros-main .seguros-div_experiencia a {
+  text-align: center;
+  display: block;
+  text-decoration: none; }
+  @media screen and (max-width: 500px) {
+    .seguros-main .seguros-div_experiencia a {
+      color: black; } }
+  @media screen and (max-width: 500px) and (max-width: 500px) {
+    .seguros-main .seguros-div_experiencia a {
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-align: center; } }
+
+@media screen and (max-width: 500px) {
+  .seguros-main .seguros-div_experiencia .seguros_p1-experiencia {
+    padding-top: 1rem; } }
+
+.seguros-main .seguros-btn {
+  display: flex;
+  justify-content: center; }
+  @media screen and (max-width: 500px) {
+    .seguros-main .seguros-btn {
+      padding: 1rem 0rem; } }
+  .seguros-main .seguros-btn .btn a {
+    text-decoration: none;
+    color: white; }
+
+@media screen and (max-width: 500px) and (max-width: 500px) {
+  .seguros-main .seguros_p1 {
+    font-size: 1rem;
+    padding: 0rem 1.5rem; } }
+
+.logo-seccion_div {
+  display: flex;
+  justify-content: center; }
+  .logo-seccion_div img {
+    height: 10rem; }
+  @media screen and (max-width: 500px) {
+    .logo-seccion_div .logo-seccion_seguros {
+      height: 25vh; } }
 
 body {
   margin: 0 !important;
@@ -492,6 +630,10 @@ body {
   border-radius: 3px;
   margin-top: 15px;
   margin-bottom: 15px; }
+
+.barLine-div {
+  display: flex;
+  justify-content: center; }
 
 .transparentLink {
   color: white;
