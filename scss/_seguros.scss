@@ -1,0 +1,193 @@
+.seguros-main {
+    .seguros-main_img-assist {
+        display: flex;
+        justify-content: center;
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            height: 32vh;
+            margin: -1.5rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            height: 27vh;
+            margin: -1.5rem 0rem -1rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            height: 15vh;
+            margin: -1rem 0rem;
+        }
+    }
+    .seguros-main_img-universal {
+        display: flex;
+        justify-content: center;
+        img {
+            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                height: 14vh;
+                margin: 1rem 0rem 3rem 0rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                height: 12vh;
+                margin: 2rem 0rem 2rem 0rem;
+            }
+            @media screen and (max-width: 500px) {
+                height: 7vh;
+                margin: 2rem 0rem;
+            }
+        }
+    }
+    .seguros_barLine {
+        display: flex;
+        justify-content: center;
+    }
+    .seguros_barLine1 {
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            padding: 2rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            padding: 1rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            padding: 1rem 0rem;
+        }
+    }
+    .seguros_barLine2 {
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            margin: -1rem 0rem 2rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            margin: 2rem 0rem 1.5rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            padding-bottom: 1rem;
+        }
+    }
+    .seguros_barLine3 {
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            margin: 2rem 0rem 1rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            margin: 1rem 0rem 1.5rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            padding-bottom: 1rem;
+        }
+    }
+    .seguros_barLine4 {
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            margin: 3rem 0rem -1rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            margin: 3rem 0rem -1rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            padding-bottom: 1rem;
+        }
+    }
+    .seguros-div_experiencia {
+        div {
+            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                padding-bottom: 2rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                padding-bottom: 2rem;
+            }
+            @media screen and (max-width: 500px) {
+                
+            }
+        }
+        a {
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            font-weight: 600;
+            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                font-size: 1.5rem;
+                padding-bottom: 0rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                
+            }
+            @media screen and (max-width: 500px) {
+                color: black;
+                @include titulos;
+            }
+        }
+        .seguros_p1-experiencia {
+            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                font-size: 1.4rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                font-size: 1.2rem;
+            }
+            @media screen and (max-width: 500px) {
+                padding-top: 1rem;
+            }
+        }
+    }
+    .seguros-btn {
+        display: flex;
+        justify-content: center;
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            padding: 1rem 0rem 3rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            
+        }
+        @media screen and (max-width: 500px) {
+            
+        }
+        
+        .btn {
+            display: flex;
+            justify-content: center;
+            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                width: 11rem;
+                height: 3rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                
+            }
+            @media screen and (max-width: 500px) {
+                padding: 1rem 0rem;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+                @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                    font-size: 1.3rem;
+                }
+                @media screen and (min-width: 500px) and (max-width: 1000px) {
+                    
+                }
+                @media screen and (max-width: 500px) {
+                    
+                }
+            }
+        }
+    }
+    .seguros_p1 {
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            font-size: 1.4rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            font-size: 1.2rem;
+        }
+        @media screen and (max-width: 500px) {
+            @include parrafos;
+        }
+    }
+}
+
+.logo-seccion_seguros {
+    display: flex;
+    justify-content: center;
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        height: 30vh;
+    }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+        margin-top: 0rem ;
+        height: 27vh;
+    }
+    @media screen and (max-width: 500px) {
+        margin-top: -0.7rem;
+        height: 25vh;
+    }
+}

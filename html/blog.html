@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <meta name="keywords"  content="VIAJERO, VIAJEROS, VIAJES, DESTINO, SECRETOS">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__containerMenu">
+          <h2>ViajeroSecrets</h2>
+          <nav class="header__nav">
+              <a>Asesorias</a>
+              <a>Beneficios</a>
+              <a>Blog</a>
+              <a>Viajeros</a>
+              <a>Quienes somos?</a>
+          </nav>
+          <!--header mobile-->
+          <div id="dropdownHeader" class="dropdown header__dropHeader">
+            <button class="header__dropHeader__button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+            </button>
+          </div>
+        </div>
+        <div id="horizontalNav" class="header__mobileMenu headerIsNotActive">
+          <nav>
+              <a class="dropdown-item" href="#">Asesorias</a>
+              <a class="dropdown-item" href="#">Beneficios</a>
+              <a class="dropdown-item" href="#">Blog</a>
+              <a class="dropdown-item" href="#">Quienes somos?</a>
+              <a class="dropdown-item" href="#">Viajeros</a>
+          </nav>
+        </div>
+        <div class="headerVoluntariados">
+          <h2 class="textForNow__title">BLOG</h2>
+        </div>  
+    </header>
+
+    <main class="blog-main">
+
+        <div class="blog_barLine1 barLine-div">
+            <div class="barLine"></div>
+        </div>
+
+        <h2>Las noticias, experiencias y las últimas novedades de La Web de todos los Viajeros.</h2>
+
+        <div class="blog-div_cards">
+
+        </div>
+
+        <div class="blog_barLine2 barLine-div">
+            <div class="barLine"></div>
+        </div>
+
+    </main>
+
+        <!--Banner de suscripcion-->
+        <div class="mainHome__suscriptionContainer">
+            <div class="mainHome__suscriptionContainer__content">
+                <div class="mainHome__suscriptionContainer__content__label">
+                    <h6>Recibi todas las semanas</h6>
+                    <h6>Las ultimas noticias del mundo viajero.</h6>
+                </div>
+            <button id="modalSuscriptionButton" type="button" data-toggle="modal" data-target="#suscriptionModal" class="btn btn-light btn-lg mainHome__suscriptionContainer__content__button">Suscribite</button>
+            </div>
+        </div>
+        <div class="modal fade" id="suscriptionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header mainHome__modal__header">
+                        <h3 class="modal-title" >Newsletter</h3>
+                    </div>
+                    <div class="modal-body mainHome__modal__body">
+                    <p>Un solo pago y vas a recibir todas las novedades de viaje todo tu vida.</p>
+                    <p>La Visa Working Holiday, la más buscada por los viajeros/as, tiene una metodología muy particular para aplicar y cumplir tu sueño de viajar y trabajar por un año en otro país.
+                        Las Embajadas disponen una fecha y un horario determinado, y si no te enteras esos datos, te vas a quedar afuera de esta posibilidad única y vas a tener que esperar hasta el próximo año. 
+                        Varios de nuestros suscriptores pudieron aplicar gracias a recibir las alertas de nuestro Newsletter.</p>
+                    <p>Además, si nuestros suscriptores logran aplicar a una visa o a algún programa, reciben ayuda durante todo el proceso de organización del viaje, para que ante cualquier duda puedan evacuarla con nosotros.</p>
+                    <div class="mainHome__modal__text">
+                        <div class="mainHome__modal__line"></div>
+                        <h6>NO TE QUEDES AFUERA, SI ERES VIAJERO/A</h6>
+                        <h6>TENES QUE SER PARTE DE VIAJERO SECRETS</h6>
+                    </div>
+                    <div class="mainHome__modal__formSection">
+                        <h5><legend>SUSCRIBITE: VALOR 800$</legend></h5>
+                        <form action="POST">
+                            <input id="nameInput" class="form-control form-control-sm" type="text" placeholder="Nombre*" >
+                            <input id="emailInput" class="form-control form-control-sm" type="text" placeholder="Correo Electronico*" >
+                            <input id="meetInput"class="form-control form-control-sm" type="text" placeholder="Como nos conociste?*" >
+                            <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" >--
+                        </form>
+                    </div>
+                    <div class="modal-footer mainHome__modal__footer">
+                        <button type="button" class="btn btn-primary">Mercado Pago</button>
+                        <button type="button" class="btn btn-primary">Transferencia</button>
+                        <button type="button" class="btn btn-primary">PayPal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="logo-seccion_div"> 
+        <img src="../assets/logopng.png" alt="Viajero Secrets" class="logo-seccion_seguros">
+    </div>   
+
+    <footer class="customFooter">
+        <p>ViajeroSecrets</p>
+        <div><!--Iconos de redes sociales--></div>
+        <p>viajerosecrets@gmail.com</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="../js/home.js"></script>
+</body>
+</html>
