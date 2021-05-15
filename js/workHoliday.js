@@ -14,7 +14,7 @@ let modalCountries = ``
 let botonera = ``;
 
 const setModalCountry = (pais) => {
-    console.log('pais choosen', pais);
+    botonera = ``;
     switch (pais) {
         case 'Argentina':
             for(let i=0; i < paisesArgentina.length; i++) {
