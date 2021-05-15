@@ -1040,6 +1040,79 @@
     .logo-seccion_seguros {
       margin-top: -0.7rem;
       height: 25vh; } }
+.workHolidayMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .workHolidayMain__extraCardsContainer {
+    width: 100%; }
+    .workHolidayMain__extraCardsContainer__extraCards {
+      display: inline-flex;
+      width: inherit; }
+      .workHolidayMain__extraCardsContainer__extraCards__card {
+        margin: 5px;
+        box-shadow: 2px 2px 2px gray;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 150px; }
+        .workHolidayMain__extraCardsContainer__extraCards__card h6 {
+          text-align: center;
+          font-size: 20px; }
+        @media screen and (max-width: 500px) {
+          .workHolidayMain__extraCardsContainer__extraCards__card h6 {
+            font-size: 13px;
+            text-align: center; } }
+  .workHolidayMain__countryButtonsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .workHolidayMain__countryButtonsContainer__buttons {
+      display: flex;
+      flex-wrap: wrap;
+      width: 600px;
+      justify-content: center; }
+      .workHolidayMain__countryButtonsContainer__buttons__countryButton {
+        margin: 5px;
+        width: 140px;
+        height: 75px; }
+        @media screen and (max-width: 450px) {
+          .workHolidayMain__countryButtonsContainer__buttons__countryButton {
+            width: 125px;
+            height: 65px; } }
+  .workHolidayMain__textContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .workHolidayMain__textContainer__text {
+      width: 90%; }
+  .workHolidayMain__titleContainer {
+    width: 100%; }
+    .workHolidayMain__titleContainer__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+
+.line {
+  border: gray 1px solid;
+  width: 25%;
+  margin-top: 5px; }
+
+.modalCountry {
+  display: flex;
+  flex-direction: column; }
+  .modalCountry__line {
+    border: black 2px solid;
+    width: 30%;
+    margin-top: 15px;
+    border-radius: 20px; }
+  .modalCountry__header {
+    border-bottom: none !important;
+    justify-content: center !important;
+    flex-direction: column; }
+  .modalCountry__button {
+    margin: 5px; }
 
 body {
   margin: 0 !important;
