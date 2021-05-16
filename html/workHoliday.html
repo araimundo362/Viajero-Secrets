@@ -6,36 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work & Holiday</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 </head>
 <body>
-    <header id="header" class="header">
+    <header class="header">
         <div class="header__containerMenu">
-            <h2><a class="header__viajerosLink" href="../index.html">ViajeroSecrets</a></h2>
-            <nav class="header__nav">
-                <a href="./asesorias.html">Asesorias</a>
-                <a href="./beneficios.html">Beneficios</a>
-                <a href="./blog.html">Blog</a>
-                <a href="./viajeros.html">Viajeros</a>
-                <a href="./quienes-somos.html">Quienes somos?</a>
-            </nav>
-            <div id="dropdownHeader" class="dropdown header__dropHeader">
-                <button class="header__dropHeader__button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                        </svg>
-                </button>
-            </div>
+          <h2><a class="header__viajerosLink" href="../index.html">ViajeroSecrets</a></h2>
+          <nav class="header__nav">
+            <a href="./asesorias.html">Asesorias</a>
+            <a href="./beneficios.html">Beneficios</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./viajeros.html">Viajeros</a>
+            <a href="./quienes-somos.html">Quienes somos?</a>
+          </nav>
+          <!--header mobile-->
+          <div id="dropdownHeader" class="dropdown header__dropHeader">
+            <button class="header__dropHeader__button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+            </button>
+          </div>
         </div>
-        <div id="horizontalNav" class="mainHome__dropdownMenu hide">
+        <div id="horizontalNav" class="header__mobileMenu headerIsNotActive">
+          <nav>
               <a class="dropdown-item" href="./asesorias.html">Asesorias</a>
               <a class="dropdown-item" href="./beneficios.html">Beneficios</a>
               <a class="dropdown-item" href="./blog.html">Blog</a>
               <a class="dropdown-item" href="./quienes-somos.html">Quienes somos?</a>
               <a class="dropdown-item" href="./viajeros.html">Viajeros</a>
+          </nav>
         </div>
-    </header>
+        <div class="header__title">
+          <h1> Work&Holiday</h1>
+          <h2> Programa para estudiantes</h2>
+        </div>  
+      </header>
     <main class="workHolidayMain">
         <div class="workHolidayMain__titleContainer">
             <div class="workHolidayMain__titleContainer__title">
@@ -100,6 +107,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    <script src="js/workHoliday.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/workHoliday.js"></script>
 </body>
 </html>
