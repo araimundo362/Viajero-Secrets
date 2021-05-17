@@ -77,7 +77,10 @@
     display: none; } }
 
 .mainHome {
-  margin-top: 250px; }
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   .mainHome__suscriptionContainer {
     display: flex;
     justify-content: center;
@@ -511,8 +514,832 @@
       margin: 3px;
       padding: 5px; }
 
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .viajeros-main .viajeros_barLine1 {
+    padding: 2rem 0rem 0rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .viajeros-main .viajeros_barLine1 {
+    padding: 1rem 0rem 0rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeros-main .viajeros_barLine1 {
+    padding: 1rem 0rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .viajeros-main .viajeros_barLine2 {
+    margin: 3rem 0rem -1rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .viajeros-main .viajeros_barLine2 {
+    margin: 2rem 0rem -2rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeros-main .viajeros_barLine2 {
+    padding: 1.5rem 0rem 0rem 0rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .viajeros-main h2 {
+    font-size: 2rem;
+    padding: 0rem 0rem 0.5rem 5.5rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .viajeros-main h2 {
+    font-size: 1.6rem;
+    padding: 0.5rem 0rem 0rem 2.3rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeros-main h2 {
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    margin-bottom: -0.5rem; } }
+
+.viajeros-main .cards {
+  display: flex;
+  justify-content: flex-start; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .viajeros-main .cards {
+      padding-left: 2rem; } }
+  @media screen and (max-width: 500px) {
+    .viajeros-main .cards {
+      padding: 1rem 1rem; } }
+  .viajeros-main .cards .viajeros-card {
+    box-shadow: 2px 2px 2px gray; }
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      .viajeros-main .cards .viajeros-card {
+        width: 300px;
+        height: 250px;
+        margin-left: 50px; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .viajeros-main .cards .viajeros-card {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 20px; } }
+    @media screen and (max-width: 500px) {
+      .viajeros-main .cards .viajeros-card {
+        width: 120px;
+        height: 90px;
+        margin: 0rem 0.8rem; } }
+    .viajeros-main .cards .viajeros-card .card-body {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .viajeros-main .cards .viajeros-card a {
+      text-align: center;
+      font-weight: 700;
+      text-decoration: none;
+      color: black;
+      text-shadow: 2px 2px 2px white; }
+      @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        .viajeros-main .cards .viajeros-card a {
+          font-size: 1.6rem; } }
+      @media screen and (max-width: 500px) {
+        .viajeros-main .cards .viajeros-card a {
+          font-size: 0.9rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .viajeros-main .viajeros-america {
+    padding: 2rem 0rem 0rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeros-main .viajeros-america {
+    padding-bottom: 1rem; } }
+
+.viajeros-main .viajeros-america #cuba {
+  background-image: url("../assets/Viajeros En/cuba.png");
+  background-size: cover;
+  background-position: center; }
+
+.viajeros-main .viajeros-america #eeuu {
+  background-image: url("../assets/Viajeros En/eeuu.png");
+  background-size: cover;
+  background-position: center; }
+
+.viajeros-main .viajeros-america #colombia {
+  background-image: url("../assets/Viajeros En/colombia.png");
+  background-size: cover;
+  background-position: center; }
+
+.viajeros-main .viajeros-america .viajeros-card {
+  box-shadow: 2px 2px 2px gray; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .viajeros-main .viajeros-america .viajeros-card {
+      width: 300px;
+      height: 250px;
+      margin-left: 50px; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeros-main .viajeros-america .viajeros-card {
+      width: 10rem;
+      height: 10rem;
+      margin-left: 20px; } }
+  @media screen and (max-width: 500px) {
+    .viajeros-main .viajeros-america .viajeros-card {
+      width: 75px;
+      height: 90px;
+      margin: 0rem 0.8rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .viajeros-main .viajeros-asia {
+    padding: 2rem 0rem 0rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeros-main .viajeros-asia {
+    padding-bottom: 1rem; } }
+
+.viajeros-main .viajeros-asia #india {
+  background-image: url("../assets/Viajeros En/india.png");
+  background-size: cover;
+  background-position: center; }
+
+.viajeros-main .viajeros-asia #tailandia {
+  background-image: url("../assets/Viajeros En/tailandia.png");
+  background-size: cover;
+  background-position: center; }
+
+.viajeros-main .viajeros-asia .viajeros-card {
+  box-shadow: 2px 2px 2px gray; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .viajeros-main .viajeros-asia .viajeros-card {
+      width: 300px;
+      height: 250px;
+      margin-left: 50px; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeros-main .viajeros-asia .viajeros-card {
+      width: 10rem;
+      height: 10rem;
+      margin-left: 20px; } }
+  @media screen and (max-width: 500px) {
+    .viajeros-main .viajeros-asia .viajeros-card {
+      width: 75px;
+      height: 90px;
+      margin: 0rem 0.8rem; } }
+
+.viajeros-main .viajeros-europa {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .viajeros-main .viajeros-europa {
+      padding: 2rem 0rem 0rem 0rem; } }
+  .viajeros-main .viajeros-europa .carousel {
+    overflow-x: hidden; }
+    @media screen and (max-width: 500px) {
+      .viajeros-main .viajeros-europa .carousel {
+        width: 90vw; } }
+    .viajeros-main .viajeros-europa .carousel .carousel-item {
+      display: flex;
+      flex-direction: row; }
+      .viajeros-main .viajeros-europa .carousel .carousel-item .card {
+        width: 30rem; }
+
+.logo-seccion_viajeros {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .logo-seccion_viajeros {
+      height: 30vh; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .logo-seccion_viajeros {
+      margin-top: 0rem;
+      height: 27vh; } }
+  @media screen and (max-width: 500px) {
+    .logo-seccion_viajeros {
+      margin-top: -0.7rem;
+      height: 25vh; } }
+
+.quienes-somos_main .quienes-somos_section .quienes-somos_subtitulo {
+  text-align: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .quienes-somos_main .quienes-somos_section .quienes-somos_subtitulo {
+      font-weight: 500;
+      padding: 0rem 0rem 1rem 0rem;
+      font-size: 2.2rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .quienes-somos_main .quienes-somos_section .quienes-somos_subtitulo {
+      font-weight: 500;
+      padding: 1rem 0rem 1.5rem 0rem;
+      font-size: 2rem; } }
+
+@media screen and (max-width: 500px) and (max-width: 500px) {
+  .quienes-somos_main .quienes-somos_section .quienes-somos_subtitulo {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .quienes-somos_main .quienes-somos_section .quienes-somos_p1 {
+    font-size: 1.4rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .quienes-somos_main .quienes-somos_section .quienes-somos_p1 {
+    font-size: 1.2rem; } }
+
+@media screen and (max-width: 500px) and (max-width: 500px) {
+  .quienes-somos_main .quienes-somos_section .quienes-somos_p1 {
+    font-size: 1rem;
+    padding: 0rem 1.5rem; } }
+
+.quienes-somos_main .quienes-somos_section .quienes-somos_p2, .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
+  text-align: center;
+  font-style: italic; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .quienes-somos_main .quienes-somos_section .quienes-somos_p2, .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
+      font-size: 1.7rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .quienes-somos_main .quienes-somos_section .quienes-somos_p2, .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
+      font-size: 1.5rem; } }
+  @media screen and (max-width: 500px) {
+    .quienes-somos_main .quienes-somos_section .quienes-somos_p2, .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
+      font-size: 1.2rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
+    font-size: 1.7rem;
+    margin: -1.5rem 0rem -0.2rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
+    font-size: 1.5rem;
+    margin: -1.5rem 0rem -0.2rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
+    font-size: 1.2rem;
+    margin: -1.5rem 0rem -0.2rem 0rem; } }
+
+.quienes-somos_main .quienes-somos_section .quienes-somos_div-img {
+  display: flex;
+  justify-content: flex-end; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .quienes-somos_main .quienes-somos_section .quienes-somos_div-img .quienes-somos_img {
+      padding: 2rem 25rem 0rem 0rem;
+      height: 18vh; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .quienes-somos_main .quienes-somos_section .quienes-somos_div-img .quienes-somos_img {
+      padding: 2rem 6rem 0rem 0rem;
+      height: 15vh; } }
+  @media screen and (max-width: 500px) {
+    .quienes-somos_main .quienes-somos_section .quienes-somos_div-img .quienes-somos_img {
+      padding: 0rem 1rem 1rem 0rem;
+      height: 10vh; } }
+
+.quienes-somos_main .quienes-somos_barLine {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .quienes-somos_main .quienes-somos_barLine {
+      padding: 2rem 0rem 1rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .quienes-somos_main .quienes-somos_barLine {
+      padding: 1rem 0rem 0rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .quienes-somos_main .quienes-somos_barLine {
+      padding: 1rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .quienes-somos_main #quienes-somos_barLine2 {
+    margin: -1.5rem 0rem -1rem 0rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .quienes-somos_main #quienes-somos_barLine3 {
+    margin: 1rem 0rem -2rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .quienes-somos_main #quienes-somos_barLine3 {
+    margin: -1rem 0rem -2rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .quienes-somos_main #quienes-somos_barLine3 {
+    padding-bottom: 2rem; } }
+
+.quienes-somos_main .embajadores_section .embajadores_titulo {
+  text-align: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .quienes-somos_main .embajadores_section .embajadores_titulo {
+      font-size: 2.2rem;
+      padding: 0rem 0rem 1rem 0rem;
+      font-weight: 500; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .quienes-somos_main .embajadores_section .embajadores_titulo {
+      font-size: 2rem;
+      font-weight: 500;
+      padding: 1rem 0rem 1.5rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .quienes-somos_main .embajadores_section .embajadores_titulo {
+      padding: 1rem 0rem; } }
+  @media screen and (max-width: 500px) and (max-width: 500px) {
+    .quienes-somos_main .embajadores_section .embajadores_titulo {
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-align: center; } }
+
+.quienes-somos_main .embajadores_p a {
+  text-decoration: none; }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .quienes-somos_main .embajadores_p {
+    font-size: 1.4rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .quienes-somos_main .embajadores_p {
+    font-size: 1.2rem; } }
+
+@media screen and (max-width: 500px) and (max-width: 500px) {
+  .quienes-somos_main .embajadores_p {
+    font-size: 1rem;
+    padding: 0rem 1.5rem; } }
+
+@media screen and (max-width: 500px) {
+  .quienes-somos_main .mainHome__suscriptionContainer {
+    margin-top: 0.05rem;
+    padding-bottom: 1.5rem; } }
+
+.logo-seccion_quienes-somos {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .logo-seccion_quienes-somos {
+      height: 30vh; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .logo-seccion_quienes-somos {
+      margin-top: 0rem;
+      height: 27vh; } }
+  @media screen and (max-width: 500px) {
+    .logo-seccion_quienes-somos {
+      margin-top: -0.7rem;
+      height: 25vh; } }
+
+.seguros-main .seguros-main_img-assist {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .seguros-main .seguros-main_img-assist {
+      height: 32vh;
+      margin: -1.5rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .seguros-main .seguros-main_img-assist {
+      height: 27vh;
+      margin: -1.5rem 0rem -1rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .seguros-main .seguros-main_img-assist {
+      height: 15vh;
+      margin: -1rem 0rem; } }
+
+.seguros-main .seguros-main_img-universal {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .seguros-main .seguros-main_img-universal img {
+      height: 14vh;
+      margin: 1rem 0rem 3rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .seguros-main .seguros-main_img-universal img {
+      height: 12vh;
+      margin: 2rem 0rem 2rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .seguros-main .seguros-main_img-universal img {
+      height: 7vh;
+      margin: 2rem 0rem; } }
+
+.seguros-main .seguros_barLine {
+  display: flex;
+  justify-content: center; }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .seguros-main .seguros_barLine1 {
+    padding: 2rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .seguros-main .seguros_barLine1 {
+    padding: 1rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .seguros-main .seguros_barLine1 {
+    padding: 1rem 0rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .seguros-main .seguros_barLine2 {
+    margin: -1rem 0rem 2rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .seguros-main .seguros_barLine2 {
+    margin: 2rem 0rem 1.5rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .seguros-main .seguros_barLine2 {
+    padding-bottom: 1rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .seguros-main .seguros_barLine3 {
+    margin: 2rem 0rem 1rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .seguros-main .seguros_barLine3 {
+    margin: 1rem 0rem 1.5rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .seguros-main .seguros_barLine3 {
+    padding-bottom: 1rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .seguros-main .seguros_barLine4 {
+    margin: 3rem 0rem -1rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .seguros-main .seguros_barLine4 {
+    margin: 3rem 0rem -1rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .seguros-main .seguros_barLine4 {
+    padding-bottom: 1rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .seguros-main .seguros-div_experiencia div {
+    padding-bottom: 2rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .seguros-main .seguros-div_experiencia div {
+    padding-bottom: 2rem; } }
+
+.seguros-main .seguros-div_experiencia a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-weight: 600; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .seguros-main .seguros-div_experiencia a {
+      font-size: 1.5rem;
+      padding-bottom: 0rem; } }
+  @media screen and (max-width: 500px) {
+    .seguros-main .seguros-div_experiencia a {
+      color: black; } }
+  @media screen and (max-width: 500px) and (max-width: 500px) {
+    .seguros-main .seguros-div_experiencia a {
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-align: center; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .seguros-main .seguros-div_experiencia .seguros_p1-experiencia {
+    font-size: 1.4rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .seguros-main .seguros-div_experiencia .seguros_p1-experiencia {
+    font-size: 1.2rem; } }
+
+@media screen and (max-width: 500px) {
+  .seguros-main .seguros-div_experiencia .seguros_p1-experiencia {
+    padding-top: 1rem; } }
+
+.seguros-main .seguros-btn {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .seguros-main .seguros-btn {
+      padding: 1rem 0rem 3rem 0rem; } }
+  .seguros-main .seguros-btn .btn {
+    display: flex;
+    justify-content: center; }
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      .seguros-main .seguros-btn .btn {
+        width: 11rem;
+        height: 3rem; } }
+    @media screen and (max-width: 500px) {
+      .seguros-main .seguros-btn .btn {
+        padding: 1rem 0rem; } }
+    .seguros-main .seguros-btn .btn a {
+      text-decoration: none;
+      color: white; }
+      @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        .seguros-main .seguros-btn .btn a {
+          font-size: 1.3rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .seguros-main .seguros_p1 {
+    font-size: 1.4rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .seguros-main .seguros_p1 {
+    font-size: 1.2rem; } }
+
+@media screen and (max-width: 500px) and (max-width: 500px) {
+  .seguros-main .seguros_p1 {
+    font-size: 1rem;
+    padding: 0rem 1.5rem; } }
+
+.logo-seccion_seguros {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .logo-seccion_seguros {
+      height: 30vh; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .logo-seccion_seguros {
+      margin-top: 0rem;
+      height: 27vh; } }
+  @media screen and (max-width: 500px) {
+    .logo-seccion_seguros {
+      margin-top: -0.7rem;
+      height: 25vh; } }
+
+.workHolidayMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .workHolidayMain__extraCardsContainer {
+    width: 100%; }
+    .workHolidayMain__extraCardsContainer__extraCards {
+      display: inline-flex;
+      width: inherit; }
+      .workHolidayMain__extraCardsContainer__extraCards__card {
+        margin: 5px;
+        box-shadow: 2px 2px 2px gray;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 150px; }
+        .workHolidayMain__extraCardsContainer__extraCards__card h6 {
+          text-align: center;
+          font-size: 20px; }
+        @media screen and (max-width: 500px) {
+          .workHolidayMain__extraCardsContainer__extraCards__card h6 {
+            font-size: 13px;
+            text-align: center; } }
+  .workHolidayMain__countryButtonsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .workHolidayMain__countryButtonsContainer__buttons {
+      display: flex;
+      flex-wrap: wrap;
+      width: 600px;
+      justify-content: center; }
+      .workHolidayMain__countryButtonsContainer__buttons__countryButton {
+        margin: 5px;
+        width: 140px;
+        height: 75px; }
+        @media screen and (max-width: 450px) {
+          .workHolidayMain__countryButtonsContainer__buttons__countryButton {
+            width: 125px;
+            height: 65px; } }
+  .workHolidayMain__textContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .workHolidayMain__textContainer__text {
+      width: 90%; }
+  .workHolidayMain__titleContainer {
+    width: 100%; }
+    .workHolidayMain__titleContainer__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+
+.line {
+  border: gray 1px solid;
+  width: 25%;
+  margin-top: 5px; }
+
+.modalCountry {
+  display: flex;
+  flex-direction: column; }
+  .modalCountry__line {
+    border: black 2px solid;
+    width: 30%;
+    margin-top: 15px;
+    border-radius: 20px; }
+  .modalCountry__header {
+    border-bottom: none !important;
+    justify-content: center !important;
+    flex-direction: column; }
+  .modalCountry__button {
+    margin: 5px; }
+
+.plataformasMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .plataformasMain__platformsCardsContainer {
+    margin: 10px;
+    width: 100%; }
+    .plataformasMain__platformsCardsContainer__firstRow {
+      display: inline-flex;
+      justify-content: space-around;
+      width: inherit; }
+      .plataformasMain__platformsCardsContainer__firstRow__cards {
+        width: 50%;
+        margin: 10px;
+        box-shadow: 0px 2px 5px gray;
+        min-height: 112px; }
+        @media screen and (max-width: 500px) {
+          .plataformasMain__platformsCardsContainer__firstRow__cards {
+            min-height: 60px; } }
+        @media screen and (max-width: 500px) {
+          .plataformasMain__platformsCardsContainer__firstRow__cards h5, .plataformasMain__platformsCardsContainer__firstRow__cards p {
+            font-size: 12px; } }
+    .plataformasMain__platformsCardsContainer__thirdRow {
+      display: inline-flex;
+      justify-content: space-around;
+      width: inherit; }
+      .plataformasMain__platformsCardsContainer__thirdRow__cards {
+        width: 50%;
+        margin: 10px;
+        box-shadow: 0px 2px 5px gray;
+        min-height: 112px; }
+      @media screen and (max-width: 500px) {
+        .plataformasMain__platformsCardsContainer__thirdRow h5 {
+          font-size: 12px; } }
+  .plataformasMain__cardsGroupContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px; }
+    .plataformasMain__cardsGroupContainer__cardGroup {
+      margin: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .plataformasMain__cardsGroupContainer__customCard {
+      width: 75%;
+      font-size: 1em;
+      overflow: hidden;
+      padding: 5;
+      border: none;
+      border-radius: .28571429rem;
+      box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+      margin-top: 20px; }
+      .plataformasMain__cardsGroupContainer__customCard__title {
+        position: absolute; }
+      .plataformasMain__cardsGroupContainer__customCard__body {
+        font-size: 1em;
+        position: relative;
+        margin: 0;
+        padding: 1em;
+        border: none;
+        border-top: 1px solid rgba(34, 36, 38, 0.1);
+        box-shadow: none; }
+        .plataformasMain__cardsGroupContainer__customCard__body p {
+          font-size: 11px;
+          margin: 0; }
+      .plataformasMain__cardsGroupContainer__customCard__left {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .plataformasMain__cardsGroupContainer__customCard__image {
+        opacity: 0.4;
+        z-index: 0; }
+
+.blog-main h2 {
+  text-align: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .blog-main h2 {
+      font-size: 2rem;
+      padding: 0rem 0rem 0.5rem 5.5rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .blog-main h2 {
+      font-size: 1.5rem;
+      padding: 0.5rem 0rem 0rem 2.3rem; } }
+  @media screen and (max-width: 500px) {
+    .blog-main h2 {
+      font-size: 1.2rem;
+      padding-bottom: -0.5rem; } }
+
+.blog-main .blog_cards .cards {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 1rem 0rem; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .blog-main .blog_cards .cards {
+      padding: 1rem 0rem; } }
+  .blog-main .blog_cards .cards a {
+    font-weight: 700;
+    text-shadow: 2px 2px 2px white; }
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      .blog-main .blog_cards .cards a {
+        font-size: 2.2rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .blog-main .blog_cards .cards a {
+        font-size: 1.2rem; } }
+    @media screen and (max-width: 500px) {
+      .blog-main .blog_cards .cards a {
+        font-size: 0.9rem; } }
+    .blog-main .blog_cards .cards a:hover {
+      color: #2A3251; }
+  .blog-main .blog_cards .cards .blog_card1 {
+    background-image: url("../assets/blog/news.png");
+    background-size: cover;
+    background-position: center; }
+  .blog-main .blog_cards .cards .blog_card2 {
+    background-image: url("../assets/blog/viajeras.png");
+    background-size: cover;
+    background-position: center; }
+  .blog-main .blog_cards .cards .blog_card3 {
+    background-image: url("../assets/blog/proximodestino.png");
+    background-size: cover;
+    background-position: center; }
+  .blog-main .blog_cards .cards .blog_card4 {
+    background-image: url("../assets/blog/malaexperiencia.png");
+    background-size: cover;
+    background-position: center; }
+  .blog-main .blog_cards .cards .blog_card5 {
+    background-image: url("../assets/blog/workingholidays.png");
+    background-size: cover;
+    background-position: center; }
+  .blog-main .blog_cards .cards .blog_card6 {
+    background-image: url("../assets/blog/dinamorock.png");
+    background-size: cover;
+    background-position: center; }
+  .blog-main .blog_cards .cards .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    @media screen and (min-width: 1200px) and (max-width: 1800px) {
+      .blog-main .blog_cards .cards .card-body {
+        height: 20rem;
+        width: 38rem; } }
+    @media screen and (min-width: 1000px) and (max-width: 1200px) {
+      .blog-main .blog_cards .cards .card-body {
+        height: 20rem;
+        width: 28rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .blog-main .blog_cards .cards .card-body {
+        height: 11rem;
+        width: 15rem; } }
+    @media screen and (min-width: 400px) and (max-width: 500px) {
+      .blog-main .blog_cards .cards .card-body {
+        height: 9rem;
+        width: 12rem; } }
+    @media screen and (max-width: 400px) {
+      .blog-main .blog_cards .cards .card-body {
+        height: 7rem;
+        width: 9rem; } }
+    .blog-main .blog_cards .cards .card-body div {
+      display: flex;
+      justify-content: center; }
+      .blog-main .blog_cards .cards .card-body div img {
+        height: 1rem; }
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+          .blog-main .blog_cards .cards .card-body div img {
+            height: 1rem; } }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+          .blog-main .blog_cards .cards .card-body div img {
+            height: 1rem; } }
+        @media screen and (max-width: 500px) {
+          .blog-main .blog_cards .cards .card-body div img {
+            height: 1rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .blog-main .blog_barLine1 {
+    padding: 2rem 0rem 1rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .blog-main .blog_barLine1 {
+    padding: 1rem 0rem 0.7rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .blog-main .blog_barLine1 {
+    padding: 1rem 0rem 0.7rem 0rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .blog-main .blog_barLine2 {
+    margin: 2rem 0rem -1rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .blog-main .blog_barLine2 {
+    margin: 1rem 0rem -2rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .blog-main .blog_barLine2 {
+    margin: 0rem 0rem -1rem 0rem; } }
+
+.blog-main .barLine-div {
+  display: flex;
+  justify-content: center; }
+
+.logo-seccion_div {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .logo-seccion_div {
+      height: 30vh; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .logo-seccion_div {
+      margin-top: 0rem;
+      height: 27vh; } }
+  @media screen and (max-width: 500px) {
+    .logo-seccion_div {
+      margin-top: -0.7rem;
+      height: 25vh; } }
+
 body {
-  margin: 0 !important; }
+  margin: 0 !important;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800; }
+  body a {
+    text-decoration: none;
+    color: black; }
 
 .barLine {
   border: black 2px solid;
@@ -520,6 +1347,10 @@ body {
   border-radius: 3px;
   margin-top: 15px;
   margin-bottom: 15px; }
+
+.barLine-div {
+  display: flex;
+  justify-content: center; }
 
 .transparentLink {
   color: white;

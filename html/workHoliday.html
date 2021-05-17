@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work & Holiday</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <div class="header__containerMenu">
+          <h2><a class="header__viajerosLink" href="../index.html">ViajeroSecrets</a></h2>
+          <nav class="header__nav">
+            <a href="./asesorias.html">Asesorias</a>
+            <a href="./beneficios.html">Beneficios</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./viajeros.html">Viajeros</a>
+            <a href="./quienes-somos.html">Quienes somos?</a>
+          </nav>
+          <!--header mobile-->
+          <div id="dropdownHeader" class="dropdown header__dropHeader">
+            <button class="header__dropHeader__button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+            </button>
+          </div>
+        </div>
+        <div id="horizontalNav" class="header__mobileMenu headerIsNotActive">
+          <nav>
+              <a class="dropdown-item" href="./asesorias.html">Asesorias</a>
+              <a class="dropdown-item" href="./beneficios.html">Beneficios</a>
+              <a class="dropdown-item" href="./blog.html">Blog</a>
+              <a class="dropdown-item" href="./quienes-somos.html">Quienes somos?</a>
+              <a class="dropdown-item" href="./viajeros.html">Viajeros</a>
+          </nav>
+        </div>
+        <div class="header__title">
+          <h1> Work&Holiday</h1>
+          <h2> Programa para estudiantes</h2>
+        </div>  
+      </header>
+    <main class="workHolidayMain">
+        <div class="workHolidayMain__titleContainer">
+            <div class="workHolidayMain__titleContainer__title">
+                <h3>Que es?</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="workHolidayMain__textContainer">
+            <div class="workHolidayMain__textContainer__text">
+                <p>La visa Working Holiday es uno de las más solicitadas en Latinoamérica, principalmente se basa en trabajar 12 meses en un país totalmente legal, sin tener que realizar ningún otro trámite más que buscar un trabajo.</p>
+                <p> Voy a comenzar aclarando que no es lo mismo que un Work & Travel, que es el programa para estudiantes que te permite trabajar por 3 o 4 meses de forma legal. 
+                    Generalmente es el que se utiliza en Estados Unidos.</p>
+                <p> Dependiendo de tu país de origen tendrás que chequear con qué otros países tiene convenio y cuáles con las condiciones.
+                    Por ejemplo, Argentina tiene convenio con Australia, Noruega, Holanda y Japón, entre muchos otros.</p>
+                <p> Te adelanto que si tu deseo es como el de tantos otros de conseguir una visa de trabajo en Nueva Zelanda, es la más difícil de conseguir. 
+                    Cada país tiene un cupo limitado, en el caso de Argentina, solo otorgan 1000 lugares por año y todo se basa en el DESTINO.
+                    Si estabas destinado a vivir tu experiencia neozelandesa seguramente vas a tener la suerte necesaria para que al momento de la apertura de los cupos el sitio web no se te sature y puedes dejar tu formulario.</p>   
+                <p> No todos pueden ingresar a los Working Holiday, la mayoría de estos programas son para jóvenes entre 18 y 30 años, salvo muy pocas excepciones, como NZ que aceptar personas hasta 35 años.
+                    Los otros requisitos son simples, tener pasaje de salida del país o seguro médico.</p> 
+                <p>El punto más importante a tener en cuenta, que a través de esta experiencia conseguirás trabajo en la zona de turismo, hotelería o gastronomía, en casa de familia como baby sitter o housekeeper y en algunas países en la zona rural – los trabajos en las granjas son muy particulares, te recomiendo que leas todas las condiciones con detenimiento -.</p>
+            </div>
+            <h5>Te dejamos por cada pais las opciones mas buscadas por los viajeros</h5>
+        </div>
+        <div class="workHolidayMain__countryButtonsContainer">
+            <div id="countryButtons" class="workHolidayMain__countryButtonsContainer__buttons"></div>
+            <div id="modalCountries"></div>
+        </div>
+        
+        <div class="barLine"></div>
+        <div class="workHolidayMain__extraCardsContainer">
+            <h3>Otros articulos relacionados</h3>
+            <div class="workHolidayMain__extraCardsContainer__extraCards">
+                <div class="workHolidayMain__extraCardsContainer__extraCards__card">
+                    <h6>LUGARES QUE TE PAGAN
+                        PARA QUE VIVAS EN ELLOS</h6>
+                </div>
+                <div class="workHolidayMain__extraCardsContainer__extraCards__card">
+                    <h6>CUBA POR 
+                        FLORENCIA HERNÁNDEZ</h6>
+                </div>
+            </div>
+        </div>
+
+           <!--Footer-->
+           <footer class="customFooter">
+            <img  class="customFooter__logo" alt="Logo ViajeroSecrets" src="../assets/logo_negroygris.svg">
+            <div class="customFooter__secondRow">
+              <div class="customFooter__secondRow__iconsContainer">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+              </div>
+              <div>
+                <p class="customFooter__email">viajerosecrets@gmail.com</p>
+              </div>
+            </div>
+          </footer>
+          <div class="barLine"></div>
+    </main>
+    
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/workHoliday.js"></script>
+</body>
+</html>

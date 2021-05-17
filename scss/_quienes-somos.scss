@@ -1,0 +1,172 @@
+.quienes-somos_main {
+    .quienes-somos_section {
+        .quienes-somos_subtitulo {
+            text-align: center;
+            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                font-weight: 500;
+                padding: 0rem 0rem 1rem 0rem;
+                font-size: 2.2rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                font-weight: 500;
+                padding: 1rem 0rem 1.5rem 0rem;
+                font-size: 2rem;
+            }
+            @media screen and (max-width: 500px) {
+                @include titulos;
+            }
+        }
+        .quienes-somos_p1 {
+            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                font-size: 1.4rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                font-size: 1.2rem;
+            }
+            @media screen and (max-width: 500px) {
+                @include parrafos;
+            }
+            
+        }
+        .quienes-somos_p2,  #quienes-somos_p2-1 {
+            text-align: center;
+            font-style: italic;
+            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                font-size: 1.7rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                font-size: 1.5rem;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 1.2rem;
+            }
+        }
+        #quienes-somos_p2-1 {
+            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                font-size: 1.7rem;
+                margin: -1.5rem 0rem -0.2rem 0rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                font-size: 1.5rem;
+                margin: -1.5rem 0rem -0.2rem 0rem;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 1.2rem;
+                margin: -1.5rem 0rem -0.2rem 0rem;
+            }
+        }
+        .quienes-somos_div-img {
+            display: flex;
+            justify-content: flex-end;
+            .quienes-somos_img {
+                @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                    padding: 2rem 25rem 0rem 0rem ;
+                    height: 18vh;
+                }
+                @media screen and (min-width: 500px) and (max-width: 1000px) {
+                    padding: 2rem 6rem 0rem 0rem ;
+                    height: 15vh;
+                }
+                @media screen and (max-width: 500px) {
+                    padding: 0rem 1rem 1rem 0rem ;
+                    height: 10vh;
+                }
+            }
+        }
+    }
+    .quienes-somos_barLine {
+        display: flex;
+        justify-content: center;
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            padding: 2rem 0rem 1rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            padding: 1rem 0rem 0rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            padding: 1rem 0rem;
+        }
+    }
+    #quienes-somos_barLine2 {
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            margin: -1.5rem 0rem -1rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            
+        }
+    }
+    #quienes-somos_barLine3 {
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            margin: 1rem 0rem -2rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            margin: -1rem 0rem -2rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            padding-bottom: 2rem;
+        }
+    }
+    .embajadores_section {
+        .embajadores_titulo {
+            text-align: center;
+            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                font-size: 2.2rem;
+                padding: 0rem 0rem 1rem 0rem;
+                font-weight: 500;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                font-size: 2rem;
+                font-weight: 500;
+                padding: 1rem 0rem 1.5rem 0rem;
+            }
+            @media screen and (max-width: 500px) {
+                padding: 1rem 0rem;
+                @include titulos;
+            }
+        }
+    }
+    .embajadores_p {
+        a {
+            text-decoration: none;
+        }
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            font-size: 1.4rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            font-size: 1.2rem;
+        }
+        @media screen and (max-width: 500px) {
+            @include parrafos;
+
+        }
+    }
+    .mainHome__suscriptionContainer {
+        @media screen and (max-width: 500px) {
+            margin-top: 0.05rem;
+            padding-bottom: 1.5rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1200px) {
+            
+        }
+    }
+}
+
+.logo-seccion_quienes-somos {
+    display: flex;
+    justify-content: center;
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        height: 30vh;
+    }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+        margin-top: 0rem ;
+        height: 27vh;
+    }
+    @media screen and (max-width: 500px) {
+        margin-top: -0.7rem;
+        height: 25vh;
+    }
+
+}
