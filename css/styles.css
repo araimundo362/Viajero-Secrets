@@ -925,9 +925,6 @@
       .seguros-main .seguros-btn .btn {
         width: 11rem;
         height: 3rem; } }
-    @media screen and (max-width: 500px) {
-      .seguros-main .seguros-btn .btn {
-        padding: 1rem 0rem; } }
     .seguros-main .seguros-btn .btn a {
       text-decoration: none;
       color: white; }
@@ -1200,17 +1197,15 @@
     .blog-main .blog_cards .cards .card-body div {
       display: flex;
       justify-content: center; }
-      .blog-main .blog_cards .cards .card-body div img {
-        height: 1rem; }
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
-          .blog-main .blog_cards .cards .card-body div img {
-            height: 1rem; } }
-        @media screen and (min-width: 500px) and (max-width: 1000px) {
-          .blog-main .blog_cards .cards .card-body div img {
-            height: 1rem; } }
-        @media screen and (max-width: 500px) {
-          .blog-main .blog_cards .cards .card-body div img {
-            height: 1rem; } }
+      @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        .blog-main .blog_cards .cards .card-body div img {
+          height: 1.8rem; } }
+      @media screen and (min-width: 500px) and (max-width: 1000px) {
+        .blog-main .blog_cards .cards .card-body div img {
+          height: 1.2rem; } }
+      @media screen and (max-width: 500px) {
+        .blog-main .blog_cards .cards .card-body div img {
+          height: 0.8rem; } }
 
 @media screen and (min-width: 1000px) and (max-width: 1800px) {
   .blog-main .blog_barLine1 {
@@ -1254,6 +1249,272 @@
     .logo-seccion_div {
       margin-top: -0.7rem;
       height: 25vh; } }
+
+.beneficios-main a {
+  color: white;
+  text-align: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main a {
+      font-size: 1.1rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main a {
+      font-size: 1rem; } }
+  @media screen and (min-width: 400px) and (max-width: 500px) {
+    .beneficios-main a {
+      font-size: 1rem; } }
+  @media screen and (max-width: 400px) {
+    .beneficios-main a {
+      font-size: 0.8rem; } }
+  .beneficios-main a:hover {
+    color: white; }
+
+.beneficios-main p {
+  text-align: center;
+  padding-top: 1rem; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main p {
+      font-size: 1.7rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main p {
+      font-size: 1.1rem; } }
+  @media screen and (max-width: 500px) {
+    .beneficios-main p {
+      font-size: 1rem; } }
+
+.beneficios-main button {
+  text-align: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main button {
+      width: 14rem;
+      height: 3rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main button {
+      height: 3rem;
+      width: 12rem; } }
+  @media screen and (min-width: 400px) and (max-width: 500px) {
+    .beneficios-main button {
+      height: 3rem;
+      width: 12rem;
+      padding-top: 0.5rem; } }
+  @media screen and (max-width: 400px) {
+    .beneficios-main button {
+      height: 2.5rem;
+      width: 9.5rem;
+      padding-top: 0.5rem; } }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main button img {
+      height: 0.9rem;
+      padding-left: 0.5rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main button img {
+      height: 0.9rem;
+      padding-left: 0.5rem; } }
+  @media screen and (max-width: 500px) {
+    .beneficios-main button img {
+      height: 0.7rem;
+      padding-left: 0.2rem; } }
+
+.beneficios-main .beneficios_wetag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main .beneficios_wetag > img {
+      height: 3.5rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main .beneficios_wetag > img {
+      height: 2.5rem; } }
+  @media screen and (max-width: 500px) {
+    .beneficios-main .beneficios_wetag > img {
+      height: 2.2rem; } }
+
+.beneficios-main .beneficios_ef {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main .beneficios_ef > img {
+      height: 6rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main .beneficios_ef > img {
+      height: 5rem; } }
+  @media screen and (max-width: 500px) {
+    .beneficios-main .beneficios_ef > img {
+      height: 4.5rem; } }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main .beneficios_ef button {
+      margin: 0rem 0.8rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main .beneficios_ef button {
+      margin: 0rem 0.5rem; } }
+  @media screen and (max-width: 500px) {
+    .beneficios-main .beneficios_ef button {
+      margin: 0rem 0.2rem; } }
+
+.beneficios-main .beneficios_world-packers {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main .beneficios_world-packers > img {
+      height: 6rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main .beneficios_world-packers > img {
+      height: 4.5rem; } }
+  @media screen and (max-width: 500px) {
+    .beneficios-main .beneficios_world-packers > img {
+      height: 4rem; } }
+
+.beneficios-main .beneficios_ciudadania-italiana {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main .beneficios_ciudadania-italiana > img {
+      height: 10.5rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main .beneficios_ciudadania-italiana > img {
+      height: 8rem; } }
+  @media screen and (max-width: 500px) {
+    .beneficios-main .beneficios_ciudadania-italiana > img {
+      height: 7rem; } }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main .beneficios_ciudadania-italiana button {
+      margin: 0rem 0.8rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main .beneficios_ciudadania-italiana button {
+      margin: 0rem 0.5rem; } }
+  @media screen and (max-width: 500px) {
+    .beneficios-main .beneficios_ciudadania-italiana button {
+      margin: 0rem 0.2rem; } }
+
+.beneficios-main .beneficios_visa {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main .beneficios_visa > img {
+      height: 10rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main .beneficios_visa > img {
+      height: 8rem; } }
+  @media screen and (max-width: 500px) {
+    .beneficios-main .beneficios_visa > img {
+      height: 7rem; } }
+  @media screen and (max-width: 450px) {
+    .beneficios-main .beneficios_visa p {
+      font-size: 0.9rem; } }
+
+.beneficios-main .beneficios_assist-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .beneficios-main .beneficios_assist-card > img {
+      height: 12rem;
+      margin: -3rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .beneficios-main .beneficios_assist-card > img {
+      height: 10rem;
+      margin: -2.3rem 0rem -2.2rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .beneficios-main .beneficios_assist-card > img {
+      height: 8rem;
+      margin: -2.3rem 0rem -2.2rem 0rem; } }
+
+.beneficios-main .beneficios_open-english {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .beneficios-main .beneficios_open-english > img {
+    margin: -1rem 0rem; }
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      .beneficios-main .beneficios_open-english > img {
+        height: 11rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .beneficios-main .beneficios_open-english > img {
+        height: 8rem; } }
+    @media screen and (max-width: 500px) {
+      .beneficios-main .beneficios_open-english > img {
+        height: 7rem; } }
+
+.beneficios-main .beneficios_bien-argentino {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .beneficios-main .beneficios_bien-argentino > img {
+    margin: -0.5rem 0rem -0.2rem 0rem; }
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      .beneficios-main .beneficios_bien-argentino > img {
+        height: 10rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .beneficios-main .beneficios_bien-argentino > img {
+        height: 8rem; } }
+    @media screen and (max-width: 500px) {
+      .beneficios-main .beneficios_bien-argentino > img {
+        height: 7rem; } }
+
+.beneficios-main .beneficios_coderhouse {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .beneficios-main .beneficios_coderhouse a {
+    color: white; }
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      .beneficios-main .beneficios_coderhouse a {
+        font-size: 1.1rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .beneficios-main .beneficios_coderhouse a {
+        font-size: 0.85rem; } }
+    @media screen and (min-width: 400px) and (max-width: 500px) {
+      .beneficios-main .beneficios_coderhouse a {
+        font-size: 0.95rem;
+        margin-top: -2rem; } }
+    @media screen and (max-width: 400px) {
+      .beneficios-main .beneficios_coderhouse a {
+        font-size: 0.8rem;
+        margin-top: -2rem; } }
+  .beneficios-main .beneficios_coderhouse > img {
+    margin: -1rem 0rem; }
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      .beneficios-main .beneficios_coderhouse > img {
+        height: 7.5rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .beneficios-main .beneficios_coderhouse > img {
+        height: 6rem; } }
+    @media screen and (max-width: 500px) {
+      .beneficios-main .beneficios_coderhouse > img {
+        height: 5.5rem; } }
+  @media screen and (max-width: 400px) {
+    .beneficios-main .beneficios_coderhouse button {
+      height: 2.5rem;
+      width: 11rem;
+      padding-top: 0.5rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .beneficios-main .blog_barLine1, .beneficios-main .blog_barLine2, .beneficios-main .blog_barLine3, .beneficios-main .blog_barLine4, .beneficios-main .blog_barLine5, .beneficios-main .blog_barLine6, .beneficios-main .blog_barLine7, .beneficios-main .blog_barLine8, .beneficios-main .blog_barLine9 {
+    padding: 2rem 0rem 1rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .beneficios-main .blog_barLine1, .beneficios-main .blog_barLine2, .beneficios-main .blog_barLine3, .beneficios-main .blog_barLine4, .beneficios-main .blog_barLine5, .beneficios-main .blog_barLine6, .beneficios-main .blog_barLine7, .beneficios-main .blog_barLine8, .beneficios-main .blog_barLine9 {
+    padding: 1rem 0rem 0.7rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .beneficios-main .blog_barLine1, .beneficios-main .blog_barLine2, .beneficios-main .blog_barLine3, .beneficios-main .blog_barLine4, .beneficios-main .blog_barLine5, .beneficios-main .blog_barLine6, .beneficios-main .blog_barLine7, .beneficios-main .blog_barLine8, .beneficios-main .blog_barLine9 {
+    padding: 0.5rem 0rem 0.5rem 0rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .beneficios-main .blog_barLine10 {
+    margin: 2rem 0rem -2rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .beneficios-main .blog_barLine10 {
+    margin: 1rem 0rem -3rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .beneficios-main .blog_barLine10 {
+    margin: 0.5rem 0rem -1.5rem 0rem; } }
 
 * {
   scroll-behavior: smooth;

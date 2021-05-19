@@ -92,15 +92,14 @@
                     display: flex;
                     justify-content: center;
                     img {
-                        height: 1rem;
                         @media screen and (min-width: 1000px) and (max-width: 1800px) {
-                            height: 1rem;
+                            height: 1.8rem;
                         }
                         @media screen and (min-width: 500px) and (max-width: 1000px) {
-                            height: 1rem;
+                            height: 1.2rem;
                         }
                         @media screen and (max-width: 500px) {
-                            height: 1rem;
+                            height: 0.8rem;
                         }
                     }
                 }
