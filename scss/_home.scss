@@ -1,5 +1,4 @@
 .mainHome {
-    margin-top: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,33 +93,68 @@
     }
 
     &__telegramContainer {
-        width: 100%;
+        width: 95vw;
         display: flex;
-
-        margin-top: 60px;
+        margin-top: 110px;
+        @media screen and (min-width: 1000px) {
+            margin-top: 15px;
+            flex-direction: column;
+            align-items: center;
+        }
+        @media screen and (max-width: 1000px) {
+            margin-left: 38px;
+            margin-top: 10px;
+        }
         @media screen and (max-width: 500px) {
             flex-direction: column;
             margin-left: 5px;
+            margin-top: 10px;
+        }
+
+        .btn-secondary {
+            border-radius: 3px !important;
+        }
+
+        h5 {
+            @media screen and (max-width: 500px) {
+                color: $color1;
+            }
         }
 
         &__textExplanation {
             width: 50%;
             margin-left: 15px;
-            @media screen and (max-width: 500px) {
+            @media screen and (min-width: 1000px) {
+                width: 100%;
+                
+                font-size: 1.3rem;
+            }
+            @media screen and (max-width: 1000px) {
                 width: 100%;
                 margin-left: 5px;
+                font-size: 1.2rem;
+            }
+            @media screen and (max-width: 500px) {
+                width: 95%;
+                padding: 0px 10px;
+                font-size: 0.9rem;
             }
         }
 
         &__tgBotonera {
             display: flex;
             flex-wrap: wrap;
-            width: 48%;
+            justify-content: center;
             margin: 1px 5px 15px 15px;
-
+            text-align: center;
+            @media screen and (max-width: 1000px) {
+                width: 100%;
+                margin: 0;
+            }
             @media screen and (max-width: 500px) {
                 width: 100%;
                 margin: 0;
+                flex-wrap: nowrap;
             }
 
             &__sizes {
@@ -128,10 +162,13 @@
                 margin: 10px;
 
                 cursor: pointer;
-                border-radius: 3px;
+                border-radius: 3px !important;
 
-                box-shadow: 2px 2px 2px gray;
+                box-shadow: 2px 2px 2px rgb(165, 164, 164);
 
+                @media screen and (max-width: 1000px) {
+                    width: 215px;
+                }
                 @media screen and (max-width: 500px) {
                     width: 150px;
                 }
@@ -149,6 +186,20 @@
                         font-size: 13px;
                     }
                 }   
+
+                a {
+                    color: white;
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+
+            .botonera-flex {
+                @media screen and (min-width: 1000px) {
+                    display: flex;
+                    flex-direction: row;
+                }
             }
         }
 
@@ -158,41 +209,65 @@
     }
 
     &__cardsContainer {
-        position: absolute;
         width: 100%;
-        top: 40%;
-
+        text-shadow: 2px 1px 2px grey;
         &__row {
             display: flex;
             justify-content: space-evenly;
-
+            
             &__firstRowCards {
-                height: 150px;
+                height: 130px;
                 width: 50%;
-
                 max-width: 500px !important;
                 border-radius: 4px;
-
                 box-shadow: 2px 2px 2px grey;
-
                 cursor: pointer;
 
-                @media screen and (max-width: 975px) {
+                @media screen and (min-width: 975px) {
+                    height: 220px;
                     width: 35%;
+                    margin-top: -20px;
                 }
+                @media screen and (max-width: 975px) {
+                    width: 45%;
+                    margin-top: -20px;
+                    height: 150px;
+                }
+                @media screen and (max-width: 500px) {
+                    height: 110px;
+                    width: 40%;
+                    margin-top: -15px;
+                }
+
+                &:first-child {
+                    .card-body {
+                        background-image: url("/assets/workingholiday.jpg");
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+
+                &:nth-child(2) {
+                    .card-body {
+                        background-image: url("/assets/worktravel.jpg");
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+
 
                 &__content {
                     height: inherit;
                     display: flex;
                     align-items: flex-end;
                     justify-content: flex-end;
-
+                    border-radius: 4px;
                     color: black;
                 }
             }
 
             &__secondRowCards {
-                height: 150px;
+                height: 130px;
                 width: 30%;
 
                 max-width: 450px !important;
@@ -201,6 +276,43 @@
                 box-shadow: 2px 2px 2px grey;
 
                 cursor: pointer;
+
+                @media screen and (min-width: 975px) {
+                    width: 30%;
+                    height: 200px;
+                }
+                @media screen and (max-width: 975px) {
+                    width: 30%;
+                    height: 150px;
+                }
+                @media screen and (max-width: 500px) {
+                    width: 29%;
+                    height: 110px;
+                }
+
+                &:first-child {
+                    .card-body {
+                        background-image: url("/assets/plataformas.jpg");
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+
+                &:nth-child(2) {
+                    .card-body {
+                        background-image: url("/assets/seguros.jpg");
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+
+                &:nth-child(3) {
+                    .card-body {
+                        background-image: url("/assets/voluntariados.jpg");
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
 
                 &__content {
                     height: inherit;
@@ -217,6 +329,18 @@
                     }
                 }
             }
+        }
+    }
+
+    .index_barLine {
+        @media screen and (min-width: 1000px) {
+            margin: 1rem 0rem -1rem 0rem;
+        }
+        @media screen and (max-width: 1000px) {
+            margin: 0.5rem 0rem -2rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            margin: 1rem 0rem 0rem 0rem;
         }
     }
 }

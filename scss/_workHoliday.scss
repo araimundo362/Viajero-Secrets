@@ -6,17 +6,43 @@
 
     &__extraCardsContainer {
         width: 100%;
-        
+        h3 {
+            text-align: center;
+        }
         &__extraCards {
             display: inline-flex;
             width: inherit;
+
+            .card1{
+                background-image: url("../assets/tepagan.jpg");
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h6 {
+                    color: white;
+                    font-weight: 500;
+                }
+            }
+            .card2{
+                background-image: url("../assets/cubaflorencia.jpg");
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h6 {
+                    color: white;
+                    font-weight: 500;
+                }
+            }
 
             &__card {
                 margin: 5px;
                 box-shadow: 2px 2px 2px gray;
                 display: flex;
                 align-items: center;
-                
                 width: 80%;
                 height: 150px;
 

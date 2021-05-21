@@ -16,14 +16,14 @@
 
     <header class="header">
         <div class="header__containerMenu">
-          <a href="../index.html"><h2>ViajeroSecrets</h2></a>
-          <nav class="header__nav">
-              <a href="/html/asesorias.html">Asesorias</a>
-              <a href="/html/beneficios.html">Beneficios</a>
-              <a href="#">Blog</a>
-              <a href="/html/viajeros.html">Viajeros</a>
-              <a href="/html/quienes-somos.html">¿Quiénes somos?</a>
-          </nav>
+            <h2><a class="header__viajerosLink" href="../index.html">ViajeroSecrets</a></h2>
+            <nav class="header__nav">
+                <a href="./asesorias.html">Asesorias</a>
+                <a href="./beneficios.html">Beneficios</a>
+                <a href="#">Blog</a>
+                <a href="./viajeros.html">Viajeros</a>
+                <a href="./quienes-somos.html">¿Quiénes somos?</a>
+            </nav>
           <!--header mobile-->
           <div id="dropdownHeader" class="dropdown header__dropHeader">
             <button class="header__dropHeader__button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -35,15 +35,15 @@
         </div>
         <div id="horizontalNav" class="header__mobileMenu headerIsNotActive">
           <nav>
-            <a href="/html/asesorias.html">Asesorias</a>
-            <a href="/html/beneficios.html">Beneficios</a>
-            <a href="#">Blog</a>
-            <a href="/html/viajeros.html">Viajeros</a>
-            <a href="/html/quienes-somos.html">¿Quiénes somos?</a>
+            <a class="dropdown-item" href="./asesorias.html">Asesorias</a>
+            <a class="dropdown-item" href="./beneficios.html">Beneficios</a>
+            <a class="dropdown-item" href="#">Blog</a>
+            <a class="dropdown-item" href="./viajeros.html">Viajeros</a>
+            <a class="dropdown-item" href="./quienes-somos.html">¿Quiénes somos?</a>
           </nav>
         </div>
-        <div class="headerVoluntariados">
-          <h2 class="textForNow__title">BLOG</h2>
+        <div class="header__title">
+            <h1>BLOG</h1>
         </div>  
     </header>
 
@@ -176,20 +176,22 @@
         <img src="../assets/logopng.png" alt="Viajero Secrets" class="logo-seccion_seguros">
     </div>   
 
-         <!--Footer-->
+    <!--Footer-->
     <footer class="customFooter">
         <div class="customFooter__secondRow">
           <div class="customFooter__secondRow__iconsContainer">
-            <a href="https://www.facebook.com/ViajeroSecrets" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="https://www.instagram.com/viajerosecrets/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a href="https://twitter.com/viajerosecrets" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://www.facebook.com/ViajeroSecrets" target="_blank"><img src="../assets/facebook.png"></a>
+            <a href="https://www.instagram.com/viajerosecrets/" target="_blank"><img src="../assets/instagram.png"></a>
+            <a href="https://twitter.com/viajerosecrets" target="_blank"><img src="../assets/twitter.png"></a>
           </div>
           <div>
-            <a href="http://viajerosecrets@gmail.com" target="_blank"><p class="customFooter__email" >viajerosecrets@gmail.com</p></a>
+            <a href="mailto:http://viajerosecrets@gmail.com" target="_blank"><p class="customFooter__email">viajerosecrets@gmail.com</p></a>
           </div>
         </div>
-        <div class="barLine"></div>
     </footer>
+    <div class="barLine-div">
+        <div class="barLine"></div>
+    </div>
       
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>

@@ -7,6 +7,10 @@
         flex-direction: column;
         align-items: center;
 
+        .barLine {
+            margin: -1rem 0rem 1rem 0rem;
+        }
+
         &__textContainer {
             text-align: center;
             padding: 10px;
@@ -107,14 +111,23 @@
             }
 
             &__boxPromotion {
-                width: 80%;
+                width: 70%;
+                height: 200px;
                 box-shadow: 0px 3px 3px 2px gray;
                 border-radius: 5px;
 
-                text-align: center;
+                text-align: center 80%;
                 
                 padding: 7px;
                 margin-top: 10px;
+
+                background-image: url("../assets/voluntariados1.jpg");
+                background-position: center;
+                background-size: cover;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
                 
                 h3 {
                     font-weight: 700;
@@ -139,7 +152,7 @@
 
     &__title {
         @media screen and (max-width: 450px) {
-            font-size: 25px;
+            font-size: 43px;
         }   
     }
 
