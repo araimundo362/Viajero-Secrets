@@ -115,7 +115,7 @@
 
         h5 {
             @media screen and (max-width: 500px) {
-                color: $color1;
+                color: white;
             }
         }
 
@@ -262,6 +262,15 @@
                     border-radius: 4px;
                     color: black;
                 }
+
+                a {
+                    @media screen and (min-width: 975px) {
+                        font-size: 2rem
+                    }
+                    @media screen and (max-width: 500px) {
+                        font-size: 1rem;
+                    }
+                }
             }
 
             &__secondRowCards {
@@ -321,8 +330,11 @@
                     color: black;
 
                     h5 {
+                        @media screen and (min-width: 975px) {
+                            font-size: 1.8rem
+                        }
                         @media screen and (max-width: 500px) {
-                            font-size: 15px;
+                            font-size: 0.9rem;
                         }
                     }
                 }
