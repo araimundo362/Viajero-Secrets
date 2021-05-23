@@ -6,8 +6,6 @@
     background-size: cover;
     background-position: center 20%;
     height: 220px;
-    display: flex;
-    flex-direction: column;
     
     &__mobileMenu {
         display: none;
@@ -37,7 +35,7 @@
         font-weight: 600;
         text-shadow: 1px 1px 1px rgb(160, 158, 158);
         &:hover {
-            color: $color1;
+            color: black;
         }
     }
     

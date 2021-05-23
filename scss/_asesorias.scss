@@ -7,6 +7,9 @@
         text-align: center;
         font-size: 13px;
         padding: 10px;
+        @media screen and (min-width: 1000px) {
+            font-size: 1.2rem;
+        }
     }
 
     &__plansContainer {
@@ -15,6 +18,18 @@
         justify-content: space-around;
         &__plan {
             width: 45%;
+
+            #modalAsRedes {
+                cursor: pointer;
+                font-weight: 600;
+                &:hover {
+                    color: $color1;
+                }
+            }
+
+            #modalAsViajesPer {
+                @extend #modalAsRedes;
+            }
 
             &__header {
                 background-color: #2A3251 !important;
@@ -30,7 +45,6 @@
                         font-size: 15px;
                     }
                 }
-                 
             }
 
             &__body {
@@ -61,6 +75,12 @@
         @media screen and (max-width:500px) {
             font-size: 13px;
             text-align: center;
+        }
+        a {
+            color: $color1;
+            &:hover {
+                color: rgb(7, 59, 204);
+            }
         }
     }
     &__formContainer {
@@ -93,6 +113,10 @@
 
             p {
                 font-size: 14px;
+            }
+
+            a {
+                margin: 0rem 1rem;
             }
 
             &__customCard {

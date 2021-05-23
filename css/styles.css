@@ -75,7 +75,7 @@
       border-radius: 3px !important; }
     @media screen and (max-width: 500px) {
       .mainHome__telegramContainer h5 {
-        color: #5f5fa7; } }
+        color: white; } }
     .mainHome__telegramContainer__textExplanation {
       width: 50%;
       margin-left: 15px; }
@@ -180,6 +180,12 @@
           justify-content: flex-end;
           border-radius: 4px;
           color: black; }
+        @media screen and (min-width: 975px) {
+          .mainHome__cardsContainer__row__firstRowCards a {
+            font-size: 2rem; } }
+        @media screen and (max-width: 500px) {
+          .mainHome__cardsContainer__row__firstRowCards a {
+            font-size: 1rem; } }
       .mainHome__cardsContainer__row__secondRowCards {
         height: 130px;
         width: 30%;
@@ -217,9 +223,12 @@
           align-items: flex-end;
           justify-content: flex-end;
           color: black; }
+          @media screen and (min-width: 975px) {
+            .mainHome__cardsContainer__row__secondRowCards__content h5 {
+              font-size: 1.8rem; } }
           @media screen and (max-width: 500px) {
             .mainHome__cardsContainer__row__secondRowCards__content h5 {
-              font-size: 15px; } }
+              font-size: 0.9rem; } }
   @media screen and (min-width: 1000px) {
     .mainHome .index_barLine {
       margin: 1rem 0rem -1rem 0rem; } }
@@ -390,12 +399,20 @@
     text-align: center;
     font-size: 13px;
     padding: 10px; }
+    @media screen and (min-width: 1000px) {
+      .asesoriasMain__introductionText {
+        font-size: 1.2rem; } }
   .asesoriasMain__plansContainer {
     width: 100%;
     display: inline-flex;
     justify-content: space-around; }
     .asesoriasMain__plansContainer__plan {
       width: 45%; }
+      .asesoriasMain__plansContainer__plan #modalAsRedes, .asesoriasMain__plansContainer__plan #modalAsViajesPer {
+        cursor: pointer;
+        font-weight: 600; }
+        .asesoriasMain__plansContainer__plan #modalAsRedes:hover, .asesoriasMain__plansContainer__plan #modalAsViajesPer:hover {
+          color: #5f5fa7; }
       .asesoriasMain__plansContainer__plan__header {
         background-color: #2A3251 !important; }
         .asesoriasMain__plansContainer__plan__header h6 {
@@ -421,6 +438,10 @@
     .asesoriasMain__customP {
       font-size: 13px;
       text-align: center; } }
+  .asesoriasMain__customP a {
+    color: #5f5fa7; }
+    .asesoriasMain__customP a:hover {
+      color: #073bcc; }
   .asesoriasMain__formContainer {
     width: 100%;
     display: flex;
@@ -441,6 +462,8 @@
       padding: 10px; }
       .asesoriasMain__modalContent__body p {
         font-size: 14px; }
+      .asesoriasMain__modalContent__body a {
+        margin: 0rem 1rem; }
       .asesoriasMain__modalContent__body__customCard {
         border-color: #2A3251 !important; }
         .asesoriasMain__modalContent__body__customCard__backgroundHeader {
@@ -1473,16 +1496,13 @@
   text-align: center; }
   @media screen and (min-width: 1000px) and (max-width: 1800px) {
     .blog-main h2 {
-      font-size: 2rem;
-      padding: 0rem 0rem 0.5rem 5.5rem; } }
+      font-size: 2rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
     .blog-main h2 {
-      font-size: 1.5rem;
-      padding: 0.5rem 0rem 0rem 2.3rem; } }
+      font-size: 1.5rem; } }
   @media screen and (max-width: 500px) {
     .blog-main h2 {
-      font-size: 1.2rem;
-      padding-bottom: -0.5rem; } }
+      font-size: 1rem; } }
 
 .blog-main .blog_cards .cards {
   display: flex;
@@ -1493,6 +1513,7 @@
     .blog-main .blog_cards .cards {
       padding: 1rem 0rem; } }
   .blog-main .blog_cards .cards a {
+    text-align: center;
     font-weight: 700;
     text-shadow: 2px 1px 2px #c5c4c4; }
     @media screen and (min-width: 1000px) and (max-width: 1800px) {
@@ -1505,7 +1526,7 @@
       .blog-main .blog_cards .cards a {
         font-size: 0.9rem; } }
     .blog-main .blog_cards .cards a:hover {
-      color: #5f5fa7; }
+      color: black; }
   .blog-main .blog_cards .cards .blog_card1 {
     background-image: url("../assets/blog/news.png");
     background-size: cover;
@@ -1885,9 +1906,7 @@
   background-image: url("../assets/home.png");
   background-size: cover;
   background-position: center 20%;
-  height: 220px;
-  display: flex;
-  flex-direction: column; }
+  height: 220px; }
   .header__mobileMenu {
     display: none; }
     @media screen and (max-width: 750px) {
@@ -1910,7 +1929,7 @@
     font-weight: 600;
     text-shadow: 1px 1px 1px #a09e9e; }
     .header__viajerosLink:hover {
-      color: #5f5fa7; }
+      color: black; }
   .header__title {
     align-self: center; }
     .header__title h1 {
@@ -1978,6 +1997,7 @@ body {
 
 .barLine {
   border: black 2px solid;
+  background-color: black;
   width: 30%;
   border-radius: 3px;
   margin-top: 15px;
