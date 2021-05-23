@@ -1740,6 +1740,152 @@
   .beneficios-main .blog_barLine10 {
     margin: 0.5rem 0rem -1.5rem 0rem; } }
 
+.news-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .news-main h2 {
+    text-align: center;
+    padding-bottom: 00.5rem; }
+  @media screen and (min-width: 1000px) {
+    .news-main .news-p p {
+      font-size: 1.3rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .news-main .news-p p {
+      font-size: 1.2rem; } }
+  @media screen and (min-width: 1000px) {
+    .news-main .news-p img {
+      height: 5vh;
+      padding-right: 0.5rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .news-main .news-p img {
+      height: 4vh;
+      padding-right: 0.5rem; } }
+  @media screen and (max-width: 500px) {
+    .news-main .news-p img {
+      height: 4vh; } }
+  .news-main .news-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem; }
+    @media screen and (min-width: 1000px) {
+      .news-main .news-cards img {
+        height: 3vh; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .news-main .news-cards img {
+        height: 2vh; } }
+    @media screen and (max-width: 500px) {
+      .news-main .news-cards img {
+        height: 2vh; } }
+    .news-main .news-cards_first-row {
+      display: flex;
+      width: 100%; }
+      .news-main .news-cards_first-row .card1 {
+        width: 33%;
+        height: 22vh;
+        background-image: url("../assets/blog/viajeras.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .news-main .news-cards_first-row .card2 {
+        width: 33%;
+        height: 22vh;
+        background-image: url("../assets/blog/proximodestino.png");
+        background-size: cover;
+        background-position: center; }
+      .news-main .news-cards_first-row .card3 {
+        width: 33%;
+        height: 22vh;
+        background-image: url("../assets/blog/malaexperiencia.png");
+        background-size: cover;
+        background-position: center; }
+      .news-main .news-cards_first-row .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px white; }
+        .news-main .news-cards_first-row .card-body :hover {
+          color: black; }
+        @media screen and (min-width: 1000px) {
+          .news-main .news-cards_first-row .card-body p {
+            font-size: 1.1rem; } }
+        @media screen and (min-width: 750px) and (max-width: 1000px) {
+          .news-main .news-cards_first-row .card-body p {
+            font-size: 1.2rem; } }
+        @media screen and (min-width: 500px) and (max-width: 750px) {
+          .news-main .news-cards_first-row .card-body p {
+            font-size: 1.1rem; } }
+        @media screen and (max-width: 500px) {
+          .news-main .news-cards_first-row .card-body p {
+            font-size: 0.8rem; } }
+      .news-main .news-cards_first-row_cards {
+        margin: 0rem 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    .news-main .news-cards_second-row {
+      display: flex;
+      padding-top: 2rem;
+      width: 100%; }
+      .news-main .news-cards_second-row .card4 {
+        width: 50%;
+        height: 22vh;
+        background-image: url("../assets/blog/workingholidays.png");
+        background-size: cover;
+        background-position: center; }
+      .news-main .news-cards_second-row .card5 {
+        width: 50%;
+        height: 22vh;
+        background-image: url("../assets/blog/dinamorock.png");
+        background-size: cover;
+        background-position: center; }
+      .news-main .news-cards_second-row .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px white; }
+        @media screen and (min-width: 1000px) {
+          .news-main .news-cards_second-row .card-body p {
+            font-size: 1.2rem; } }
+        @media screen and (min-width: 750px) and (max-width: 1000px) {
+          .news-main .news-cards_second-row .card-body p {
+            font-size: 1.2rem; } }
+        @media screen and (min-width: 500px) and (max-width: 750px) {
+          .news-main .news-cards_second-row .card-body p {
+            font-size: 1.1rem; } }
+        .news-main .news-cards_second-row .card-body :hover {
+          color: black; }
+      .news-main .news-cards_second-row_cards {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .news-main .blog_barLine1 {
+      padding: 2rem 0rem 1rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .news-main .blog_barLine1 {
+      padding: 1rem 0rem 0.7rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .news-main .blog_barLine1 {
+      padding: 1rem 0rem 0.7rem 0rem; } }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .news-main .blog_barLine2 {
+      margin: 2rem 0rem -2rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .news-main .blog_barLine2 {
+      margin: 1rem 0rem -3rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .news-main .blog_barLine2 {
+      margin: 1rem 0rem -1rem 0rem; } }
+
 * {
   scroll-behavior: smooth;
   transition: .5s; }
@@ -1773,17 +1919,30 @@
     .header__viajerosLink:hover {
       color: black; }
   .header__title {
-    align-self: center; }
+    align-self: center;
+    padding-top: 1.5rem; }
     .header__title h1 {
       margin: 0 !important;
       font-size: 45px;
       text-align: center;
       text-shadow: 1px 1px 1px #a09e9e; }
+      @media screen and (max-width: 1000px) {
+        .header__title h1 {
+          font-size: 35px; } }
+      @media screen and (max-width: 500px) {
+        .header__title h1 {
+          font-size: 25px; } }
     .header__title h2 {
       margin: 0 !important;
       font-size: 21px;
       text-align: center;
       text-shadow: 1px 1px 1px #a09e9e; }
+      @media screen and (max-width: 1000px) {
+        .header__title h2 {
+          font-size: 20px; } }
+      @media screen and (max-width: 500px) {
+        .header__title h2 {
+          font-size: 15px; } }
   .header__containerMenu {
     display: flex;
     justify-content: space-between;

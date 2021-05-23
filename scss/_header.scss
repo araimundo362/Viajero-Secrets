@@ -41,12 +41,18 @@
     
     &__title {
         align-self: center;
-
+        padding-top: 1.5rem;
         h1 {
             margin: 0 !important;
             font-size: 45px;
             text-align: center; 
             text-shadow: 1px 1px 1px rgb(160, 158, 158);
+            @media screen and (max-width:1000px) {
+                font-size: 35px;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 25px;
+            }
         }
 
         h2 {
@@ -54,6 +60,12 @@
             font-size: 21px;
             text-align: center;
             text-shadow: 1px 1px 1px rgb(160, 158, 158);
+            @media screen and (max-width:1000px) {
+                font-size: 20px;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 15px;
+            }
         }
     }
 
