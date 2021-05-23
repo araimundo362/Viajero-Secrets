@@ -1,7 +1,4 @@
-.news-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.viajeras-main {
     h2 {
         text-align: center;
         padding-bottom: 0.5rem;
@@ -17,8 +14,12 @@
             font-size: 1.2rem;
         }
     }
-    .news-p {
-        p {
+    .viajeras-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &_p {
             @media screen and (min-width: 1000px) {
                 font-size: 1.3rem;
             }
@@ -29,17 +30,45 @@
                 font-size: 1.1rem;
             }
         }
-        img {
+        &_pie {
+            color: rgb(46, 46, 124);
+            font-weight: 700;
+            text-align: center;
             @media screen and (min-width: 1000px) {
-                height: 5vh;
-                padding-right: 0.5rem;
+                padding: 1.5rem 0rem 0.5rem 0rem;
+                font-size: 1.3rem;
             }
             @media screen and (min-width: 500px) and (max-width: 1000px) {
-                height: 4vh;
-                padding-right: 0.5rem;
+                font-size: 1.1rem;
+                padding-top: 1rem;
             }
             @media screen and (max-width: 500px) {
-                height: 4vh;
+                font-size: 1rem;
+                padding-top: 1rem;
+            }
+        }
+        .img1 {
+            @media screen and (min-width: 1000px) {
+                width: 35vw;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                height: 60vh;
+            }
+            @media screen and (max-width: 500px) {
+                height: 45vh;
+            }
+        }
+        .img2 {
+            @media screen and (min-width: 1000px) {
+                width: 40vw;
+                padding-top: 1.5rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                height: 35vh;
+                padding-top: 1rem;
+            }
+            @media screen and (max-width: 500px) {
+                height: 20vh;
             }
         }
     }
@@ -66,7 +95,7 @@
             .card1 {
                 width: 33%;
                 height: 22vh;
-                background-image: url("../assets/blog/viajeras.png");
+                background-image: url("../assets/blog/news.png");
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -182,7 +211,18 @@
     }
     .blog_barLine2 {
         @media screen and (min-width: 1000px) and (max-width: 1800px) {
-            margin: 2rem 0rem -2rem 0rem;
+            margin: 2rem 0rem 0rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            margin: 1rem 0rem -1rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            margin: 1rem 0rem -1rem 0rem;
+        }
+    }
+    .blog_barLine3 {
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            margin: 2.5rem 0rem -2rem 0rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
             margin: 1rem 0rem -3rem 0rem;

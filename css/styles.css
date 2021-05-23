@@ -1746,13 +1746,27 @@
   justify-content: center; }
   .news-main h2 {
     text-align: center;
-    padding-bottom: 00.5rem; }
+    padding-bottom: 0.5rem;
+    color: #2e2e7c;
+    font-weight: 600; }
+    @media screen and (min-width: 1000px) {
+      .news-main h2 {
+        font-size: 2rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .news-main h2 {
+        font-size: 1.5rem; } }
+    @media screen and (max-width: 500px) {
+      .news-main h2 {
+        font-size: 1.2rem; } }
   @media screen and (min-width: 1000px) {
     .news-main .news-p p {
       font-size: 1.3rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
     .news-main .news-p p {
       font-size: 1.2rem; } }
+  @media screen and (max-width: 500px) {
+    .news-main .news-p p {
+      font-size: 1.1rem; } }
   @media screen and (min-width: 1000px) {
     .news-main .news-p img {
       height: 5vh;
@@ -1885,6 +1899,212 @@
   @media screen and (max-width: 500px) {
     .news-main .blog_barLine2 {
       margin: 1rem 0rem -1rem 0rem; } }
+
+.viajeras-main h2 {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: #2e2e7c;
+  font-weight: 600; }
+  @media screen and (min-width: 1000px) {
+    .viajeras-main h2 {
+      font-size: 2rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeras-main h2 {
+      font-size: 1.5rem; } }
+  @media screen and (max-width: 500px) {
+    .viajeras-main h2 {
+      font-size: 1.2rem; } }
+
+.viajeras-main .viajeras-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (min-width: 1000px) {
+    .viajeras-main .viajeras-section_p {
+      font-size: 1.3rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeras-main .viajeras-section_p {
+      font-size: 1.2rem; } }
+  @media screen and (max-width: 500px) {
+    .viajeras-main .viajeras-section_p {
+      font-size: 1.1rem; } }
+  .viajeras-main .viajeras-section_pie {
+    color: #2e2e7c;
+    font-weight: 700;
+    text-align: center; }
+    @media screen and (min-width: 1000px) {
+      .viajeras-main .viajeras-section_pie {
+        padding: 1.5rem 0rem 0.5rem 0rem;
+        font-size: 1.3rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .viajeras-main .viajeras-section_pie {
+        font-size: 1.1rem;
+        padding-top: 1rem; } }
+    @media screen and (max-width: 500px) {
+      .viajeras-main .viajeras-section_pie {
+        font-size: 1rem;
+        padding-top: 1rem; } }
+  @media screen and (min-width: 1000px) {
+    .viajeras-main .viajeras-section .img1 {
+      width: 35vw; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeras-main .viajeras-section .img1 {
+      height: 60vh; } }
+  @media screen and (max-width: 500px) {
+    .viajeras-main .viajeras-section .img1 {
+      height: 45vh; } }
+  @media screen and (min-width: 1000px) {
+    .viajeras-main .viajeras-section .img2 {
+      width: 40vw;
+      padding-top: 1.5rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeras-main .viajeras-section .img2 {
+      height: 35vh;
+      padding-top: 1rem; } }
+  @media screen and (max-width: 500px) {
+    .viajeras-main .viajeras-section .img2 {
+      height: 20vh; } }
+
+.viajeras-main .news-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem; }
+  @media screen and (min-width: 1000px) {
+    .viajeras-main .news-cards img {
+      height: 3vh; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeras-main .news-cards img {
+      height: 2vh; } }
+  @media screen and (max-width: 500px) {
+    .viajeras-main .news-cards img {
+      height: 2vh; } }
+  .viajeras-main .news-cards_first-row {
+    display: flex;
+    width: 100%; }
+    .viajeras-main .news-cards_first-row .card1 {
+      width: 33%;
+      height: 22vh;
+      background-image: url("../assets/blog/news.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .viajeras-main .news-cards_first-row .card2 {
+      width: 33%;
+      height: 22vh;
+      background-image: url("../assets/blog/proximodestino.png");
+      background-size: cover;
+      background-position: center; }
+    .viajeras-main .news-cards_first-row .card3 {
+      width: 33%;
+      height: 22vh;
+      background-image: url("../assets/blog/malaexperiencia.png");
+      background-size: cover;
+      background-position: center; }
+    .viajeras-main .news-cards_first-row .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: 600;
+      text-shadow: 1px 1px 1px white; }
+      .viajeras-main .news-cards_first-row .card-body :hover {
+        color: black; }
+      @media screen and (min-width: 1000px) {
+        .viajeras-main .news-cards_first-row .card-body p {
+          font-size: 1.1rem; } }
+      @media screen and (min-width: 750px) and (max-width: 1000px) {
+        .viajeras-main .news-cards_first-row .card-body p {
+          font-size: 1.2rem; } }
+      @media screen and (min-width: 500px) and (max-width: 750px) {
+        .viajeras-main .news-cards_first-row .card-body p {
+          font-size: 1.1rem; } }
+      @media screen and (max-width: 500px) {
+        .viajeras-main .news-cards_first-row .card-body p {
+          font-size: 0.8rem; } }
+    .viajeras-main .news-cards_first-row_cards {
+      margin: 0rem 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .viajeras-main .news-cards_second-row {
+    display: flex;
+    padding-top: 2rem;
+    width: 100%; }
+    .viajeras-main .news-cards_second-row .card4 {
+      width: 50%;
+      height: 22vh;
+      background-image: url("../assets/blog/workingholidays.png");
+      background-size: cover;
+      background-position: center; }
+    .viajeras-main .news-cards_second-row .card5 {
+      width: 50%;
+      height: 22vh;
+      background-image: url("../assets/blog/dinamorock.png");
+      background-size: cover;
+      background-position: center; }
+    .viajeras-main .news-cards_second-row .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: 600;
+      text-shadow: 1px 1px 1px white; }
+      @media screen and (min-width: 1000px) {
+        .viajeras-main .news-cards_second-row .card-body p {
+          font-size: 1.2rem; } }
+      @media screen and (min-width: 750px) and (max-width: 1000px) {
+        .viajeras-main .news-cards_second-row .card-body p {
+          font-size: 1.2rem; } }
+      @media screen and (min-width: 500px) and (max-width: 750px) {
+        .viajeras-main .news-cards_second-row .card-body p {
+          font-size: 1.1rem; } }
+      .viajeras-main .news-cards_second-row .card-body :hover {
+        color: black; }
+    .viajeras-main .news-cards_second-row_cards {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .viajeras-main .blog_barLine1 {
+    padding: 2rem 0rem 1rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .viajeras-main .blog_barLine1 {
+    padding: 1rem 0rem 0.7rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeras-main .blog_barLine1 {
+    padding: 1rem 0rem 0.7rem 0rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .viajeras-main .blog_barLine2 {
+    margin: 2rem 0rem 0rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .viajeras-main .blog_barLine2 {
+    margin: 1rem 0rem -1rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeras-main .blog_barLine2 {
+    margin: 1rem 0rem -1rem 0rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .viajeras-main .blog_barLine3 {
+    margin: 2.5rem 0rem -2rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .viajeras-main .blog_barLine3 {
+    margin: 1rem 0rem -3rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeras-main .blog_barLine3 {
+    margin: 1rem 0rem -1rem 0rem; } }
 
 * {
   scroll-behavior: smooth;
