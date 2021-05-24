@@ -70,5 +70,3 @@ $('#submitButton').on("click", async () => {
     }
     // Consultar opcion para enviar mail
 })
-
-//https://mandrillapp.com/api/1.0/ 
