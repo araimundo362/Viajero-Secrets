@@ -268,7 +268,7 @@
           width: 2.5rem; } }
       @media screen and (max-width: 500px) {
         .customFooter__secondRow__iconsContainer a :first-child {
-          width: 2rem; } }
+          width: 1.5rem; } }
   @media screen and (min-width: 1000px) and (max-width: 1800px) {
     .customFooter__email {
       font-size: 1.5rem; } }
@@ -1808,13 +1808,15 @@
         height: 22vh;
         background-image: url("../assets/blog/proximodestino.png");
         background-size: cover;
-        background-position: center; }
+        background-position: center;
+        background-repeat: no-repeat; }
       .news-main .news-cards_first-row .card3 {
         width: 33%;
         height: 22vh;
         background-image: url("../assets/blog/malaexperiencia.png");
         background-size: cover;
-        background-position: center; }
+        background-position: center;
+        background-repeat: no-repeat; }
       .news-main .news-cards_first-row .card-body {
         display: flex;
         flex-direction: column;
@@ -1822,7 +1824,8 @@
         align-items: center;
         text-align: center;
         font-weight: 600;
-        text-shadow: 1px 1px 1px white; }
+        text-shadow: 1px 1px 1px white;
+        padding: 0rem !important; }
         .news-main .news-cards_first-row .card-body :hover {
           color: black; }
         @media screen and (min-width: 1000px) {
@@ -1833,7 +1836,7 @@
             font-size: 1.2rem; } }
         @media screen and (min-width: 500px) and (max-width: 750px) {
           .news-main .news-cards_first-row .card-body p {
-            font-size: 1.1rem; } }
+            font-size: 1rem; } }
         @media screen and (max-width: 500px) {
           .news-main .news-cards_first-row .card-body p {
             font-size: 0.8rem; } }
@@ -1996,13 +1999,15 @@
       height: 22vh;
       background-image: url("../assets/blog/proximodestino.png");
       background-size: cover;
-      background-position: center; }
+      background-position: center;
+      background-repeat: no-repeat; }
     .viajeras-main .news-cards_first-row .card3 {
       width: 33%;
       height: 22vh;
       background-image: url("../assets/blog/malaexperiencia.png");
       background-size: cover;
-      background-position: center; }
+      background-position: center;
+      background-repeat: no-repeat; }
     .viajeras-main .news-cards_first-row .card-body {
       display: flex;
       flex-direction: column;
@@ -2010,7 +2015,8 @@
       align-items: center;
       text-align: center;
       font-weight: 600;
-      text-shadow: 1px 1px 1px white; }
+      text-shadow: 1px 1px 1px white;
+      padding: 0rem !important; }
       .viajeras-main .news-cards_first-row .card-body :hover {
         color: black; }
       @media screen and (min-width: 1000px) {
@@ -2021,7 +2027,7 @@
           font-size: 1.2rem; } }
       @media screen and (min-width: 500px) and (max-width: 750px) {
         .viajeras-main .news-cards_first-row .card-body p {
-          font-size: 1.1rem; } }
+          font-size: 1rem; } }
       @media screen and (max-width: 500px) {
         .viajeras-main .news-cards_first-row .card-body p {
           font-size: 0.8rem; } }
@@ -2105,6 +2111,28 @@
 @media screen and (max-width: 500px) {
   .viajeras-main .blog_barLine3 {
     margin: 1rem 0rem -1rem 0rem; } }
+
+.proximo-destino p a {
+  color: #2e2e7c;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.proximo-destino .card2 {
+  background-image: url("../assets/blog/viajeras.png") !important; }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .proximo-destino .destino_barLine2 {
+    margin: 1rem 0rem 0.5rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .proximo-destino .destino_barLine2 {
+    margin: 1rem 0rem 0rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .proximo-destino .destino_barLine2 {
+    margin: -0.5rem 0rem -1rem 0rem; } }
 
 * {
   scroll-behavior: smooth;
