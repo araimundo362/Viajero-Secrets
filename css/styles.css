@@ -2134,6 +2134,70 @@
   .proximo-destino .destino_barLine2 {
     margin: -0.5rem 0rem -1rem 0rem; } }
 
+.mala-experiencia .news-p p > a {
+  color: #2e2e7c;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.mala-experiencia .news-p .experiencia_div-img {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) {
+    .mala-experiencia .news-p .experiencia_div-img a img {
+      height: 45vh !important;
+      padding: 1rem 0rem 2rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .mala-experiencia .news-p .experiencia_div-img a img {
+      height: 25vh;
+      padding: 0rem 0rem 1rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .mala-experiencia .news-p .experiencia_div-img a img {
+      height: 20vh;
+      padding: 0rem 0rem 1rem 0rem; } }
+
+.mala-experiencia .news-p .barLine_estilo {
+  padding: 0.5rem 0rem 1.5rem 0rem; }
+  @media screen and (max-width: 500px) {
+    .mala-experiencia .news-p .barLine_estilo {
+      margin: -1rem 0rem -1rem 0rem; } }
+  .mala-experiencia .news-p .barLine_estilo .barLine {
+    border: 2px solid #a74f26 !important;
+    background-color: #a74f26 !important; }
+
+.mala-experiencia .news-p .experiencia_p-estilo {
+  color: #a74f26; }
+
+.mala-experiencia .news-p .experiencia_p-estilo1 {
+  color: #a74f26;
+  font-weight: 600; }
+
+.mala-experiencia .news-p .experiencia_imgs {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0rem 2rem 0rem; }
+  .mala-experiencia .news-p .experiencia_imgs img {
+    padding: 0rem 1rem; }
+    @media screen and (min-width: 1000px) {
+      .mala-experiencia .news-p .experiencia_imgs img {
+        height: 100vh !important; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .mala-experiencia .news-p .experiencia_imgs img {
+        height: 60vh; } }
+    @media screen and (max-width: 500px) {
+      .mala-experiencia .news-p .experiencia_imgs img {
+        height: 40vh; } }
+
+.mala-experiencia .card1 {
+  background-image: url("../assets/blog/news.png") !important; }
+
+.mala-experiencia .card2 {
+  background-image: url("../assets/blog/viajeras.png") !important; }
+
+.mala-experiencia .card3 {
+  background-image: url("../assets/blog/proximodestino.png") !important; }
+
 * {
   scroll-behavior: smooth;
   transition: .5s; }
