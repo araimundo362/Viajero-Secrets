@@ -18,7 +18,7 @@ const setModalCountry = (pais) => {
     switch (pais) {
         case 'Argentina':
             for(let i=0; i < paisesArgentina.length; i++) {
-                botonera += `<button type="button" class="btn btn-secondary modalCountry__button">${paisesArgentina[i]}</button>`
+                botonera += `<button type="button" class="btn btn-secondary modalCountry__button"><a href="https://viajerosecrets.com/${paisesArgentina[i].toLowerCase()}-para-argentina/" target="_blank">${paisesArgentina[i]}</a></button>`
             }
             modalCountries += `
             <div class="modal fade" id="modal${pais}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -41,7 +41,7 @@ const setModalCountry = (pais) => {
             break;
         case 'Chile':
             for(let i=0; i < paisesChile.length; i++) {
-                botonera += `<button type="button" class="btn btn-secondary modalCountry__button">${paisesChile[i]}</button>`
+                botonera += `<button type="button" class="btn btn-secondary modalCountry__button"><a href="https://viajerosecrets.com/${paisesChile[i].toLowerCase()}-para-chile/" target="_blank">${paisesChile[i]}</a></button>`
             }
             modalCountries += `
             <div class="modal fade" id="modal${pais}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -64,7 +64,7 @@ const setModalCountry = (pais) => {
             break;
         case 'Colombia':
             for(let i=0; i < paisesColombia.length; i++) {
-                botonera += `<button type="button" class="btn btn-secondary modalCountry__button">${paisesColombia[i]}</button>`
+                botonera += `<button type="button" class="btn btn-secondary modalCountry__button"><a href="https://viajerosecrets.com/${paisesColombia[i].toLowerCase()}-para-colombia/" target="_blank">${paisesColombia[i]}</a></button>`
             };
             modalCountries += `
             <div class="modal fade" id="modal${pais}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -87,7 +87,7 @@ const setModalCountry = (pais) => {
             break;
         case 'Ecuador':
             for(let i=0; i < paisesEcuador.length; i++) {
-                botonera += `<button type="button" class="btn btn-secondary modalCountry__button"> ${paisesEcuador[i]}</button>`
+                botonera += `<button type="button" class="btn btn-secondary modalCountry__button"><a href="https://viajerosecrets.com/${paisesEcuador[i].toLowerCase()}-para-ecuador/" target="_blank"> ${paisesEcuador[i]}</a></button>`
             };
             modalCountries += `
             <div class="modal fade" id="modal${pais}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -110,7 +110,7 @@ const setModalCountry = (pais) => {
             break;
         case 'España':
             for(let i=0; i < paisesEspana.length; i++) {
-                botonera += `<button type="button" class="btn btn-secondary modalCountry__button">${paisesEspana[i]}</button>`
+                botonera += `<button type="button" class="btn btn-secondary modalCountry__button"><a href="https://viajerosecrets.com/${paisesEspana[i].toLowerCase()}-para-espana/" target="_blank">${paisesEspana[i]}</a></button>`
             };
             modalCountries += `
             <div class="modal fade" id="modal${pais}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -133,7 +133,7 @@ const setModalCountry = (pais) => {
             break;
         case 'Mexico':
             for(let i=0; i < paisesMexico.length; i++) {
-                botonera += `<button type="button" class="btn btn-secondary modalCountry__button">${paisesMexico[i]}</button>`
+                botonera += `<button type="button" class="btn btn-secondary modalCountry__button"><a href="https://viajerosecrets.com/${paisesMexico[i].toLowerCase()}-para-mexico/" target="_blank">${paisesMexico[i]}</a></button>`
             };
             modalCountries += `
             <div class="modal fade" id="modal${pais}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -156,7 +156,7 @@ const setModalCountry = (pais) => {
             break;
         case 'Peru':
             for(let i=0; i < paisesPeru.length; i++) {
-                botonera += `<button type="button" class="btn btn-secondary modalCountry__button">${paisesPeru[i]}</button>`
+                botonera += `<button type="button" class="btn btn-secondary modalCountry__button"><a href="https://viajerosecrets.com/${paisesPeru[i].toLowerCase()}-para-peru/" target="_blank">${paisesPeru[i]}</a></button>`
             };
             modalCountries += `
             <div class="modal fade" id="modal${pais}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -179,7 +179,7 @@ const setModalCountry = (pais) => {
             break;
         case 'Uruguay':
             for(let i=0; i < paisesUruguay.length; i++) {
-                botonera += `<button type="button" class="btn btn-secondary modalCountry__button">${paisesUruguay[i]}</button>`
+                botonera += `<button type="button" class="btn btn-secondary modalCountry__button"><a href="https://viajerosecrets.com/${paisesUruguay[i].toLowerCase()}-para-uruguay/" target="_blank">${paisesUruguay[i]}</a></button>`
             };
             modalCountries += `
             <div class="modal fade" id="modal${pais}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -204,8 +204,6 @@ const setModalCountry = (pais) => {
             console.log('error, ver que hacer');
             break;
     }
-
-    console.log('sali del switch', modalCountries)
     $('#modalCountries').html(modalCountries);
     $(`#modal${pais}`).modal('show');
 }
