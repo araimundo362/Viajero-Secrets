@@ -257,7 +257,7 @@
     display: flex; }
     .customFooter__secondRow__iconsContainer {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
       width: 40%;
       align-items: center; }
       @media screen and (min-width: 1000px) and (max-width: 1800px) {
@@ -756,22 +756,20 @@
       height: 90px;
       margin: 0rem 0.8rem; } }
 
-.viajeros-main .viajeros-europa {
-  display: flex;
-  justify-content: center; }
-  @media screen and (min-width: 1000px) {
-    .viajeros-main .viajeros-europa {
-      padding: 2rem 0rem 0rem 0rem; } }
-  .viajeros-main .viajeros-europa .carousel {
-    overflow-x: hidden; }
-    @media screen and (max-width: 500px) {
-      .viajeros-main .viajeros-europa .carousel {
-        width: 90vw; } }
-    .viajeros-main .viajeros-europa .carousel .carousel-item {
-      display: flex;
-      flex-direction: row; }
-      .viajeros-main .viajeros-europa .carousel .carousel-item .card {
-        width: 30rem; }
+@media screen and (min-width: 1000px) {
+  .viajeros-main .viajeros-europa {
+    padding: 2rem 0rem 0rem 0rem; } }
+
+.viajeros-main .viajeros-europa .carousel {
+  overflow-x: hidden; }
+  @media screen and (max-width: 500px) {
+    .viajeros-main .viajeros-europa .carousel {
+      width: 90vw; } }
+  .viajeros-main .viajeros-europa .carousel .carousel-item {
+    display: flex;
+    flex-direction: row; }
+    .viajeros-main .viajeros-europa .carousel .carousel-item .card {
+      width: 30rem; }
 
 .logo-seccion_viajeros {
   display: flex;
@@ -787,6 +785,166 @@
     .logo-seccion_viajeros {
       margin-top: -0.7rem;
       height: 25vh; } }
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-left: 105px !important; }
+  .cardsContainer__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray; }
+    .cardsContainer__cards a {
+      text-align: center;
+      font-weight: 700;
+      text-decoration: none;
+      color: black;
+      text-shadow: 2px 1px 2px #c5c4c4; }
+      @media screen and (min-width: 1000px) {
+        .cardsContainer__cards a {
+          font-size: 1.6rem; } }
+      @media screen and (max-width: 500px) {
+        .cardsContainer__cards a {
+          font-size: 0.9rem; } }
+      .cardsContainer__cards a:hover {
+        color: #5f5fa7; }
+    .cardsContainer__cards #belgica {
+      background-image: url("../assets/Viajeros En/belgica.png");
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .cardsContainer__cards #espana {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/Viajeros En/espana.png"); }
+    .cardsContainer__cards #escocia {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/Viajeros En/escocia.png"); }
+    .cardsContainer__cards #francia {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/Viajeros En/francia.png"); }
+    .cardsContainer__cards #grecia {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/Viajeros En/grecia.png"); }
+    .cardsContainer__cards #suiza {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/Viajeros En/suiza.png"); }
+    .cardsContainer__cards #irlanda {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/Viajeros En/irlanda.png"); }
+    .cardsContainer__cards #italia {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/Viajeros En/italia.png"); }
+    .cardsContainer__cards #inglaterra {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/Viajeros En/inglaterra.png"); }
+    .cardsContainer__cards #holanda {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/Viajeros En/paisesbajos.png"); }
+    .cardsContainer__cards #republicaCheca {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/Viajeros En/republicacheca.png"); }
+    @media screen and (min-width: 1600px) {
+      .cardsContainer__cards {
+        min-width: 350px !important;
+        width: 350px;
+        height: 310px;
+        margin-left: 50px;
+        margin-top: 15px; } }
+    @media screen and (min-width: 1400px) and (max-width: 1600px) {
+      .cardsContainer__cards {
+        width: 350px;
+        min-width: 350px !important;
+        height: 310px;
+        margin-left: 50px;
+        margin-top: 15px; } }
+    @media screen and (min-width: 1200px) and (max-width: 1400px) {
+      .cardsContainer__cards {
+        min-width: 315px !important;
+        width: 315px;
+        height: 300px;
+        margin-left: 50px;
+        margin-top: 15px; } }
+    @media screen and (min-width: 1000px) and (max-width: 1200px) {
+      .cardsContainer__cards {
+        width: 255px;
+        min-width: 255px !important;
+        height: 290px;
+        margin-left: 50px;
+        margin-top: 15px; } }
+    @media screen and (min-width: 770px) and (max-width: 1000px) {
+      .cardsContainer__cards {
+        width: 10rem;
+        min-width: 10rem !important;
+        height: 10rem;
+        margin-left: 20px;
+        margin-top: 15px; } }
+    @media screen and (min-width: 500px) and (max-width: 770px) {
+      .cardsContainer__cards {
+        width: 9.5rem;
+        min-width: 9.5rem !important;
+        height: 10rem;
+        margin-left: 20px; } }
+    @media screen and (max-width: 500px) {
+      .cardsContainer__cards {
+        width: 75px;
+        min-width: 75px !important;
+        height: 90px;
+        margin: 0rem 0.8rem; } }
 
 .quienes-somos_main .quienes-somos_section .quienes-somos_subtitulo {
   text-align: center; }
