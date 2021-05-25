@@ -2356,6 +2356,61 @@
 .mala-experiencia .card3 {
   background-image: url("../assets/blog/proximodestino.png") !important; }
 
+.wh-blog h3 {
+  text-align: center;
+  color: #2f2f8d;
+  padding-bottom: 0.5rem; }
+
+.wh-blog .news-p div {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) {
+    .wh-blog .news-p div {
+      padding-bottom: 2rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .wh-blog .news-p div {
+      padding-bottom: 1.5rem; } }
+  @media screen and (max-width: 500px) {
+    .wh-blog .news-p div {
+      padding-bottom: 0.5rem; } }
+  .wh-blog .news-p div img {
+    height: 7vh; }
+
+.wh-blog .news-p p a {
+  text-decoration: underline;
+  font-weight: 500; }
+
+@media screen and (min-width: 1000px) {
+  .wh-blog .news-p .wh-blog_p-align {
+    padding-top: 3rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .wh-blog .news-p .wh-blog_p-align {
+    padding-top: 2rem; } }
+
+@media screen and (max-width: 500px) {
+  .wh-blog .news-p .wh-blog_p-align {
+    padding-top: 2rem; } }
+
+.wh-blog .news-p .wh-blog_p {
+  color: #2f2f8d;
+  font-weight: 500; }
+  .wh-blog .news-p .wh-blog_p a {
+    text-decoration: underline;
+    color: #2f2f8d; }
+
+.wh-blog .card1 {
+  background-image: url("../assets/blog/news.png") !important; }
+
+.wh-blog .card2 {
+  background-image: url("../assets/blog/viajeras.png") !important; }
+
+.wh-blog .card3 {
+  background-image: url("../assets/blog/proximodestino.png") !important; }
+
+.wh-blog .card4 {
+  background-image: url("../assets/blog/malaexperiencia.png") !important; }
+
 * {
   scroll-behavior: smooth;
   transition: .5s; }
