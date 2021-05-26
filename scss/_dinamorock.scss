@@ -1,0 +1,159 @@
+.dinamorock {
+    .news-p {
+        .dinamorock-buttons {
+            display: flex;
+            justify-content: center;
+            button {
+                margin: 1rem 1rem 0rem 1rem;
+                @media screen and (min-width: 1000px) {
+                    width: 18vw;
+                    height: 7vh;
+                    font-size: 1.3rem;
+                }
+                @media screen and (min-width: 500px) and (max-width: 1000px) {
+                    width: 30vw;
+                    height: 7vh;
+                    font-size: 1rem;
+                }
+                @media screen and (max-width: 500px) {
+                    width: 42vw;
+                    height: 7vh;
+                    font-size: 1rem;
+                }
+            }
+        }
+        h3 {
+            text-align: center;
+        }
+        .dinamorock-plane {
+            display: flex;
+            justify-content: center;
+            img {
+                @media screen and (min-width: 1000px) {
+                    height: 11vh;
+                    margin: -3rem 0rem 0rem 12rem;
+                }
+                @media screen and (min-width: 500px) and (max-width: 1000px) {
+                    height: 10vh;
+                    margin: -2rem 0rem 0rem 10rem;
+                }
+                @media screen and (max-width: 500px) {
+                    height: 8vh;
+                    margin: -2.5rem 0rem 0rem 8rem;
+                }
+            }
+        }
+        .dinamorock-escocia {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding-top: 1rem;
+            .img1 {
+                width: 46.7%;
+                height: 100%;
+                padding: 0rem 0.2rem;
+            }
+            .img2 {
+                width: 26.55%;
+                height: 100%;
+                padding: 0rem 0.2rem;
+            }
+            .img3 {
+                width: 26.55%;
+                height: 100%;
+                padding: 0rem 0.2rem;
+            }
+        }
+        .dinamorock-liverpool {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding-top: 1rem;
+            .img1 {
+                width: 33.25%;
+                height: 100%;
+            }
+            .img2 {
+                width: 33.25%;
+                height: 100%;
+            }
+            .img3 {
+                width: 33.25%;
+                height: 100%;
+            }
+        }
+        .dinamorock-londres {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding-top: 1rem;
+            .img1 {
+                width: 30%;
+                height: 100%;
+            }
+            .img2 {
+                width: 17.15%;
+                height: 100%;
+            }
+            .img3 {
+                width: 17.15%;
+                height: 100%;
+            }
+            .dinamorock-londres1 {
+                display: flex;
+                justify-content: center;
+                .img1 {
+                    width: 33.25%;
+                    height: 100%;
+                    padding: 0rem 0.2rem;
+                }
+                .img2 {
+                    width: 33.25%;
+                    height: 100%;
+                    padding: 0rem 0.2rem;
+                }
+                .img3 {
+                    width: 33.25%;
+                    height: 100%;
+                    padding: 0rem 0.2rem;
+                }
+            }
+            .dinamorock-londres2 {
+                display: flex;
+                justify-content: center;
+                padding-top: 0.3rem;
+                .img4 {
+                    width: 42.9%;
+                    height: 100%;
+                    padding: 0rem 0.2rem;
+                }
+                .img5 {
+                    width: 57%;
+                    height: 100%;
+                    padding: 0rem 0.2rem;
+                
+                }
+            }
+        }
+    }
+    .barLine3 {
+        @media screen and (max-width: 1000px) {
+            margin: 0rem 0rem -1.5rem 0rem;
+        }
+    }
+    .card1 {
+        background-image: url("../assets/blog/news.png") !important;
+    }
+    .card2 {
+        background-image: url("../assets/blog/viajeras.png") !important;
+    }
+    .card3 {
+        background-image: url("../assets/blog/proximodestino.png") !important;
+    }
+    .card4 {
+        background-image: url("../assets/blog/malaexperiencia.png") !important;
+    }
+    .card5 {
+        background-image: url("../assets/blog/workingholidays.png") !important;
+    }
+}

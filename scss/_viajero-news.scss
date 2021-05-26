@@ -1,0 +1,197 @@
+.news-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+        text-align: center;
+        padding-bottom: 0.5rem;
+        color: rgb(46, 46, 124);
+        font-weight: 600;
+        @media screen and (min-width: 1000px) {
+            font-size: 2rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            font-size: 1.5rem;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 1.2rem;
+        }
+    }
+    .news-p {
+        p {
+            @media screen and (min-width: 1000px) {
+                font-size: 1.3rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                font-size: 1.2rem;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 1.1rem;
+            }
+        }
+        img {
+            @media screen and (min-width: 1000px) {
+                height: 5vh;
+                padding-right: 0.5rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                height: 4vh;
+                padding-right: 0.5rem;
+            }
+            @media screen and (max-width: 500px) {
+                height: 4vh;
+            }
+        }
+    }
+    .news-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        img {
+            @media screen and (min-width: 1000px) {
+                height: 3vh;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                height: 2vh;
+            }
+            @media screen and (max-width: 500px) {
+                height: 2vh;
+            }
+        }
+        &_first-row {
+            display: flex;
+            width: 100%;
+            .card1 {
+                width: 33%;
+                height: 22vh;
+                background-image: url("../assets/blog/viajeras.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .card2 {
+                width: 33%;
+                height: 22vh;
+                background-image: url("../assets/blog/proximodestino.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .card3 {
+                width: 33%;
+                height: 22vh;
+                background-image: url("../assets/blog/malaexperiencia.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-weight: 600;
+                text-shadow: 1px 1px 1px rgb(255, 255, 255);
+                padding: 0rem !important;
+                :hover {
+                    color: black;
+                }
+                p {
+                    @media screen and (min-width: 1000px) {
+                        font-size: 1.1rem;
+                    }
+                    @media screen and (min-width: 750px) and (max-width: 1000px) {
+                        font-size: 1.2rem;
+                    }
+                    @media screen and (min-width: 500px) and (max-width: 750px) {
+                        font-size: 1rem;
+                    }
+                    @media screen and (max-width: 500px) {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+            &_cards{
+                margin: 0rem 0.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        &_second-row {
+            display: flex;
+            padding-top: 2rem;
+            width: 100%;
+            .card4 {
+                width: 50%;
+                height: 22vh;
+                background-image: url("../assets/blog/workingholidays.png");
+                background-size: cover;
+                background-position: center;
+            }
+            .card5 {
+                width: 50%;
+                height: 22vh;
+                background-image: url("../assets/blog/dinamorock.png");
+                background-size: cover;
+                background-position: center;
+            }
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-weight: 600;
+                text-shadow: 1px 1px 1px rgb(255, 255, 255);
+                p {
+                    @media screen and (min-width: 1000px) {
+                        font-size: 1.2rem;
+                    }
+                    @media screen and (min-width: 750px) and (max-width: 1000px) {
+                        font-size: 1.2rem;
+                    }
+                    @media screen and (min-width: 500px) and (max-width: 750px) {
+                        font-size: 1.1rem;
+                    }
+                    @media screen and (max-width: 500px) {
+                        
+                    }
+                }
+                :hover {
+                    color: black;
+                }
+            }
+            &_cards{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .blog_barLine1 {
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            padding: 2rem 0rem 1rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            padding: 1rem 0rem 0.7rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            padding: 1rem 0rem 0.7rem 0rem;
+        }
+    }
+    .blog_barLine2 {
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            margin: 2rem 0rem -2rem 0rem;
+        }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+            margin: 1rem 0rem -3rem 0rem;
+        }
+        @media screen and (max-width: 500px) {
+            margin: 1rem 0rem -1rem 0rem;
+        }
+    }
+}

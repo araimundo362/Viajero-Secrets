@@ -1,0 +1,74 @@
+.mala-experiencia {
+    .news-p {
+        p>a {
+            color: rgb(46, 46, 124);
+            font-weight: 600;
+            font-style: italic;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .experiencia_div-img {
+            display: flex;
+            justify-content: center;
+            a {
+                img {
+                    @media screen and (min-width: 1000px) {
+                        height: 45vh !important;
+                        padding: 1rem 0rem 2rem 0rem;
+                    }
+                    @media screen and (min-width: 500px) and (max-width: 1000px) {
+                        height: 25vh;
+                        padding: 0rem 0rem 1rem 0rem;
+                    }
+                    @media screen and (max-width: 500px) {
+                        height: 20vh;
+                        padding: 0rem 0rem 1rem 0rem;
+                    }
+                }
+            }
+        }
+        .barLine_estilo {
+            padding: 0.5rem 0rem 1.5rem 0rem;
+            @media screen and (max-width: 500px) {
+                margin: -1rem 0rem -1rem 0rem;
+            }
+            .barLine {
+                border: 2px solid rgb(167, 79, 38) !important;
+                background-color: rgb(167, 79, 38) !important;
+            }
+        }
+        .experiencia_p-estilo {
+            color:rgb(167, 79, 38);
+        }
+        .experiencia_p-estilo1 {
+            color:rgb(167, 79, 38);
+            font-weight: 600;
+        }
+        .experiencia_imgs {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0rem 2rem 0rem;
+            img {
+                padding: 0rem 1rem;
+                @media screen and (min-width: 1000px) {
+                    height: 100vh !important;
+                }
+                @media screen and (min-width: 500px) and (max-width: 1000px) {
+                    height: 60vh;
+                }
+                @media screen and (max-width: 500px) {
+                    height: 40vh;
+                }
+            }
+        }
+    }
+    .card1 {
+        background-image: url("../assets/blog/news.png") !important;
+    }
+    .card2 {
+        background-image: url("../assets/blog/viajeras.png") !important;
+    }
+    .card3 {
+        background-image: url("../assets/blog/proximodestino.png") !important;
+    }
+}

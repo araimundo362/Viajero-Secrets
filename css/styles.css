@@ -257,7 +257,7 @@
     display: flex; }
     .customFooter__secondRow__iconsContainer {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
       width: 40%;
       align-items: center; }
       @media screen and (min-width: 1000px) and (max-width: 1800px) {
@@ -268,7 +268,7 @@
           width: 2.5rem; } }
       @media screen and (max-width: 500px) {
         .customFooter__secondRow__iconsContainer a :first-child {
-          width: 2rem; } }
+          width: 1.5rem; } }
   @media screen and (min-width: 1000px) and (max-width: 1800px) {
     .customFooter__email {
       font-size: 1.5rem; } }
@@ -1898,6 +1898,653 @@
   .beneficios-main .blog_barLine10 {
     margin: 0.5rem 0rem -1.5rem 0rem; } }
 
+.news-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .news-main h2 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: #2e2e7c;
+    font-weight: 600; }
+    @media screen and (min-width: 1000px) {
+      .news-main h2 {
+        font-size: 2rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .news-main h2 {
+        font-size: 1.5rem; } }
+    @media screen and (max-width: 500px) {
+      .news-main h2 {
+        font-size: 1.2rem; } }
+  @media screen and (min-width: 1000px) {
+    .news-main .news-p p {
+      font-size: 1.3rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .news-main .news-p p {
+      font-size: 1.2rem; } }
+  @media screen and (max-width: 500px) {
+    .news-main .news-p p {
+      font-size: 1.1rem; } }
+  @media screen and (min-width: 1000px) {
+    .news-main .news-p img {
+      height: 5vh;
+      padding-right: 0.5rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .news-main .news-p img {
+      height: 4vh;
+      padding-right: 0.5rem; } }
+  @media screen and (max-width: 500px) {
+    .news-main .news-p img {
+      height: 4vh; } }
+  .news-main .news-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem; }
+    @media screen and (min-width: 1000px) {
+      .news-main .news-cards img {
+        height: 3vh; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .news-main .news-cards img {
+        height: 2vh; } }
+    @media screen and (max-width: 500px) {
+      .news-main .news-cards img {
+        height: 2vh; } }
+    .news-main .news-cards_first-row {
+      display: flex;
+      width: 100%; }
+      .news-main .news-cards_first-row .card1 {
+        width: 33%;
+        height: 22vh;
+        background-image: url("../assets/blog/viajeras.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .news-main .news-cards_first-row .card2 {
+        width: 33%;
+        height: 22vh;
+        background-image: url("../assets/blog/proximodestino.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .news-main .news-cards_first-row .card3 {
+        width: 33%;
+        height: 22vh;
+        background-image: url("../assets/blog/malaexperiencia.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .news-main .news-cards_first-row .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px white;
+        padding: 0rem !important; }
+        .news-main .news-cards_first-row .card-body :hover {
+          color: black; }
+        @media screen and (min-width: 1000px) {
+          .news-main .news-cards_first-row .card-body p {
+            font-size: 1.1rem; } }
+        @media screen and (min-width: 750px) and (max-width: 1000px) {
+          .news-main .news-cards_first-row .card-body p {
+            font-size: 1.2rem; } }
+        @media screen and (min-width: 500px) and (max-width: 750px) {
+          .news-main .news-cards_first-row .card-body p {
+            font-size: 1rem; } }
+        @media screen and (max-width: 500px) {
+          .news-main .news-cards_first-row .card-body p {
+            font-size: 0.8rem; } }
+      .news-main .news-cards_first-row_cards {
+        margin: 0rem 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    .news-main .news-cards_second-row {
+      display: flex;
+      padding-top: 2rem;
+      width: 100%; }
+      .news-main .news-cards_second-row .card4 {
+        width: 50%;
+        height: 22vh;
+        background-image: url("../assets/blog/workingholidays.png");
+        background-size: cover;
+        background-position: center; }
+      .news-main .news-cards_second-row .card5 {
+        width: 50%;
+        height: 22vh;
+        background-image: url("../assets/blog/dinamorock.png");
+        background-size: cover;
+        background-position: center; }
+      .news-main .news-cards_second-row .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px white; }
+        @media screen and (min-width: 1000px) {
+          .news-main .news-cards_second-row .card-body p {
+            font-size: 1.2rem; } }
+        @media screen and (min-width: 750px) and (max-width: 1000px) {
+          .news-main .news-cards_second-row .card-body p {
+            font-size: 1.2rem; } }
+        @media screen and (min-width: 500px) and (max-width: 750px) {
+          .news-main .news-cards_second-row .card-body p {
+            font-size: 1.1rem; } }
+        .news-main .news-cards_second-row .card-body :hover {
+          color: black; }
+      .news-main .news-cards_second-row_cards {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .news-main .blog_barLine1 {
+      padding: 2rem 0rem 1rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .news-main .blog_barLine1 {
+      padding: 1rem 0rem 0.7rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .news-main .blog_barLine1 {
+      padding: 1rem 0rem 0.7rem 0rem; } }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .news-main .blog_barLine2 {
+      margin: 2rem 0rem -2rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .news-main .blog_barLine2 {
+      margin: 1rem 0rem -3rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .news-main .blog_barLine2 {
+      margin: 1rem 0rem -1rem 0rem; } }
+
+.viajeras-main h2 {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: #2e2e7c;
+  font-weight: 600; }
+  @media screen and (min-width: 1000px) {
+    .viajeras-main h2 {
+      font-size: 2rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeras-main h2 {
+      font-size: 1.5rem; } }
+  @media screen and (max-width: 500px) {
+    .viajeras-main h2 {
+      font-size: 1.2rem; } }
+
+.viajeras-main .viajeras-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (min-width: 1000px) {
+    .viajeras-main .viajeras-section_p {
+      font-size: 1.3rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeras-main .viajeras-section_p {
+      font-size: 1.2rem; } }
+  @media screen and (max-width: 500px) {
+    .viajeras-main .viajeras-section_p {
+      font-size: 1.1rem; } }
+  .viajeras-main .viajeras-section_pie {
+    color: #2e2e7c;
+    font-weight: 700;
+    text-align: center; }
+    @media screen and (min-width: 1000px) {
+      .viajeras-main .viajeras-section_pie {
+        padding: 1.5rem 0rem 0.5rem 0rem;
+        font-size: 1.3rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .viajeras-main .viajeras-section_pie {
+        font-size: 1.1rem;
+        padding-top: 1rem; } }
+    @media screen and (max-width: 500px) {
+      .viajeras-main .viajeras-section_pie {
+        font-size: 1rem;
+        padding-top: 1rem; } }
+  @media screen and (min-width: 1000px) {
+    .viajeras-main .viajeras-section .img1 {
+      width: 35vw; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeras-main .viajeras-section .img1 {
+      height: 60vh; } }
+  @media screen and (max-width: 500px) {
+    .viajeras-main .viajeras-section .img1 {
+      height: 45vh; } }
+  @media screen and (min-width: 1000px) {
+    .viajeras-main .viajeras-section .img2 {
+      width: 40vw;
+      padding-top: 1.5rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeras-main .viajeras-section .img2 {
+      height: 35vh;
+      padding-top: 1rem; } }
+  @media screen and (max-width: 500px) {
+    .viajeras-main .viajeras-section .img2 {
+      height: 20vh; } }
+
+.viajeras-main .news-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem; }
+  @media screen and (min-width: 1000px) {
+    .viajeras-main .news-cards img {
+      height: 3vh; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .viajeras-main .news-cards img {
+      height: 2vh; } }
+  @media screen and (max-width: 500px) {
+    .viajeras-main .news-cards img {
+      height: 2vh; } }
+  .viajeras-main .news-cards_first-row {
+    display: flex;
+    width: 100%; }
+    .viajeras-main .news-cards_first-row .card1 {
+      width: 33%;
+      height: 22vh;
+      background-image: url("../assets/blog/news.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .viajeras-main .news-cards_first-row .card2 {
+      width: 33%;
+      height: 22vh;
+      background-image: url("../assets/blog/proximodestino.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .viajeras-main .news-cards_first-row .card3 {
+      width: 33%;
+      height: 22vh;
+      background-image: url("../assets/blog/malaexperiencia.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .viajeras-main .news-cards_first-row .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: 600;
+      text-shadow: 1px 1px 1px white;
+      padding: 0rem !important; }
+      .viajeras-main .news-cards_first-row .card-body :hover {
+        color: black; }
+      @media screen and (min-width: 1000px) {
+        .viajeras-main .news-cards_first-row .card-body p {
+          font-size: 1.1rem; } }
+      @media screen and (min-width: 750px) and (max-width: 1000px) {
+        .viajeras-main .news-cards_first-row .card-body p {
+          font-size: 1.2rem; } }
+      @media screen and (min-width: 500px) and (max-width: 750px) {
+        .viajeras-main .news-cards_first-row .card-body p {
+          font-size: 1rem; } }
+      @media screen and (max-width: 500px) {
+        .viajeras-main .news-cards_first-row .card-body p {
+          font-size: 0.8rem; } }
+    .viajeras-main .news-cards_first-row_cards {
+      margin: 0rem 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .viajeras-main .news-cards_second-row {
+    display: flex;
+    padding-top: 2rem;
+    width: 100%; }
+    .viajeras-main .news-cards_second-row .card4 {
+      width: 50%;
+      height: 22vh;
+      background-image: url("../assets/blog/workingholidays.png");
+      background-size: cover;
+      background-position: center; }
+    .viajeras-main .news-cards_second-row .card5 {
+      width: 50%;
+      height: 22vh;
+      background-image: url("../assets/blog/dinamorock.png");
+      background-size: cover;
+      background-position: center; }
+    .viajeras-main .news-cards_second-row .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: 600;
+      text-shadow: 1px 1px 1px white; }
+      @media screen and (min-width: 1000px) {
+        .viajeras-main .news-cards_second-row .card-body p {
+          font-size: 1.2rem; } }
+      @media screen and (min-width: 750px) and (max-width: 1000px) {
+        .viajeras-main .news-cards_second-row .card-body p {
+          font-size: 1.2rem; } }
+      @media screen and (min-width: 500px) and (max-width: 750px) {
+        .viajeras-main .news-cards_second-row .card-body p {
+          font-size: 1.1rem; } }
+      .viajeras-main .news-cards_second-row .card-body :hover {
+        color: black; }
+    .viajeras-main .news-cards_second-row_cards {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .viajeras-main .blog_barLine1 {
+    padding: 2rem 0rem 1rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .viajeras-main .blog_barLine1 {
+    padding: 1rem 0rem 0.7rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeras-main .blog_barLine1 {
+    padding: 1rem 0rem 0.7rem 0rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .viajeras-main .blog_barLine2 {
+    margin: 2rem 0rem 0rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .viajeras-main .blog_barLine2 {
+    margin: 1rem 0rem -1rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeras-main .blog_barLine2 {
+    margin: 1rem 0rem -1rem 0rem; } }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .viajeras-main .blog_barLine3 {
+    margin: 2.5rem 0rem -2rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .viajeras-main .blog_barLine3 {
+    margin: 1rem 0rem -3rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeras-main .blog_barLine3 {
+    margin: 1rem 0rem -1rem 0rem; } }
+
+.proximo-destino p a {
+  color: #2e2e7c;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.proximo-destino .card2 {
+  background-image: url("../assets/blog/viajeras.png") !important; }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .proximo-destino .destino_barLine2 {
+    margin: 1rem 0rem 0.5rem 0rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .proximo-destino .destino_barLine2 {
+    margin: 1rem 0rem 0rem 0rem; } }
+
+@media screen and (max-width: 500px) {
+  .proximo-destino .destino_barLine2 {
+    margin: -0.5rem 0rem -1rem 0rem; } }
+
+.mala-experiencia .news-p p > a {
+  color: #2e2e7c;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.mala-experiencia .news-p .experiencia_div-img {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) {
+    .mala-experiencia .news-p .experiencia_div-img a img {
+      height: 45vh !important;
+      padding: 1rem 0rem 2rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .mala-experiencia .news-p .experiencia_div-img a img {
+      height: 25vh;
+      padding: 0rem 0rem 1rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .mala-experiencia .news-p .experiencia_div-img a img {
+      height: 20vh;
+      padding: 0rem 0rem 1rem 0rem; } }
+
+.mala-experiencia .news-p .barLine_estilo {
+  padding: 0.5rem 0rem 1.5rem 0rem; }
+  @media screen and (max-width: 500px) {
+    .mala-experiencia .news-p .barLine_estilo {
+      margin: -1rem 0rem -1rem 0rem; } }
+  .mala-experiencia .news-p .barLine_estilo .barLine {
+    border: 2px solid #a74f26 !important;
+    background-color: #a74f26 !important; }
+
+.mala-experiencia .news-p .experiencia_p-estilo {
+  color: #a74f26; }
+
+.mala-experiencia .news-p .experiencia_p-estilo1 {
+  color: #a74f26;
+  font-weight: 600; }
+
+.mala-experiencia .news-p .experiencia_imgs {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0rem 2rem 0rem; }
+  .mala-experiencia .news-p .experiencia_imgs img {
+    padding: 0rem 1rem; }
+    @media screen and (min-width: 1000px) {
+      .mala-experiencia .news-p .experiencia_imgs img {
+        height: 100vh !important; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .mala-experiencia .news-p .experiencia_imgs img {
+        height: 60vh; } }
+    @media screen and (max-width: 500px) {
+      .mala-experiencia .news-p .experiencia_imgs img {
+        height: 40vh; } }
+
+.mala-experiencia .card1 {
+  background-image: url("../assets/blog/news.png") !important; }
+
+.mala-experiencia .card2 {
+  background-image: url("../assets/blog/viajeras.png") !important; }
+
+.mala-experiencia .card3 {
+  background-image: url("../assets/blog/proximodestino.png") !important; }
+
+.wh-blog h3 {
+  text-align: center;
+  color: #2f2f8d;
+  padding-bottom: 0.5rem; }
+
+.wh-blog .news-p div {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) {
+    .wh-blog .news-p div {
+      padding-bottom: 2rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .wh-blog .news-p div {
+      padding-bottom: 1.5rem; } }
+  @media screen and (max-width: 500px) {
+    .wh-blog .news-p div {
+      padding-bottom: 0.5rem; } }
+  .wh-blog .news-p div img {
+    height: 7vh; }
+
+.wh-blog .news-p p a {
+  text-decoration: underline;
+  font-weight: 500; }
+
+@media screen and (min-width: 1000px) {
+  .wh-blog .news-p .wh-blog_p-align {
+    padding-top: 3rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .wh-blog .news-p .wh-blog_p-align {
+    padding-top: 2rem; } }
+
+@media screen and (max-width: 500px) {
+  .wh-blog .news-p .wh-blog_p-align {
+    padding-top: 2rem; } }
+
+.wh-blog .news-p .wh-blog_p {
+  color: #2f2f8d;
+  font-weight: 500; }
+  .wh-blog .news-p .wh-blog_p a {
+    text-decoration: underline;
+    color: #2f2f8d; }
+
+.wh-blog .card1 {
+  background-image: url("../assets/blog/news.png") !important; }
+
+.wh-blog .card2 {
+  background-image: url("../assets/blog/viajeras.png") !important; }
+
+.wh-blog .card3 {
+  background-image: url("../assets/blog/proximodestino.png") !important; }
+
+.wh-blog .card4 {
+  background-image: url("../assets/blog/malaexperiencia.png") !important; }
+
+.dinamorock .news-p .dinamorock-buttons {
+  display: flex;
+  justify-content: center; }
+  .dinamorock .news-p .dinamorock-buttons button {
+    margin: 1rem 1rem 0rem 1rem; }
+    @media screen and (min-width: 1000px) {
+      .dinamorock .news-p .dinamorock-buttons button {
+        width: 18vw;
+        height: 7vh;
+        font-size: 1.3rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .dinamorock .news-p .dinamorock-buttons button {
+        width: 30vw;
+        height: 7vh;
+        font-size: 1rem; } }
+    @media screen and (max-width: 500px) {
+      .dinamorock .news-p .dinamorock-buttons button {
+        width: 42vw;
+        height: 7vh;
+        font-size: 1rem; } }
+
+.dinamorock .news-p h3 {
+  text-align: center; }
+
+.dinamorock .news-p .dinamorock-plane {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) {
+    .dinamorock .news-p .dinamorock-plane img {
+      height: 11vh;
+      margin: -3rem 0rem 0rem 12rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .dinamorock .news-p .dinamorock-plane img {
+      height: 10vh;
+      margin: -2rem 0rem 0rem 10rem; } }
+  @media screen and (max-width: 500px) {
+    .dinamorock .news-p .dinamorock-plane img {
+      height: 8vh;
+      margin: -2.5rem 0rem 0rem 8rem; } }
+
+.dinamorock .news-p .dinamorock-escocia {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1rem; }
+  .dinamorock .news-p .dinamorock-escocia .img1 {
+    width: 46.7%;
+    height: 100%;
+    padding: 0rem 0.2rem; }
+  .dinamorock .news-p .dinamorock-escocia .img2 {
+    width: 26.55%;
+    height: 100%;
+    padding: 0rem 0.2rem; }
+  .dinamorock .news-p .dinamorock-escocia .img3 {
+    width: 26.55%;
+    height: 100%;
+    padding: 0rem 0.2rem; }
+
+.dinamorock .news-p .dinamorock-liverpool {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1rem; }
+  .dinamorock .news-p .dinamorock-liverpool .img1 {
+    width: 33.25%;
+    height: 100%; }
+  .dinamorock .news-p .dinamorock-liverpool .img2 {
+    width: 33.25%;
+    height: 100%; }
+  .dinamorock .news-p .dinamorock-liverpool .img3 {
+    width: 33.25%;
+    height: 100%; }
+
+.dinamorock .news-p .dinamorock-londres {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 1rem; }
+  .dinamorock .news-p .dinamorock-londres .img1 {
+    width: 30%;
+    height: 100%; }
+  .dinamorock .news-p .dinamorock-londres .img2 {
+    width: 17.15%;
+    height: 100%; }
+  .dinamorock .news-p .dinamorock-londres .img3 {
+    width: 17.15%;
+    height: 100%; }
+  .dinamorock .news-p .dinamorock-londres .dinamorock-londres1 {
+    display: flex;
+    justify-content: center; }
+    .dinamorock .news-p .dinamorock-londres .dinamorock-londres1 .img1 {
+      width: 33.25%;
+      height: 100%;
+      padding: 0rem 0.2rem; }
+    .dinamorock .news-p .dinamorock-londres .dinamorock-londres1 .img2 {
+      width: 33.25%;
+      height: 100%;
+      padding: 0rem 0.2rem; }
+    .dinamorock .news-p .dinamorock-londres .dinamorock-londres1 .img3 {
+      width: 33.25%;
+      height: 100%;
+      padding: 0rem 0.2rem; }
+  .dinamorock .news-p .dinamorock-londres .dinamorock-londres2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.3rem; }
+    .dinamorock .news-p .dinamorock-londres .dinamorock-londres2 .img4 {
+      width: 42.9%;
+      height: 100%;
+      padding: 0rem 0.2rem; }
+    .dinamorock .news-p .dinamorock-londres .dinamorock-londres2 .img5 {
+      width: 57%;
+      height: 100%;
+      padding: 0rem 0.2rem; }
+
+@media screen and (max-width: 1000px) {
+  .dinamorock .barLine3 {
+    margin: 0rem 0rem -1.5rem 0rem; } }
+
+.dinamorock .card1 {
+  background-image: url("../assets/blog/news.png") !important; }
+
+.dinamorock .card2 {
+  background-image: url("../assets/blog/viajeras.png") !important; }
+
+.dinamorock .card3 {
+  background-image: url("../assets/blog/proximodestino.png") !important; }
+
+.dinamorock .card4 {
+  background-image: url("../assets/blog/malaexperiencia.png") !important; }
+
+.dinamorock .card5 {
+  background-image: url("../assets/blog/workingholidays.png") !important; }
+
 * {
   scroll-behavior: smooth;
   transition: .5s; }
@@ -1931,24 +2578,39 @@
     .header__viajerosLink:hover {
       color: black; }
   .header__title {
-    align-self: center; }
+    align-self: center;
+    padding-top: 1.5rem; }
     .header__title h1 {
       margin: 0 !important;
       font-size: 45px;
       text-align: center;
       text-shadow: 1px 1px 1px #a09e9e; }
+      @media screen and (max-width: 1000px) {
+        .header__title h1 {
+          font-size: 35px; } }
+      @media screen and (max-width: 500px) {
+        .header__title h1 {
+          font-size: 25px; } }
     .header__title h2 {
       margin: 0 !important;
       font-size: 21px;
       text-align: center;
       text-shadow: 1px 1px 1px #a09e9e; }
+      @media screen and (max-width: 1000px) {
+        .header__title h2 {
+          font-size: 20px; } }
+      @media screen and (max-width: 500px) {
+        .header__title h2 {
+          font-size: 15px; } }
   .header__containerMenu {
     display: flex;
     justify-content: space-between;
+    padding: 0.5rem 0rem 0rem 0.5rem;
     width: 100%; }
   .header__nav {
     align-self: center; }
     .header__nav a {
+      font-size: 1.2rem;
       text-decoration: none;
       font-family: "Roboto", sans-serif !important;
       color: black;

@@ -1,0 +1,62 @@
+.wh-blog {
+    h3 {
+        text-align: center;
+        color: rgb(47, 47, 141);
+        padding-bottom: 0.5rem;
+    }
+    .news-p {
+        div {
+            display: flex;
+            justify-content: center;
+            @media screen and (min-width: 1000px) {
+                padding-bottom: 2rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                padding-bottom: 1.5rem;
+            }
+            @media screen and (max-width: 500px) {
+                padding-bottom: 0.5rem;
+            }
+            img {
+                height: 7vh;
+            }
+        }
+        p {
+            a {
+                text-decoration: underline;
+                font-weight: 500;
+            }
+        }
+        .wh-blog_p-align {
+            @media screen and (min-width: 1000px) {
+                padding-top: 3rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                padding-top: 2rem;
+            }
+            @media screen and (max-width: 500px) {
+                padding-top: 2rem;
+            }
+        }
+        .wh-blog_p {
+            color: rgb(47, 47, 141);
+            font-weight: 500;
+            a {
+                text-decoration: underline;
+                color: rgb(47, 47, 141);
+            }
+        }
+    }
+    .card1 {
+        background-image: url("../assets/blog/news.png") !important;
+    }
+    .card2 {
+        background-image: url("../assets/blog/viajeras.png") !important;
+    }
+    .card3 {
+        background-image: url("../assets/blog/proximodestino.png") !important;
+    }
+    .card4 {
+        background-image: url("../assets/blog/malaexperiencia.png") !important;
+    }
+}
