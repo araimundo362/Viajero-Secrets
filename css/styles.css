@@ -2411,6 +2411,140 @@
 .wh-blog .card4 {
   background-image: url("../assets/blog/malaexperiencia.png") !important; }
 
+.dinamorock .news-p .dinamorock-buttons {
+  display: flex;
+  justify-content: center; }
+  .dinamorock .news-p .dinamorock-buttons button {
+    margin: 1rem 1rem 0rem 1rem; }
+    @media screen and (min-width: 1000px) {
+      .dinamorock .news-p .dinamorock-buttons button {
+        width: 18vw;
+        height: 7vh;
+        font-size: 1.3rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .dinamorock .news-p .dinamorock-buttons button {
+        width: 30vw;
+        height: 7vh;
+        font-size: 1rem; } }
+    @media screen and (max-width: 500px) {
+      .dinamorock .news-p .dinamorock-buttons button {
+        width: 42vw;
+        height: 7vh;
+        font-size: 1rem; } }
+
+.dinamorock .news-p h3 {
+  text-align: center; }
+
+.dinamorock .news-p .dinamorock-plane {
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 1000px) {
+    .dinamorock .news-p .dinamorock-plane img {
+      height: 11vh;
+      margin: -3rem 0rem 0rem 12rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .dinamorock .news-p .dinamorock-plane img {
+      height: 10vh;
+      margin: -2rem 0rem 0rem 10rem; } }
+  @media screen and (max-width: 500px) {
+    .dinamorock .news-p .dinamorock-plane img {
+      height: 8vh;
+      margin: -2.5rem 0rem 0rem 8rem; } }
+
+.dinamorock .news-p .dinamorock-escocia {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1rem; }
+  .dinamorock .news-p .dinamorock-escocia .img1 {
+    width: 46.7%;
+    height: 100%;
+    padding: 0rem 0.2rem; }
+  .dinamorock .news-p .dinamorock-escocia .img2 {
+    width: 26.55%;
+    height: 100%;
+    padding: 0rem 0.2rem; }
+  .dinamorock .news-p .dinamorock-escocia .img3 {
+    width: 26.55%;
+    height: 100%;
+    padding: 0rem 0.2rem; }
+
+.dinamorock .news-p .dinamorock-liverpool {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1rem; }
+  .dinamorock .news-p .dinamorock-liverpool .img1 {
+    width: 33.25%;
+    height: 100%; }
+  .dinamorock .news-p .dinamorock-liverpool .img2 {
+    width: 33.25%;
+    height: 100%; }
+  .dinamorock .news-p .dinamorock-liverpool .img3 {
+    width: 33.25%;
+    height: 100%; }
+
+.dinamorock .news-p .dinamorock-londres {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 1rem; }
+  .dinamorock .news-p .dinamorock-londres .img1 {
+    width: 30%;
+    height: 100%; }
+  .dinamorock .news-p .dinamorock-londres .img2 {
+    width: 17.15%;
+    height: 100%; }
+  .dinamorock .news-p .dinamorock-londres .img3 {
+    width: 17.15%;
+    height: 100%; }
+  .dinamorock .news-p .dinamorock-londres .dinamorock-londres1 {
+    display: flex;
+    justify-content: center; }
+    .dinamorock .news-p .dinamorock-londres .dinamorock-londres1 .img1 {
+      width: 33.25%;
+      height: 100%;
+      padding: 0rem 0.2rem; }
+    .dinamorock .news-p .dinamorock-londres .dinamorock-londres1 .img2 {
+      width: 33.25%;
+      height: 100%;
+      padding: 0rem 0.2rem; }
+    .dinamorock .news-p .dinamorock-londres .dinamorock-londres1 .img3 {
+      width: 33.25%;
+      height: 100%;
+      padding: 0rem 0.2rem; }
+  .dinamorock .news-p .dinamorock-londres .dinamorock-londres2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.3rem; }
+    .dinamorock .news-p .dinamorock-londres .dinamorock-londres2 .img4 {
+      width: 42.9%;
+      height: 100%;
+      padding: 0rem 0.2rem; }
+    .dinamorock .news-p .dinamorock-londres .dinamorock-londres2 .img5 {
+      width: 57%;
+      height: 100%;
+      padding: 0rem 0.2rem; }
+
+@media screen and (max-width: 1000px) {
+  .dinamorock .barLine3 {
+    margin: 0rem 0rem -1.5rem 0rem; } }
+
+.dinamorock .card1 {
+  background-image: url("../assets/blog/news.png") !important; }
+
+.dinamorock .card2 {
+  background-image: url("../assets/blog/viajeras.png") !important; }
+
+.dinamorock .card3 {
+  background-image: url("../assets/blog/proximodestino.png") !important; }
+
+.dinamorock .card4 {
+  background-image: url("../assets/blog/malaexperiencia.png") !important; }
+
+.dinamorock .card5 {
+  background-image: url("../assets/blog/workingholidays.png") !important; }
+
 * {
   scroll-behavior: smooth;
   transition: .5s; }
@@ -2471,10 +2605,12 @@
   .header__containerMenu {
     display: flex;
     justify-content: space-between;
+    padding: 0.5rem 0rem 0rem 0.5rem;
     width: 100%; }
   .header__nav {
     align-self: center; }
     .header__nav a {
+      font-size: 1.2rem;
       text-decoration: none;
       font-family: "Roboto", sans-serif !important;
       color: black;

@@ -72,7 +72,7 @@
     &__containerMenu {
         display: flex;
         justify-content: space-between;
-
+        padding: 0.5rem 0rem 0rem 0.5rem;
         width: 100%;
     }
 
@@ -80,6 +80,7 @@
         align-self: center;
 
         a {
+            font-size: 1.2rem;
             text-decoration: none;
             font-family: $font2 !important;
             color: black;
