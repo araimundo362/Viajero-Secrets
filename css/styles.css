@@ -720,12 +720,7 @@
 
 .viajeros-main .viajeros-asia .viajeros-card {
   box-shadow: 2px 2px 2px gray; }
-  @media screen and (min-width: 1600px) {
-    .viajeros-main .viajeros-asia .viajeros-card {
-      width: 350px;
-      height: 310px;
-      margin-left: 50px; } }
-  @media screen and (min-width: 1400px) and (max-width: 1600px) {
+  @media screen and (min-width: 1400px) {
     .viajeros-main .viajeros-asia .viajeros-card {
       width: 350px;
       height: 310px;
@@ -759,17 +754,6 @@
 @media screen and (min-width: 1000px) {
   .viajeros-main .viajeros-europa {
     padding: 2rem 0rem 0rem 0rem; } }
-
-.viajeros-main .viajeros-europa .carousel {
-  overflow-x: hidden; }
-  @media screen and (max-width: 500px) {
-    .viajeros-main .viajeros-europa .carousel {
-      width: 90vw; } }
-  .viajeros-main .viajeros-europa .carousel .carousel-item {
-    display: flex;
-    flex-direction: row; }
-    .viajeros-main .viajeros-europa .carousel .carousel-item .card {
-      width: 30rem; }
 
 .logo-seccion_viajeros {
   display: flex;
@@ -898,14 +882,7 @@
       background-size: cover;
       background-position: center;
       background-image: url("../assets/Viajeros En/republicacheca.png"); }
-    @media screen and (min-width: 1600px) {
-      .cardsContainer__cards {
-        min-width: 350px !important;
-        width: 350px;
-        height: 310px;
-        margin-left: 50px;
-        margin-top: 15px; } }
-    @media screen and (min-width: 1400px) and (max-width: 1600px) {
+    @media screen and (min-width: 1400px) {
       .cardsContainer__cards {
         width: 350px;
         min-width: 350px !important;

@@ -42,9 +42,6 @@
         @media screen and (min-width: 1000px) {
             padding-left: 2rem;
         }
-        @media screen and (min-width: 500px) and (max-width: 1000px) {
-            
-        }
         @media screen and (max-width: 500px) {
             padding: 1rem 1rem;
         }
@@ -79,9 +76,6 @@
                 @media screen and (min-width: 1000px) {
                     font-size: 1.6rem;
                 }
-                @media screen and (min-width: 500px) and (max-width: 1000px) {
-                    
-                }
                 @media screen and (max-width: 500px) {
                     font-size: 0.9rem;
                 }
@@ -94,9 +88,6 @@
     .viajeros-america {
         @media screen and (min-width: 1000px) {
             padding: 2rem 0rem 0rem 0rem;
-        }
-        @media screen and (min-width: 500px) and (max-width: 1000px) {
-            
         }
         @media screen and (max-width: 500px) {
             padding-bottom: 1rem;
@@ -151,13 +142,8 @@
             @include viajeros-img;
         }
         .viajeros-card {
-            box-shadow: $box-shadow;
-            @media screen and (min-width: 1600px) {
-                width: 350px;
-                height: 310px;
-                margin-left: 50px;
-            }
-            @media screen and (min-width: 1400px) and (max-width: 1600px) {
+            box-shadow: $box-shadow;  
+            @media screen and (min-width: 1400px) {
                 width: 350px;
                 height: 310px;
                 margin-left: 50px;
@@ -192,31 +178,6 @@
     .viajeros-europa {
         @media screen and (min-width: 1000px) {
             padding: 2rem 0rem 0rem 0rem;
-        }
-        @media screen and (min-width: 500px) and (max-width: 1000px) {
-            
-        }
-        @media screen and (max-width: 500px) {
-            
-        }
-        .carousel {
-            overflow-x: hidden;
-            @media screen and (min-width: 1000px) {
-            
-            }
-            @media screen and (min-width: 500px) and (max-width: 1000px) {
-                
-            }
-            @media screen and (max-width: 500px) {
-                width: 90vw;
-            }
-            .carousel-item {
-                display: flex;
-                flex-direction: row;
-                .card {
-                    width: 30rem;
-                }
-            }
         }
     }
 }
@@ -259,9 +220,6 @@
             text-shadow: $text-shadow;
             @media screen and (min-width: 1000px) {
                 font-size: 1.6rem;
-            }
-            @media screen and (min-width: 500px) and (max-width: 1000px) {
-                
             }
             @media screen and (max-width: 500px) {
                 font-size: 0.9rem;
@@ -381,14 +339,7 @@
             background-image: url('../assets/Viajeros\ En/republicacheca.png');
         }
 
-        @media screen and (min-width: 1600px) {
-            min-width: 350px !important;    
-            width: 350px;
-            height: 310px;
-            margin-left: 50px;
-            margin-top: 15px;
-        }
-        @media screen and (min-width: 1400px) and (max-width: 1600px) {
+        @media screen and (min-width: 1400px) {
             width: 350px;
             min-width: 350px !important;
             height: 310px;
