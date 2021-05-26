@@ -166,11 +166,11 @@
             width: 40%;
             margin-top: -15px; } }
         .mainHome__cardsContainer__row__firstRowCards:first-child .card-body {
-          background-image: url("/assets/workingholiday.jpg");
+          background-image: url("../assets/workingholiday.jpg");
           background-size: cover;
           background-position: center; }
         .mainHome__cardsContainer__row__firstRowCards:nth-child(2) .card-body {
-          background-image: url("/assets/worktravel.jpg");
+          background-image: url("../assets/worktravel.jpg");
           background-size: cover;
           background-position: center; }
         .mainHome__cardsContainer__row__firstRowCards__content {
@@ -206,15 +206,15 @@
             width: 29%;
             height: 110px; } }
         .mainHome__cardsContainer__row__secondRowCards:first-child .card-body {
-          background-image: url("/assets/plataformas.jpg");
+          background-image: url("../assets/plataformas.jpg");
           background-size: cover;
           background-position: center; }
         .mainHome__cardsContainer__row__secondRowCards:nth-child(2) .card-body {
-          background-image: url("/assets/seguros.jpg");
+          background-image: url("../assets/seguros.jpg");
           background-size: cover;
           background-position: center; }
         .mainHome__cardsContainer__row__secondRowCards:nth-child(3) .card-body {
-          background-image: url("/assets/voluntariados.jpg");
+          background-image: url("../assets/voluntariados.jpg");
           background-size: cover;
           background-position: center; }
         .mainHome__cardsContainer__row__secondRowCards__content {
