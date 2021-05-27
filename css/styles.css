@@ -258,27 +258,41 @@
     .customFooter__secondRow__iconsContainer {
       display: flex;
       justify-content: space-evenly;
-      width: 40%;
       align-items: center; }
       @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        .customFooter__secondRow__iconsContainer {
+          width: 20%; } }
+      @media screen and (min-width: 500px) and (max-width: 1000px) {
+        .customFooter__secondRow__iconsContainer {
+          width: 30%; } }
+      @media screen and (max-width: 500px) {
+        .customFooter__secondRow__iconsContainer {
+          width: 30%; } }
+      @media screen and (min-width: 1000px) and (max-width: 1800px) {
         .customFooter__secondRow__iconsContainer a :first-child {
-          width: 2.2rem; } }
+          width: 2rem; } }
       @media screen and (min-width: 500px) and (max-width: 1000px) {
         .customFooter__secondRow__iconsContainer a :first-child {
-          width: 2.5rem; } }
+          width: 2rem; } }
       @media screen and (max-width: 500px) {
         .customFooter__secondRow__iconsContainer a :first-child {
           width: 1.5rem; } }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
-    .customFooter__email {
-      font-size: 1.5rem; } }
-  @media screen and (min-width: 500px) and (max-width: 1000px) {
-    .customFooter__email {
-      font-size: 1.5rem; } }
-  @media screen and (max-width: 500px) {
-    .customFooter__email {
-      font-size: 1.2rem;
-      margin: 0; } }
+  .customFooter__email {
+    text-decoration: underline; }
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      .customFooter__email {
+        font-size: 1.4rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .customFooter__email {
+        font-size: 1.3rem; } }
+    @media screen and (max-width: 500px) {
+      .customFooter__email {
+        font-size: 1.1rem;
+        margin: 0; } }
+
+.header-voluntariados {
+  background-image: url("../assets/headervoluntariados.png") !important;
+  background-position: center 55% !important; }
 
 .voluntariados__mainContainer {
   margin-top: 55px;
@@ -332,10 +346,12 @@
         border-radius: 7px !important;
         width: 0;
         height: 65px; }
-        @media screen and (max-width: 500px) {
-          .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms__button {
-            height: 60px; }
+        .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms__button a {
+          color: white;
+          font-weight: 500; }
+          @media screen and (max-width: 500px) {
             .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms__button a {
+              height: 60px;
               font-size: 13px; } }
     .voluntariados__mainContainer__otherPlatformsContainer p {
       text-align: center;
@@ -391,17 +407,27 @@
     margin: 10px;
     box-shadow: 0px 2px 4px 0px gray; }
 
+.header-asesorias {
+  background-image: url("../assets/headerasesorias.png") !important;
+  background-position: center 40% !important; }
+
 .asesoriasMain {
   display: flex;
   flex-direction: column;
   align-items: center; }
   .asesoriasMain__introductionText {
-    text-align: center;
-    font-size: 13px;
     padding: 10px; }
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      .asesoriasMain__introductionText {
+        font-size: 1.4rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
       .asesoriasMain__introductionText {
         font-size: 1.2rem; } }
+
+@media screen and (max-width: 500px) and (max-width: 500px) {
+  .asesoriasMain__introductionText {
+    font-size: 1rem;
+    padding: 0rem 1.5rem; } }
   .asesoriasMain__plansContainer {
     width: 100%;
     display: inline-flex;
@@ -418,6 +444,12 @@
         .asesoriasMain__plansContainer__plan__header h6 {
           color: white;
           text-align: center; }
+          @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            .asesoriasMain__plansContainer__plan__header h6 {
+              font-size: 1.5rem; } }
+          @media screen and (min-width: 500px) and (max-width: 1000px) {
+            .asesoriasMain__plansContainer__plan__header h6 {
+              font-size: 1rem; } }
         @media screen and (max-width: 500px) {
           .asesoriasMain__plansContainer__plan__header {
             height: 65px; }
@@ -427,21 +459,47 @@
         display: flex;
         flex-direction: column;
         align-items: center; }
-        .asesoriasMain__plansContainer__plan__body h5 {
-          font-size: 30px; }
+        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+          .asesoriasMain__plansContainer__plan__body h5 {
+            font-size: 1.8rem; } }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+          .asesoriasMain__plansContainer__plan__body h5 {
+            font-size: 1.5rem; } }
         .asesoriasMain__plansContainer__plan__body p {
-          text-align: center;
-          font-size: 12px; }
+          text-align: center; }
+          @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            .asesoriasMain__plansContainer__plan__body p {
+              font-size: 1.4rem; } }
+          @media screen and (min-width: 500px) and (max-width: 1000px) {
+            .asesoriasMain__plansContainer__plan__body p {
+              font-size: 1.1rem; } }
         .asesoriasMain__plansContainer__plan__body a {
+          color: #5f5fa7 !important;
           font-style: italic; }
-  @media screen and (max-width: 500px) {
-    .asesoriasMain__customP {
-      font-size: 13px;
-      text-align: center; } }
-  .asesoriasMain__customP a {
-    color: #5f5fa7; }
-    .asesoriasMain__customP a:hover {
-      color: #073bcc; }
+          @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            .asesoriasMain__plansContainer__plan__body a {
+              font-size: 1.2rem; } }
+          @media screen and (min-width: 500px) and (max-width: 1000px) {
+            .asesoriasMain__plansContainer__plan__body a {
+              font-size: 1rem; } }
+  .asesoriasMain__customP {
+    text-align: center; }
+    @media screen and (min-width: 1000px) {
+      .asesoriasMain__customP {
+        font-size: 1.2rem;
+        margin: 0rem 0rem -1rem 0rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .asesoriasMain__customP {
+        font-size: 1rem;
+        margin: 0rem 0rem -2rem 0rem; } }
+    @media screen and (max-width: 500px) {
+      .asesoriasMain__customP {
+        font-size: 1rem;
+        margin: 0rem 0rem -1rem 0rem; } }
+    .asesoriasMain__customP a {
+      color: #5f5fa7; }
+      .asesoriasMain__customP a:hover {
+        color: #073bcc; }
   .asesoriasMain__formContainer {
     width: 100%;
     display: flex;
@@ -460,8 +518,9 @@
     .asesoriasMain__modalContent__body {
       text-align: center;
       padding: 10px; }
-      .asesoriasMain__modalContent__body p {
-        font-size: 14px; }
+      @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        .asesoriasMain__modalContent__body p {
+          font-size: 1.2rem !important; } }
       .asesoriasMain__modalContent__body a {
         margin: 0rem 1rem; }
       .asesoriasMain__modalContent__body__customCard {
@@ -474,102 +533,251 @@
           .asesoriasMain__modalContent__body__customCard__button {
             width: 130px;
             margin: 15px; } }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .asesoriasMain .barLine1 {
+      margin: 3rem 0rem 2rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .asesoriasMain .barLine1 {
+      margin: 2rem 0rem 1rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .asesoriasMain .barLine1 {
+      margin: 1.5rem 0rem 1rem 0rem; } }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .asesoriasMain .barLine2 {
+      margin: 2rem 0rem 3rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .asesoriasMain .barLine2 {
+      margin: 1rem 0rem 2.5rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .asesoriasMain .barLine2 {
+      margin: 1.5rem 0rem 1.5rem 0rem; } }
+  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    .asesoriasMain .barLine3 {
+      margin: 3.5rem 0rem 3rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .asesoriasMain .barLine3 {
+      margin: 2rem 0rem 2rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .asesoriasMain .barLine3 {
+      margin: 2rem 0rem 1.5rem 0rem; } }
+
+.header-work-travel {
+  background-image: url("../assets/worktravel.jpg") !important;
+  background-position: center 30% !important; }
 
 .workTravelMain {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media screen and (min-width: 1000px) {
+    .workTravelMain .barLine1 {
+      margin: 0.5rem 0rem 2.5rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .workTravelMain .barLine1 {
+      margin: 0.5rem 0rem 1rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .workTravelMain .barLine1 {
+      margin: 0rem 0rem 1rem 0rem; } }
+  @media screen and (min-width: 1000px) {
+    .workTravelMain .barLine2 {
+      margin: 2.5rem 0rem 2.5rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .workTravelMain .barLine2 {
+      margin: 2rem 0rem 2rem 0rem; } }
+  @media screen and (min-width: 1000px) {
+    .workTravelMain .barLine3 {
+      margin: 2rem 0rem -1rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .workTravelMain .barLine3 {
+      margin: 1rem 0rem -1rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .workTravelMain .barLine3 {
+      margin: 0rem; } }
   .workTravelMain__text {
-    text-align: center;
     padding: 15px; }
-    .workTravelMain__text p {
-      font-size: 13px; }
+    @media screen and (max-width: 500px) {
+      .workTravelMain__text {
+        width: 100vw; } }
+    @media screen and (min-width: 1000px) {
+      .workTravelMain__text p {
+        font-size: 1.4rem;
+        padding-top: 1rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .workTravelMain__text p {
+        font-size: 1.2rem;
+        padding-top: 0.5rem; } }
+    @media screen and (max-width: 500px) {
+      .workTravelMain__text p {
+        font-size: 1.1rem;
+        padding-top: 0.5rem; } }
   .workTravelMain__otherDataContainer {
-    text-align: center;
     width: 100%;
     margin-left: 10px;
     margin-right: 10px; }
+    .workTravelMain__otherDataContainer h5 {
+      text-align: center; }
+      @media screen and (min-width: 1000px) {
+        .workTravelMain__otherDataContainer h5 {
+          font-size: 1.7rem; } }
+      @media screen and (min-width: 500px) and (max-width: 1000px) {
+        .workTravelMain__otherDataContainer h5 {
+          font-size: 1.2rem; } }
     .workTravelMain__otherDataContainer p, .workTravelMain__otherDataContainer b {
       margin: 0; }
       @media screen and (max-width: 500px) {
         .workTravelMain__otherDataContainer p, .workTravelMain__otherDataContainer b {
-          font-size: 13px; } }
+          font-size: 1.1rem; } }
     .workTravelMain__otherDataContainer__firstData {
       padding: 5px; }
       @media screen and (max-width: 500px) {
+        .workTravelMain__otherDataContainer__firstData {
+          width: 95vw;
+          padding-bottom: 0.5rem; } }
+      @media screen and (min-width: 1000px) {
         .workTravelMain__otherDataContainer__firstData p {
-          font-size: 13px; } }
+          font-size: 1.4rem;
+          padding: 0.5rem 0rem; } }
+      @media screen and (min-width: 500px) and (max-width: 1000px) {
+        .workTravelMain__otherDataContainer__firstData p {
+          font-size: 1.2rem;
+          padding: 0.5rem 0rem; } }
+      @media screen and (max-width: 500px) {
+        .workTravelMain__otherDataContainer__firstData p {
+          font-size: 1.1rem;
+          padding: 0.5rem 0rem; } }
     .workTravelMain__otherDataContainer__firstRow__boxOne {
-      border: gray 2px solid;
+      border: gray 3px solid;
       border-radius: 5px;
       margin: 3px; }
+      @media screen and (min-width: 1000px) {
+        .workTravelMain__otherDataContainer__firstRow__boxOne {
+          margin: 0.5rem 0.2rem;
+          font-size: 1.3rem; } }
     .workTravelMain__otherDataContainer__secondRow {
       display: inline-flex;
       width: 100%; }
       .workTravelMain__otherDataContainer__secondRow__boxOne {
-        border: gray 2px solid;
+        border: gray 3px solid;
         border-radius: 5px;
         margin: 3px;
         padding: 5px;
         width: 65%; }
+        @media screen and (min-width: 1000px) {
+          .workTravelMain__otherDataContainer__secondRow__boxOne {
+            font-size: 1.3rem; } }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+          .workTravelMain__otherDataContainer__secondRow__boxOne {
+            font-size: 1.1rem; } }
+        @media screen and (max-width: 500px) {
+          .workTravelMain__otherDataContainer__secondRow__boxOne {
+            font-size: 1rem; } }
       .workTravelMain__otherDataContainer__secondRow__boxTwo {
-        border: gray 2px solid;
+        border: gray 3px solid;
         border-radius: 5px;
         margin: 3px;
         padding: 5px;
         width: 40%; }
+        @media screen and (min-width: 1000px) {
+          .workTravelMain__otherDataContainer__secondRow__boxTwo {
+            font-size: 1.3rem; } }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+          .workTravelMain__otherDataContainer__secondRow__boxTwo {
+            font-size: 1.1rem; } }
     .workTravelMain__otherDataContainer__thirdRow {
       padding: 4px;
-      border: gray 2px solid;
+      border: gray 3px solid;
       border-radius: 5px;
       margin: 3px; }
+      @media screen and (min-width: 1000px) {
+        .workTravelMain__otherDataContainer__thirdRow {
+          font-size: 1.3rem;
+          margin-bottom: 1rem; } }
+      @media screen and (min-width: 500px) and (max-width: 1000px) {
+        .workTravelMain__otherDataContainer__thirdRow {
+          font-size: 1.1rem; } }
   .workTravelMain__moreData {
-    text-align: center;
     padding: 5px; }
     @media screen and (max-width: 500px) {
+      .workTravelMain__moreData {
+        width: 95vw; } }
+    @media screen and (min-width: 1000px) {
       .workTravelMain__moreData p {
-        font-size: 13px; } }
+        font-size: 1.4rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .workTravelMain__moreData p {
+        font-size: 1.2rem;
+        padding: 0.5rem 0rem; } }
+    @media screen and (max-width: 500px) {
+      .workTravelMain__moreData p {
+        font-size: 1.1rem;
+        padding: 0.5rem 0rem; } }
+    .workTravelMain__moreData a {
+      cursor: pointer;
+      color: #5f5fa7; }
+    @media screen and (max-width: 500px) {
+      .workTravelMain__moreData .p_wetag {
+        font-size: 0.9rem; } }
   .workTravelMain__boxesContainer {
-    text-align: center;
     width: 100%;
     margin: 10px;
     padding-left: 5px;
     padding-right: 5px; }
     .workTravelMain__boxesContainer p, .workTravelMain__boxesContainer b {
       margin: 0; }
+      @media screen and (min-width: 1000px) {
+        .workTravelMain__boxesContainer p, .workTravelMain__boxesContainer b {
+          font-size: 1.3rem; } }
+      @media screen and (min-width: 500px) and (max-width: 1000px) {
+        .workTravelMain__boxesContainer p, .workTravelMain__boxesContainer b {
+          font-size: 1.1rem; } }
       @media screen and (max-width: 500px) {
         .workTravelMain__boxesContainer p, .workTravelMain__boxesContainer b {
-          font-size: 13px; } }
+          font-size: 1.1rem; } }
+    .workTravelMain__boxesContainer h5 {
+      text-align: center; }
+      @media screen and (min-width: 1000px) {
+        .workTravelMain__boxesContainer h5 {
+          font-size: 1.8rem;
+          margin: -1rem 0rem 1.5rem 0rem; } }
+      @media screen and (min-width: 500px) and (max-width: 1000px) {
+        .workTravelMain__boxesContainer h5 {
+          font-size: 1.2rem;
+          padding-bottom: 1rem; } }
+      @media screen and (max-width: 500px) {
+        .workTravelMain__boxesContainer h5 {
+          font-size: 1.25rem;
+          padding-bottom: 1rem; } }
     .workTravelMain__boxesContainer__firstRow {
-      display: inline-flex; }
+      display: inline-flex;
+      width: 100%; }
       .workTravelMain__boxesContainer__firstRow__boxOne {
-        border: gray 2px solid;
+        border: gray 3px solid;
         border-radius: 5px;
         margin: 3px;
         padding: 10px;
         width: 40%; }
       .workTravelMain__boxesContainer__firstRow__boxTwo {
-        border: gray 2px solid;
+        border: gray 3px solid;
         border-radius: 5px;
         margin: 3px;
         width: 60%; }
     .workTravelMain__boxesContainer__secondRow {
-      border: gray 2px solid;
+      border: gray 3px solid;
       border-radius: 5px;
       margin: 3px;
       padding: 5px; }
     .workTravelMain__boxesContainer__thirdRow {
       display: inline-flex; }
       .workTravelMain__boxesContainer__thirdRow__boxOne {
-        border: gray 2px solid;
+        border: gray 3px solid;
         border-radius: 5px;
         margin: 3px; }
       .workTravelMain__boxesContainer__thirdRow__boxTwo {
-        border: gray 2px solid;
+        border: gray 3px solid;
         border-radius: 5px;
         margin: 3px; }
     .workTravelMain__boxesContainer__fourthRow {
-      border: gray 2px solid;
+      border: gray 3px solid;
       border-radius: 5px;
       margin: 3px;
       padding: 5px; }
@@ -946,6 +1154,10 @@
         height: 90px;
         margin: 0rem 0.8rem; } }
 
+.header-quienes-somos {
+  background-image: url("../assets/headerquienes.png") !important;
+  background-position: center 80% !important; }
+
 .quienes-somos_main .quienes-somos_section .quienes-somos_subtitulo {
   text-align: center; }
   @media screen and (min-width: 1000px) and (max-width: 1800px) {
@@ -965,7 +1177,7 @@
     font-weight: 500;
     text-align: center; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .quienes-somos_main .quienes-somos_section .quienes-somos_p1 {
     font-size: 1.4rem; } }
 
@@ -1116,6 +1328,10 @@
       margin-top: -0.7rem;
       height: 25vh; } }
 
+.header-seguros {
+  background-image: url("../assets/seguros.jpeg") !important;
+  background-position: center 40% !important; }
+
 .seguros-main .seguros-main_img-assist {
   display: flex;
   justify-content: center; }
@@ -1212,7 +1428,8 @@
   text-align: center;
   display: block;
   text-decoration: none;
-  font-weight: 600; }
+  font-weight: 600;
+  color: #5f5fa7; }
   @media screen and (min-width: 1000px) and (max-width: 1800px) {
     .seguros-main .seguros-div_experiencia a {
       font-size: 1.5rem;
@@ -1286,6 +1503,10 @@
       margin-top: -0.7rem;
       height: 25vh; } }
 
+.header-working-holiday {
+  background-image: url("../assets/workingholiday.jpg") !important;
+  background-position: center 45% !important; }
+
 .workHolidayMain {
   display: flex;
   flex-direction: column;
@@ -1294,6 +1515,17 @@
     width: 100%; }
     .workHolidayMain__extraCardsContainer h3 {
       text-align: center; }
+      @media screen and (min-width: 1000px) {
+        .workHolidayMain__extraCardsContainer h3 {
+          font-size: 1.6rem;
+          padding-bottom: 1rem; } }
+      @media screen and (min-width: 500px) and (max-width: 1000px) {
+        .workHolidayMain__extraCardsContainer h3 {
+          font-size: 1.4rem;
+          padding-bottom: 1rem; } }
+      @media screen and (max-width: 500px) {
+        .workHolidayMain__extraCardsContainer h3 {
+          font-size: 1rem; } }
     .workHolidayMain__extraCardsContainer__extraCards {
       display: inline-flex;
       width: inherit; }
@@ -1327,9 +1559,13 @@
         .workHolidayMain__extraCardsContainer__extraCards__card h6 {
           text-align: center;
           font-size: 20px; }
+        @media screen and (max-width: 1000px) {
+          .workHolidayMain__extraCardsContainer__extraCards__card h6 {
+            font-size: 17px;
+            text-align: center; } }
         @media screen and (max-width: 500px) {
           .workHolidayMain__extraCardsContainer__extraCards__card h6 {
-            font-size: 13px;
+            font-size: 15px;
             text-align: center; } }
   .workHolidayMain__countryButtonsContainer {
     width: 100%;
@@ -1344,6 +1580,10 @@
         margin: 5px;
         width: 140px;
         height: 75px; }
+        @media screen and (max-width: 1000px) {
+          .workHolidayMain__countryButtonsContainer__buttons__countryButton {
+            width: 115px;
+            height: 55px; } }
         @media screen and (max-width: 450px) {
           .workHolidayMain__countryButtonsContainer__buttons__countryButton {
             width: 125px;
@@ -1353,19 +1593,80 @@
     display: flex;
     flex-direction: column;
     align-items: center; }
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      .workHolidayMain__textContainer {
+        padding-bottom: 1rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .workHolidayMain__textContainer {
+        padding-bottom: 1rem; } }
+    @media screen and (max-width: 500px) {
+      .workHolidayMain__textContainer {
+        padding-bottom: 0.5rem; } }
     .workHolidayMain__textContainer__text {
       width: 90%; }
+      @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        .workHolidayMain__textContainer__text {
+          font-size: 1.4rem; } }
+      @media screen and (min-width: 500px) and (max-width: 1000px) {
+        .workHolidayMain__textContainer__text {
+          font-size: 1.2rem; } }
+
+@media screen and (max-width: 500px) and (max-width: 500px) {
+  .workHolidayMain__textContainer__text {
+    font-size: 1rem;
+    padding: 0rem 1.5rem; } }
+    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      .workHolidayMain__textContainer h5 {
+        padding-top: 1.5rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .workHolidayMain__textContainer h5 {
+        padding-top: 1rem;
+        font-size: 1.1rem; } }
+    @media screen and (max-width: 500px) {
+      .workHolidayMain__textContainer h5 {
+        width: 80%;
+        padding-top: 0.5rem;
+        font-size: 0.9rem;
+        text-align: center; } }
   .workHolidayMain__titleContainer {
     width: 100%; }
+    @media screen and (min-width: 1000px) {
+      .workHolidayMain__titleContainer {
+        padding: 1rem 0rem 1rem 0rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .workHolidayMain__titleContainer {
+        padding: 1rem 0rem 1rem 0rem; } }
+    @media screen and (max-width: 500px) {
+      .workHolidayMain__titleContainer {
+        padding: 1rem 0rem 1rem 0rem; } }
     .workHolidayMain__titleContainer__title {
       display: flex;
       flex-direction: column;
       align-items: center; }
-
-.line {
-  border: gray 1px solid;
-  width: 25%;
-  margin-top: 5px; }
+      @media screen and (min-width: 1000px) {
+        .workHolidayMain__titleContainer__title h3 {
+          font-size: 2.2rem !important; } }
+      @media screen and (min-width: 500px) and (max-width: 1000px) {
+        .workHolidayMain__titleContainer__title h3 {
+          font-size: 2rem; } }
+      @media screen and (max-width: 500px) {
+        .workHolidayMain__titleContainer__title h3 {
+          font-size: 1.5rem; } }
+  @media screen and (min-width: 1000px) {
+    .workHolidayMain .barLine1 {
+      margin-top: 1rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .workHolidayMain .barLine1 {
+      margin-top: 1rem; } }
+  @media screen and (min-width: 1000px) {
+    .workHolidayMain .barLine2 {
+      margin: 2.5rem 0rem 2rem 0rem; } }
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .workHolidayMain .barLine2 {
+      margin: 2.5rem 0rem 2rem 0rem; } }
+  @media screen and (max-width: 500px) {
+    .workHolidayMain .barLine2 {
+      margin: 1.5rem 0rem 1.5rem 0rem; } }
 
 .modalCountry {
   display: flex;
@@ -1381,6 +1682,10 @@
     flex-direction: column; }
   .modalCountry__button {
     margin: 5px; }
+
+.header-plataformas {
+  background-image: url("../assets/plataformas.jpg") !important;
+  background-position: center 40% !important; }
 
 .plataformasMain {
   display: flex;
@@ -1491,6 +1796,10 @@
         z-index: 0;
         background-size: cover;
         background-position: center; }
+
+.header-blog {
+  background-image: url("../assets/headerblog.png") !important;
+  background-position: center 35% !important; }
 
 .blog-main h2 {
   text-align: center; }
@@ -1631,6 +1940,10 @@
     .logo-seccion_div {
       margin-top: -0.7rem;
       height: 25vh; } }
+
+.header-beneficios {
+  background-image: url("../assets/headerbeneficios.png") !important;
+  background-position: center 40% !important; }
 
 .beneficios-main a {
   color: white;
@@ -1898,6 +2211,10 @@
   .beneficios-main .blog_barLine10 {
     margin: 0.5rem 0rem -1.5rem 0rem; } }
 
+.header-news {
+  background-image: url("../assets/blog/news.png") !important;
+  background-position: center !important; }
+
 .news-main {
   display: flex;
   flex-direction: column;
@@ -2060,6 +2377,10 @@
   @media screen and (max-width: 500px) {
     .news-main .blog_barLine2 {
       margin: 1rem 0rem -1rem 0rem; } }
+
+.header-viajeras {
+  background-image: url("../assets/blog/viajeras.png") !important;
+  background-position: center 80% !important; }
 
 .viajeras-main h2 {
   text-align: center;
@@ -2270,6 +2591,10 @@
   .viajeras-main .blog_barLine3 {
     margin: 1rem 0rem -1rem 0rem; } }
 
+.header-proximo-destino {
+  background-image: url("../assets/blog/proximodestino.png") !important;
+  background-position: center !important; }
+
 .proximo-destino p a {
   color: #2e2e7c;
   font-weight: 600;
@@ -2291,6 +2616,10 @@
 @media screen and (max-width: 500px) {
   .proximo-destino .destino_barLine2 {
     margin: -0.5rem 0rem -1rem 0rem; } }
+
+.header-mala-experiencia {
+  background-image: url("../assets/blog/malaexperiencia.png") !important;
+  background-position: center !important; }
 
 .mala-experiencia .news-p p > a {
   color: #2e2e7c;
@@ -2410,6 +2739,10 @@
 
 .wh-blog .card4 {
   background-image: url("../assets/blog/malaexperiencia.png") !important; }
+
+.header-dinamorock {
+  background-image: url("../assets/blog/dinamorock.png") !important;
+  background-position: center 60% !important; }
 
 .dinamorock .news-p .dinamorock-buttons {
   display: flex;

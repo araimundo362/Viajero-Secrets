@@ -1,3 +1,7 @@
+.header-seguros {
+    background-image: url("../assets/seguros.jpeg") !important;
+    background-position: center 40% !important;
+}
 .seguros-main {
     .seguros-main_img-assist {
         display: flex;
@@ -98,6 +102,7 @@
             display: block;
             text-decoration: none;
             font-weight: 600;
+            color: $color1;
             @media screen and (min-width: 1000px) and (max-width: 1800px) {
                 font-size: 1.5rem;
                 padding-bottom: 0rem;

@@ -1,3 +1,7 @@
+.header-voluntariados {
+    background-image: url("../assets/headervoluntariados.png") !important;
+    background-position: center 55% !important;
+}
 .voluntariados {
 
     &__mainContainer {
@@ -75,11 +79,11 @@
                     border-radius: 7px !important; 
                     width: 0;
                     height: 65px;
-
-                    @media screen and (max-width: 500px) {
-                        height: 60px;
-
-                        a {
+                    a {
+                        color: white;
+                        font-weight: 500;
+                        @media screen and (max-width: 500px) {
+                            height: 60px;
                             font-size: 13px;
                         }
                     }
