@@ -15,14 +15,98 @@
             margin: -1rem 0rem 1rem 0rem;
         }
 
+        .barLine1 {
+            border-radius: 1rem;
+            @media screen and (min-width: 1000px) {
+                margin: 0rem 0rem 2rem 0rem;
+                padding: 0.5px 0px;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                
+            }
+            @media screen and (max-width: 500px) {
+                
+            }
+        }
+        
+        .barLine2 {
+            border-radius: 1rem;
+            @media screen and (min-width: 1000px) {
+                margin: 1rem 0rem 1rem 0rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                margin: 0.5rem 0rem 1.5rem 0rem;
+            }
+            @media screen and (max-width: 500px) {
+                margin: 0.5rem 0rem 1.5rem 0rem;
+            }
+        }
+
+        .barLine3 {
+            border-radius: 1rem;
+            @media screen and (min-width: 1000px) {
+                margin: 3rem 0rem 2rem 0rem;
+                padding: 0.5px 0px;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                margin: 2rem 0rem 1rem 0rem;
+            }
+            @media screen and (max-width: 500px) {
+                margin: 2rem 0rem 1rem 0rem;
+            }
+        }
+
+        .barLine4 {
+            border-radius: 1rem;
+            @media screen and (min-width: 1000px) {
+                margin: 2rem 0rem 2rem 0rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                margin: 1rem 0rem 1rem 0rem;
+            }
+            @media screen and (max-width: 500px) {
+                margin: 1rem 0rem 1rem 0rem;
+            }
+        }
+
+        .barLine5 {
+            border-radius: 1rem;
+            @media screen and (min-width: 1000px) {
+                margin: 2rem 0rem -1rem 0rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                margin: 1rem 0rem -2rem 0rem;
+            }
+            @media screen and (max-width: 500px) {
+                margin: 1rem 0rem 0rem 0rem;
+            }
+        }
+
+        .barLine-vol {
+            border-radius: 1rem;
+            @media screen and (min-width: 1000px) {
+                margin: 1rem 0rem 2rem 0rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                margin: 1rem 0rem 2rem 0rem;
+            }
+            @media screen and (max-width: 500px) {
+                margin: 2rem 0rem 2rem 0rem;
+            }
+        }
+
         &__textContainer {
-            text-align: center;
             padding: 10px;
 
             p {
-
+                @media screen and (min-width: 1000px) {
+                    font-size: 1.4rem;
+                }
+                @media screen and (min-width: 500px) and (max-width: 1000px) {
+                    font-size: 1.2rem;
+                }
                 @media screen and (max-width: 500px) {
-                    font-size: 11px;
+                    @include parrafos;
                 }
             }
         }
@@ -70,6 +154,21 @@
             margin-top: 10px;
             width: 100%;
 
+            h5 {
+                @media screen and (min-width: 1000px) {
+                    font-size: 1.6rem;
+                    padding-bottom: 1rem;
+                }
+                @media screen and (min-width: 500px) and (max-width: 1000px) {
+                    font-size: 1.5rem;
+                    padding-bottom: 1rem;
+                }
+                @media screen and (max-width: 500px) {
+                    font-size: 1.3rem;
+                    padding-bottom: 1rem;
+                }
+            }
+
             &__otherPlatforms {
                 width: 100%;
                 justify-content: space-around;
@@ -79,13 +178,20 @@
                     border-radius: 7px !important; 
                     width: 0;
                     height: 65px;
+                    
                     a {
                         color: white;
                         font-weight: 500;
-                        @media screen and (max-width: 500px) {
-                            height: 60px;
-                            font-size: 13px;
+                        @media screen and (min-width: 1000px) {
+                            font-size: 1.5rem;
                         }
+                        @media screen and (min-width: 500px) and (max-width: 1000px) {
+                            font-size: 1.1rem;
+                        }
+                        @media screen and (max-width: 500px) {
+                            font-size: 0.9rem;
+                        }
+                        
                     }
                 }
             }
@@ -93,10 +199,19 @@
             p {
                 text-align: center;
 
-                @media screen and (max-width: 500px) {
-                    font-size: 11px;
+                @media screen and (min-width: 1000px) {
+                    padding-top: 1rem;
+                    font-size: 1.4rem;
                 }
-                font-size: 11px;
+                @media screen and (min-width: 500px) and (max-width: 1000px) {
+                    font-size: 1.2rem;
+                    padding-top: 1rem;
+                }
+                @media screen and (max-width: 500px) {
+                    text-align: start;
+                    font-size: 1rem;
+                    padding: 1rem 2rem 0rem 2rem;
+                }
             }
         }
 
@@ -108,9 +223,19 @@
             flex-direction: column;
             align-items: center;
 
-            @media screen and (max-width: 500px) {
-                h5 {
-                    font-size: 13px;
+            h5 {
+                @media screen and (min-width: 1000px) {
+                    padding-top: 1rem;
+                    font-size: 1.4rem;
+                    padding-bottom: 1.5rem;
+                }
+                @media screen and (min-width: 500px) and (max-width: 1000px) {
+                    font-size: 1.1rem;
+                    padding-bottom: 0.5rem;
+                }
+                @media screen and (max-width: 500px) {
+                    font-size: 1rem;
+                    padding-bottom: 0.5rem;
                 }
             }
 
@@ -138,10 +263,17 @@
                 }
 
                 p {
-                    padding: 5px;
-
-                    font-size: 13px;
                     font-weight: 600;
+                    @media screen and (min-width: 1000px) {
+                        padding-top: 1.5rem;
+                        font-size: 1.3rem;
+                    }
+                    @media screen and (min-width: 500px) and (max-width: 1000px) {
+                        font-size: 1.2rem;
+                    }
+                    @media screen and (max-width: 500px) {
+                        font-size: 1rem;
+                    }
                 }
 
             }

@@ -9,7 +9,7 @@
 
     &__introductionText {
         padding: 10px;
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
             font-size: 1.4rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -44,7 +44,7 @@
                  h6 {
                      color: white;
                      text-align: center;
-                     @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                     @media screen and (min-width: 1000px) {
                         font-size: 1.5rem;
                     }
                     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -67,7 +67,7 @@
                 align-items: center;
 
                 h5 {
-                    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                    @media screen and (min-width: 1000px) {
                         font-size: 1.8rem;
                     }
                     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -79,7 +79,7 @@
                 }
                 p {
                     text-align: center;
-                    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                    @media screen and (min-width: 1000px) {
                         font-size: 1.4rem;
                     }
                     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -93,7 +93,7 @@
                 a {
                     color: $color1 !important;
                     font-style: italic;
-                    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                    @media screen and (min-width: 1000px) {
                         font-size: 1.2rem;
                     }
                     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -161,7 +161,7 @@
             padding: 10px;
 
             p {
-                @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                @media screen and (min-width: 1000px) {
                     font-size: 1.2rem !important;
                 }
                 @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -197,7 +197,7 @@
         }
     }
     .barLine1 {
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
             margin: 3rem 0rem 2rem 0rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -208,7 +208,7 @@
         }
     }
     .barLine2 {
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
             margin: 2rem 0rem 3rem 0rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -219,7 +219,7 @@
         }
     }
     .barLine3 {
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
             margin: 3.5rem 0rem 3rem 0rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {

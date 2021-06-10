@@ -6,7 +6,7 @@
     .seguros-main_img-assist {
         display: flex;
         justify-content: center;
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
             height: 32vh;
             margin: -1.5rem 0rem;
         }
@@ -23,7 +23,7 @@
         display: flex;
         justify-content: center;
         img {
-            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            @media screen and (min-width: 1000px) {
                 height: 14vh;
                 margin: 1rem 0rem 3rem 0rem;
             }
@@ -42,7 +42,7 @@
         justify-content: center;
     }
     .seguros_barLine1 {
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
             padding: 2rem 0rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -53,7 +53,7 @@
         }
     }
     .seguros_barLine2 {
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
             margin: -1rem 0rem 2rem 0rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -64,7 +64,7 @@
         }
     }
     .seguros_barLine3 {
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
             margin: 2rem 0rem 1rem 0rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -75,7 +75,7 @@
         }
     }
     .seguros_barLine4 {
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
             margin: 3rem 0rem -1rem 0rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -87,7 +87,7 @@
     }
     .seguros-div_experiencia {
         div {
-            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            @media screen and (min-width: 1000px) {
                 padding-bottom: 2rem;
             }
             @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -103,7 +103,7 @@
             text-decoration: none;
             font-weight: 600;
             color: $color1;
-            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            @media screen and (min-width: 1000px) {
                 font-size: 1.5rem;
                 padding-bottom: 0rem;
             }
@@ -116,7 +116,7 @@
             }
         }
         .seguros_p1-experiencia {
-            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            @media screen and (min-width: 1000px) {
                 font-size: 1.4rem;
             }
             @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -130,7 +130,7 @@
     .seguros-btn {
         display: flex;
         justify-content: center;
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
             padding: 1rem 0rem 3rem 0rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -143,7 +143,7 @@
         .btn {
             display: flex;
             justify-content: center;
-            @media screen and (min-width: 1000px) and (max-width: 1800px) {
+            @media screen and (min-width: 1000px) {
                 width: 11rem;
                 height: 3rem;
             }
@@ -156,7 +156,7 @@
             a {
                 text-decoration: none;
                 color: white;
-                @media screen and (min-width: 1000px) and (max-width: 1800px) {
+                @media screen and (min-width: 1000px) {
                     font-size: 1.3rem;
                 }
                 @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -169,7 +169,7 @@
         }
     }
     .seguros_p1 {
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
             font-size: 1.4rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -184,7 +184,7 @@
 .logo-seccion_seguros {
     display: flex;
     justify-content: center;
-    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    @media screen and (min-width: 1000px) {
         height: 30vh;
     }
     @media screen and (min-width: 500px) and (max-width: 1000px) {

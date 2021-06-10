@@ -1,6 +1,6 @@
 let paises = ['Argentina', 'Chile', 'Colombia', 'Ecuador', 'España', 'Mexico', 'Peru', 'Uruguay'];
 
-let paisesArgentina= ['Alemania', 'Australia', 'Austria', 'Corea del sur', 'Dinamarca', 'España', 'Francia', 'Hungria', 'Irlanda', 'Japon', 'Mexico', 'Noruega', 'Nueva Zelanda', 'Paises Bajos', 'Polonia', 'Portugal', 'Suecia'];
+let paisesArgentina= ['Alemania', 'Australia', 'Austria', 'Corea del sur', 'Dinamarca', 'Espana', 'Francia', 'Hungria', 'Irlanda', 'Japon', 'Mexico', 'Noruega', 'Nueva Zelanda', 'Paises Bajos', 'Polonia', 'Portugal', 'Suecia'];
 let paisesChile = ['Alemania', 'Australia', 'Austria', 'Canada', 'Corea del sur', 'Dinamarca', 'Francia', 'Hungria', 'Irlanda', 'Japon', 'Mexico', 'Nueva Zelanda', 'Polonia', 'Portugal', 'Suecia'];
 let paisesColombia = ['Francia'];
 let paisesEcuador = ['Australia'];

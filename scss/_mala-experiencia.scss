@@ -63,6 +63,9 @@
                 @media screen and (max-width: 500px) {
                     height: 40vh;
                 }
+                &:hover {
+                    transform: scale(1.5);
+                }
             }
         }
     }

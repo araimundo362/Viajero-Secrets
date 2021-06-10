@@ -12,13 +12,13 @@
     }
     .viajeros_barLine2 {
         @media screen and (min-width: 1000px) {
-            margin: 3rem 0rem -1rem 0rem;
+            margin: 0.5rem 0rem -1rem 0rem;
         }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
-            margin: 2rem 0rem -2rem 0rem;
+            margin: 0rem 0rem -2rem 0rem;
         }
         @media screen and (max-width: 500px) {
-            padding: 1.5rem 0rem 0rem 0rem;
+            margin: 0rem 0rem -0.5rem 0rem;
         }
     }
     h2 {
@@ -43,7 +43,7 @@
             padding-left: 2rem;
         }
         @media screen and (max-width: 500px) {
-            padding: 1rem 1rem;
+            padding: 0.6rem 1rem;
         }
         .viajeros-card {
             box-shadow: $box-shadow;
@@ -77,7 +77,7 @@
                     font-size: 1.6rem;
                 }
                 @media screen and (max-width: 500px) {
-                    font-size: 0.9rem;
+                    font-size: 0.75rem;
                 }
                 &:hover {
                     color: $color1;
@@ -179,6 +179,119 @@
         @media screen and (min-width: 1000px) {
             padding: 2rem 0rem 0rem 0rem;
         }
+        .card {
+            @media screen and (min-width: 1000px) {
+                margin-bottom: 3rem;
+            }
+            @media screen and (min-width: 500px) and (max-width: 1000px) {
+                margin-bottom: 2rem;
+            }
+            @media screen and (max-width: 500px) {
+                margin-bottom: 1rem;
+            }
+        }
+        #belgica {
+            background-image: url('../assets/Viajeros\ En/belgica.png');
+            @include viajeros-img;
+        }
+
+        #espana {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+            @include viajeros-img;
+            background-image: url('../assets/Viajeros\ En/espana.png');
+        }
+
+        #escocia {
+            @include viajeros-img;
+            background-image: url('../assets/Viajeros\ En/escocia.png');
+        }
+
+        #francia {
+            @include viajeros-img;
+            background-image: url('../assets/Viajeros\ En/francia.png');
+        }
+
+        #grecia {
+            @include viajeros-img;
+            background-image: url('../assets/Viajeros\ En/grecia.png');
+        }
+
+        #suiza {
+            @include viajeros-img;
+            background-image: url('../assets/Viajeros\ En/suiza.png');
+        }
+
+        #irlanda {
+            @include viajeros-img;
+            background-image: url('../assets/Viajeros\ En/irlanda.png');
+        }
+
+        #italia {
+            @include viajeros-img;
+            background-image: url('../assets/Viajeros\ En/italia.png');
+        }
+
+        #inglaterra {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+            @include viajeros-img;
+            background-image: url('../assets/Viajeros\ En/inglaterra.png');
+        }
+
+        #holanda {
+            @include viajeros-img;
+            background-image: url('../assets/Viajeros\ En/paisesbajos.png');
+        }
+
+        #republica-checa {
+            @include viajeros-img;
+            background-image: url('../assets/Viajeros\ En/republicacheca.png');
+        }
+        .europa-cards-last {
+            box-shadow: $box-shadow;  
+            @media screen and (min-width: 1400px) {
+                width: 350px;
+                height: 310px;
+                margin-left: 50px;
+            }
+            @media screen and (min-width: 1200px) and (max-width: 1400px) {
+                width: 315px;
+                height: 300px;
+                margin-left: 50px;
+            }
+            @media screen and (min-width: 1000px) and (max-width: 1200px) {
+                width: 255px;
+                height: 290px;
+                margin-left: 50px;
+            }
+            @media screen and (min-width: 770px) and (max-width: 1000px) {
+                width: 10rem;
+                height: 10rem;
+                margin-left: 20px;
+            }
+            @media screen and (min-width: 575px) and (max-width: 770px) {
+                width: 9.5rem;
+                height: 10rem;
+                margin-left: 20px;
+            }
+            @media screen and (min-width: 500px) and (max-width: 575px) {
+                width: 29%;
+                height: 10rem;
+                margin-left: 20px;
+            }
+            @media screen and (max-width: 500px) {
+                width: 75px;
+                height: 90px;                
+                margin: 0rem 0.8rem;
+            }
+        }
     }
 }
 
@@ -195,189 +308,5 @@
     @media screen and (max-width: 500px) {
         margin-top: -0.7rem;
         height: 25vh;
-    }
-}
-
-.cardsContainer {
-
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin-left: 105px !important;
-
-    &__cards {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        box-shadow: $box-shadow;
-
-        a {
-            text-align: center;
-            font-weight: 700;
-            text-decoration: none;
-            color: black;
-            text-shadow: $text-shadow;
-            @media screen and (min-width: 1000px) {
-                font-size: 1.6rem;
-            }
-            @media screen and (max-width: 500px) {
-                font-size: 0.9rem;
-            }
-            &:hover {
-                color: $color1;
-            }
-        }
-
-        #belgica {
-            background-image: url('../assets/Viajeros\ En/belgica.png');
-            @include viajeros-img;
-            width: 100%;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #espana {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            width: 100%;
-            @include viajeros-img;
-            background-image: url('../assets/Viajeros\ En/espana.png');
-        }
-
-        #escocia {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            width: 100%;
-            @include viajeros-img;
-            background-image: url('../assets/Viajeros\ En/escocia.png');
-        }
-
-        #francia {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            width: 100%;
-            @include viajeros-img;
-            background-image: url('../assets/Viajeros\ En/francia.png');
-        }
-
-        #grecia {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            width: 100%;
-            @include viajeros-img;
-            background-image: url('../assets/Viajeros\ En/grecia.png');
-        }
-
-        #suiza {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            width: 100%;
-            @include viajeros-img;
-            background-image: url('../assets/Viajeros\ En/suiza.png');
-        }
-
-        #irlanda {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            width: 100%;
-            @include viajeros-img;
-            background-image: url('../assets/Viajeros\ En/irlanda.png');
-        }
-
-        #italia {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            width: 100%;
-            @include viajeros-img;
-            background-image: url('../assets/Viajeros\ En/italia.png');
-        }
-
-        #inglaterra {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            width: 100%;
-            @include viajeros-img;
-            background-image: url('../assets/Viajeros\ En/inglaterra.png');
-        }
-
-        #holanda {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            width: 100%;
-            @include viajeros-img;
-            background-image: url('../assets/Viajeros\ En/paisesbajos.png');
-        }
-
-        #republicaCheca {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-            width: 100%;
-            @include viajeros-img;
-            background-image: url('../assets/Viajeros\ En/republicacheca.png');
-        }
-
-        @media screen and (min-width: 1400px) {
-            width: 350px;
-            min-width: 350px !important;
-            height: 310px;
-            margin-left: 50px;
-            margin-top: 15px;
-        }
-        @media screen and (min-width: 1200px) and (max-width: 1400px) {
-            min-width: 315px !important;
-            width: 315px;
-            height: 300px;
-            margin-left: 50px;
-            margin-top: 15px;
-        }
-        @media screen and (min-width: 1000px) and (max-width: 1200px) {
-            width: 255px;
-            min-width: 255px !important;
-            height: 290px;
-            margin-left: 50px;
-            margin-top: 15px;
-        }
-        @media screen and (min-width: 770px) and (max-width: 1000px) {
-            width: 10rem;
-            min-width: 10rem !important;
-            height: 10rem;
-            margin-left: 20px;
-            margin-top: 15px;
-        }
-        @media screen and (min-width: 500px) and (max-width: 770px) {
-            width: 9.5rem;
-            min-width: 9.5rem !important;
-            height: 10rem;
-            margin-left: 20px;
-        }
-        @media screen and (max-width: 500px) {
-            width: 75px;
-            min-width: 75px !important;
-            height: 90px;                
-            margin: 0rem 0.8rem;
-        }
     }
 }

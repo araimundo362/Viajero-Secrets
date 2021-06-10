@@ -259,7 +259,7 @@
       display: flex;
       justify-content: space-evenly;
       align-items: center; }
-      @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      @media screen and (min-width: 1000px) {
         .customFooter__secondRow__iconsContainer {
           width: 20%; } }
       @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -268,7 +268,7 @@
       @media screen and (max-width: 500px) {
         .customFooter__secondRow__iconsContainer {
           width: 30%; } }
-      @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      @media screen and (min-width: 1000px) {
         .customFooter__secondRow__iconsContainer a :first-child {
           width: 2rem; } }
       @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -279,7 +279,7 @@
           width: 1.5rem; } }
   .customFooter__email {
     text-decoration: underline; }
-    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    @media screen and (min-width: 1000px) {
       .customFooter__email {
         font-size: 1.4rem; } }
     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -301,12 +301,81 @@
   align-items: center; }
   .voluntariados__mainContainer .barLine {
     margin: -1rem 0rem 1rem 0rem; }
-  .voluntariados__mainContainer__textContainer {
-    text-align: center;
-    padding: 10px; }
+  .voluntariados__mainContainer .barLine1 {
+    border-radius: 1rem; }
+    @media screen and (min-width: 1000px) {
+      .voluntariados__mainContainer .barLine1 {
+        margin: 0rem 0rem 2rem 0rem;
+        padding: 0.5px 0px; } }
+  .voluntariados__mainContainer .barLine2 {
+    border-radius: 1rem; }
+    @media screen and (min-width: 1000px) {
+      .voluntariados__mainContainer .barLine2 {
+        margin: 1rem 0rem 1rem 0rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .voluntariados__mainContainer .barLine2 {
+        margin: 0.5rem 0rem 1.5rem 0rem; } }
     @media screen and (max-width: 500px) {
+      .voluntariados__mainContainer .barLine2 {
+        margin: 0.5rem 0rem 1.5rem 0rem; } }
+  .voluntariados__mainContainer .barLine3 {
+    border-radius: 1rem; }
+    @media screen and (min-width: 1000px) {
+      .voluntariados__mainContainer .barLine3 {
+        margin: 3rem 0rem 2rem 0rem;
+        padding: 0.5px 0px; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .voluntariados__mainContainer .barLine3 {
+        margin: 2rem 0rem 1rem 0rem; } }
+    @media screen and (max-width: 500px) {
+      .voluntariados__mainContainer .barLine3 {
+        margin: 2rem 0rem 1rem 0rem; } }
+  .voluntariados__mainContainer .barLine4 {
+    border-radius: 1rem; }
+    @media screen and (min-width: 1000px) {
+      .voluntariados__mainContainer .barLine4 {
+        margin: 2rem 0rem 2rem 0rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .voluntariados__mainContainer .barLine4 {
+        margin: 1rem 0rem 1rem 0rem; } }
+    @media screen and (max-width: 500px) {
+      .voluntariados__mainContainer .barLine4 {
+        margin: 1rem 0rem 1rem 0rem; } }
+  .voluntariados__mainContainer .barLine5 {
+    border-radius: 1rem; }
+    @media screen and (min-width: 1000px) {
+      .voluntariados__mainContainer .barLine5 {
+        margin: 2rem 0rem -1rem 0rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .voluntariados__mainContainer .barLine5 {
+        margin: 1rem 0rem -2rem 0rem; } }
+    @media screen and (max-width: 500px) {
+      .voluntariados__mainContainer .barLine5 {
+        margin: 1rem 0rem 0rem 0rem; } }
+  .voluntariados__mainContainer .barLine-vol {
+    border-radius: 1rem; }
+    @media screen and (min-width: 1000px) {
+      .voluntariados__mainContainer .barLine-vol {
+        margin: 1rem 0rem 2rem 0rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .voluntariados__mainContainer .barLine-vol {
+        margin: 1rem 0rem 2rem 0rem; } }
+    @media screen and (max-width: 500px) {
+      .voluntariados__mainContainer .barLine-vol {
+        margin: 2rem 0rem 2rem 0rem; } }
+  .voluntariados__mainContainer__textContainer {
+    padding: 10px; }
+    @media screen and (min-width: 1000px) {
       .voluntariados__mainContainer__textContainer p {
-        font-size: 11px; } }
+        font-size: 1.4rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .voluntariados__mainContainer__textContainer p {
+        font-size: 1.2rem; } }
+
+@media screen and (max-width: 500px) and (max-width: 500px) {
+  .voluntariados__mainContainer__textContainer p {
+    font-size: 1rem;
+    padding: 0rem 1.5rem; } }
   .voluntariados__mainContainer__bannerFaqs {
     width: 100%;
     display: flex;
@@ -338,6 +407,18 @@
     align-items: center;
     margin-top: 10px;
     width: 100%; }
+    @media screen and (min-width: 1000px) {
+      .voluntariados__mainContainer__otherPlatformsContainer h5 {
+        font-size: 1.6rem;
+        padding-bottom: 1rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .voluntariados__mainContainer__otherPlatformsContainer h5 {
+        font-size: 1.5rem;
+        padding-bottom: 1rem; } }
+    @media screen and (max-width: 500px) {
+      .voluntariados__mainContainer__otherPlatformsContainer h5 {
+        font-size: 1.3rem;
+        padding-bottom: 1rem; } }
     .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms {
       width: 100%;
       justify-content: space-around; }
@@ -349,25 +430,49 @@
         .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms__button a {
           color: white;
           font-weight: 500; }
+          @media screen and (min-width: 1000px) {
+            .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms__button a {
+              font-size: 1.5rem; } }
+          @media screen and (min-width: 500px) and (max-width: 1000px) {
+            .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms__button a {
+              font-size: 1.1rem; } }
           @media screen and (max-width: 500px) {
             .voluntariados__mainContainer__otherPlatformsContainer__otherPlatforms__button a {
-              height: 60px;
-              font-size: 13px; } }
+              font-size: 0.9rem; } }
     .voluntariados__mainContainer__otherPlatformsContainer p {
-      text-align: center;
-      font-size: 11px; }
+      text-align: center; }
+      @media screen and (min-width: 1000px) {
+        .voluntariados__mainContainer__otherPlatformsContainer p {
+          padding-top: 1rem;
+          font-size: 1.4rem; } }
+      @media screen and (min-width: 500px) and (max-width: 1000px) {
+        .voluntariados__mainContainer__otherPlatformsContainer p {
+          font-size: 1.2rem;
+          padding-top: 1rem; } }
       @media screen and (max-width: 500px) {
         .voluntariados__mainContainer__otherPlatformsContainer p {
-          font-size: 11px; } }
+          text-align: start;
+          font-size: 1rem;
+          padding: 1rem 2rem 0rem 2rem; } }
   .voluntariados__mainContainer__mostImportant {
     text-align: center;
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center; }
+    @media screen and (min-width: 1000px) {
+      .voluntariados__mainContainer__mostImportant h5 {
+        padding-top: 1rem;
+        font-size: 1.4rem;
+        padding-bottom: 1.5rem; } }
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .voluntariados__mainContainer__mostImportant h5 {
+        font-size: 1.1rem;
+        padding-bottom: 0.5rem; } }
     @media screen and (max-width: 500px) {
       .voluntariados__mainContainer__mostImportant h5 {
-        font-size: 13px; } }
+        font-size: 1rem;
+        padding-bottom: 0.5rem; } }
     .voluntariados__mainContainer__mostImportant__boxPromotion {
       width: 70%;
       height: 200px;
@@ -385,9 +490,17 @@
       .voluntariados__mainContainer__mostImportant__boxPromotion h3 {
         font-weight: 700; }
       .voluntariados__mainContainer__mostImportant__boxPromotion p {
-        padding: 5px;
-        font-size: 13px;
         font-weight: 600; }
+        @media screen and (min-width: 1000px) {
+          .voluntariados__mainContainer__mostImportant__boxPromotion p {
+            padding-top: 1.5rem;
+            font-size: 1.3rem; } }
+        @media screen and (min-width: 500px) and (max-width: 1000px) {
+          .voluntariados__mainContainer__mostImportant__boxPromotion p {
+            font-size: 1.2rem; } }
+        @media screen and (max-width: 500px) {
+          .voluntariados__mainContainer__mostImportant__boxPromotion p {
+            font-size: 1rem; } }
 
 .headerVoluntariados {
   text-align: center;
@@ -417,7 +530,7 @@
   align-items: center; }
   .asesoriasMain__introductionText {
     padding: 10px; }
-    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    @media screen and (min-width: 1000px) {
       .asesoriasMain__introductionText {
         font-size: 1.4rem; } }
     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -444,7 +557,7 @@
         .asesoriasMain__plansContainer__plan__header h6 {
           color: white;
           text-align: center; }
-          @media screen and (min-width: 1000px) and (max-width: 1800px) {
+          @media screen and (min-width: 1000px) {
             .asesoriasMain__plansContainer__plan__header h6 {
               font-size: 1.5rem; } }
           @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -459,7 +572,7 @@
         display: flex;
         flex-direction: column;
         align-items: center; }
-        @media screen and (min-width: 1000px) and (max-width: 1800px) {
+        @media screen and (min-width: 1000px) {
           .asesoriasMain__plansContainer__plan__body h5 {
             font-size: 1.8rem; } }
         @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -467,7 +580,7 @@
             font-size: 1.5rem; } }
         .asesoriasMain__plansContainer__plan__body p {
           text-align: center; }
-          @media screen and (min-width: 1000px) and (max-width: 1800px) {
+          @media screen and (min-width: 1000px) {
             .asesoriasMain__plansContainer__plan__body p {
               font-size: 1.4rem; } }
           @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -476,7 +589,7 @@
         .asesoriasMain__plansContainer__plan__body a {
           color: #5f5fa7 !important;
           font-style: italic; }
-          @media screen and (min-width: 1000px) and (max-width: 1800px) {
+          @media screen and (min-width: 1000px) {
             .asesoriasMain__plansContainer__plan__body a {
               font-size: 1.2rem; } }
           @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -518,7 +631,7 @@
     .asesoriasMain__modalContent__body {
       text-align: center;
       padding: 10px; }
-      @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      @media screen and (min-width: 1000px) {
         .asesoriasMain__modalContent__body p {
           font-size: 1.2rem !important; } }
       .asesoriasMain__modalContent__body a {
@@ -533,7 +646,7 @@
           .asesoriasMain__modalContent__body__customCard__button {
             width: 130px;
             margin: 15px; } }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .asesoriasMain .barLine1 {
       margin: 3rem 0rem 2rem 0rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -542,7 +655,7 @@
   @media screen and (max-width: 500px) {
     .asesoriasMain .barLine1 {
       margin: 1.5rem 0rem 1rem 0rem; } }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .asesoriasMain .barLine2 {
       margin: 2rem 0rem 3rem 0rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -551,7 +664,7 @@
   @media screen and (max-width: 500px) {
     .asesoriasMain .barLine2 {
       margin: 1.5rem 0rem 1.5rem 0rem; } }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .asesoriasMain .barLine3 {
       margin: 3.5rem 0rem 3rem 0rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -796,15 +909,15 @@
 
 @media screen and (min-width: 1000px) {
   .viajeros-main .viajeros_barLine2 {
-    margin: 3rem 0rem -1rem 0rem; } }
+    margin: 0.5rem 0rem -1rem 0rem; } }
 
 @media screen and (min-width: 500px) and (max-width: 1000px) {
   .viajeros-main .viajeros_barLine2 {
-    margin: 2rem 0rem -2rem 0rem; } }
+    margin: 0rem 0rem -2rem 0rem; } }
 
 @media screen and (max-width: 500px) {
   .viajeros-main .viajeros_barLine2 {
-    padding: 1.5rem 0rem 0rem 0rem; } }
+    margin: 0rem 0rem -0.5rem 0rem; } }
 
 @media screen and (min-width: 1000px) {
   .viajeros-main h2 {
@@ -830,7 +943,7 @@
       padding-left: 2rem; } }
   @media screen and (max-width: 500px) {
     .viajeros-main .cards {
-      padding: 1rem 1rem; } }
+      padding: 0.6rem 1rem; } }
   .viajeros-main .cards .viajeros-card {
     box-shadow: 2px 2px 2px gray; }
     @media screen and (min-width: 1000px) {
@@ -863,7 +976,7 @@
           font-size: 1.6rem; } }
       @media screen and (max-width: 500px) {
         .viajeros-main .cards .viajeros-card a {
-          font-size: 0.9rem; } }
+          font-size: 0.75rem; } }
       .viajeros-main .cards .viajeros-card a:hover {
         color: #5f5fa7; }
 
@@ -963,6 +1076,119 @@
   .viajeros-main .viajeros-europa {
     padding: 2rem 0rem 0rem 0rem; } }
 
+@media screen and (min-width: 1000px) {
+  .viajeros-main .viajeros-europa .card {
+    margin-bottom: 3rem; } }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .viajeros-main .viajeros-europa .card {
+    margin-bottom: 2rem; } }
+
+@media screen and (max-width: 500px) {
+  .viajeros-main .viajeros-europa .card {
+    margin-bottom: 1rem; } }
+
+.viajeros-main .viajeros-europa #belgica {
+  background-image: url("../assets/Viajeros En/belgica.png");
+  background-size: cover;
+  background-position: center; }
+
+.viajeros-main .viajeros-europa #espana {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Viajeros En/espana.png"); }
+
+.viajeros-main .viajeros-europa #escocia {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Viajeros En/escocia.png"); }
+
+.viajeros-main .viajeros-europa #francia {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Viajeros En/francia.png"); }
+
+.viajeros-main .viajeros-europa #grecia {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Viajeros En/grecia.png"); }
+
+.viajeros-main .viajeros-europa #suiza {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Viajeros En/suiza.png"); }
+
+.viajeros-main .viajeros-europa #irlanda {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Viajeros En/irlanda.png"); }
+
+.viajeros-main .viajeros-europa #italia {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Viajeros En/italia.png"); }
+
+.viajeros-main .viajeros-europa #inglaterra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Viajeros En/inglaterra.png"); }
+
+.viajeros-main .viajeros-europa #holanda {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Viajeros En/paisesbajos.png"); }
+
+.viajeros-main .viajeros-europa #republica-checa {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/Viajeros En/republicacheca.png"); }
+
+.viajeros-main .viajeros-europa .europa-cards-last {
+  box-shadow: 2px 2px 2px gray; }
+  @media screen and (min-width: 1400px) {
+    .viajeros-main .viajeros-europa .europa-cards-last {
+      width: 350px;
+      height: 310px;
+      margin-left: 50px; } }
+  @media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .viajeros-main .viajeros-europa .europa-cards-last {
+      width: 315px;
+      height: 300px;
+      margin-left: 50px; } }
+  @media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .viajeros-main .viajeros-europa .europa-cards-last {
+      width: 255px;
+      height: 290px;
+      margin-left: 50px; } }
+  @media screen and (min-width: 770px) and (max-width: 1000px) {
+    .viajeros-main .viajeros-europa .europa-cards-last {
+      width: 10rem;
+      height: 10rem;
+      margin-left: 20px; } }
+  @media screen and (min-width: 575px) and (max-width: 770px) {
+    .viajeros-main .viajeros-europa .europa-cards-last {
+      width: 9.5rem;
+      height: 10rem;
+      margin-left: 20px; } }
+  @media screen and (min-width: 500px) and (max-width: 575px) {
+    .viajeros-main .viajeros-europa .europa-cards-last {
+      width: 29%;
+      height: 10rem;
+      margin-left: 20px; } }
+  @media screen and (max-width: 500px) {
+    .viajeros-main .viajeros-europa .europa-cards-last {
+      width: 75px;
+      height: 90px;
+      margin: 0rem 0.8rem; } }
+
 .logo-seccion_viajeros {
   display: flex;
   justify-content: center; }
@@ -978,166 +1204,13 @@
       margin-top: -0.7rem;
       height: 25vh; } }
 
-.cardsContainer {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  margin-left: 105px !important; }
-  .cardsContainer__cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 2px 2px 2px gray; }
-    .cardsContainer__cards a {
-      text-align: center;
-      font-weight: 700;
-      text-decoration: none;
-      color: black;
-      text-shadow: 2px 1px 2px #c5c4c4; }
-      @media screen and (min-width: 1000px) {
-        .cardsContainer__cards a {
-          font-size: 1.6rem; } }
-      @media screen and (max-width: 500px) {
-        .cardsContainer__cards a {
-          font-size: 0.9rem; } }
-      .cardsContainer__cards a:hover {
-        color: #5f5fa7; }
-    .cardsContainer__cards #belgica {
-      background-image: url("../assets/Viajeros En/belgica.png");
-      background-size: cover;
-      background-position: center;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-    .cardsContainer__cards #espana {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-      background-image: url("../assets/Viajeros En/espana.png"); }
-    .cardsContainer__cards #escocia {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-      background-image: url("../assets/Viajeros En/escocia.png"); }
-    .cardsContainer__cards #francia {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-      background-image: url("../assets/Viajeros En/francia.png"); }
-    .cardsContainer__cards #grecia {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-      background-image: url("../assets/Viajeros En/grecia.png"); }
-    .cardsContainer__cards #suiza {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-      background-image: url("../assets/Viajeros En/suiza.png"); }
-    .cardsContainer__cards #irlanda {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-      background-image: url("../assets/Viajeros En/irlanda.png"); }
-    .cardsContainer__cards #italia {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-      background-image: url("../assets/Viajeros En/italia.png"); }
-    .cardsContainer__cards #inglaterra {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-      background-image: url("../assets/Viajeros En/inglaterra.png"); }
-    .cardsContainer__cards #holanda {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-      background-image: url("../assets/Viajeros En/paisesbajos.png"); }
-    .cardsContainer__cards #republicaCheca {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-      background-image: url("../assets/Viajeros En/republicacheca.png"); }
-    @media screen and (min-width: 1400px) {
-      .cardsContainer__cards {
-        width: 350px;
-        min-width: 350px !important;
-        height: 310px;
-        margin-left: 50px;
-        margin-top: 15px; } }
-    @media screen and (min-width: 1200px) and (max-width: 1400px) {
-      .cardsContainer__cards {
-        min-width: 315px !important;
-        width: 315px;
-        height: 300px;
-        margin-left: 50px;
-        margin-top: 15px; } }
-    @media screen and (min-width: 1000px) and (max-width: 1200px) {
-      .cardsContainer__cards {
-        width: 255px;
-        min-width: 255px !important;
-        height: 290px;
-        margin-left: 50px;
-        margin-top: 15px; } }
-    @media screen and (min-width: 770px) and (max-width: 1000px) {
-      .cardsContainer__cards {
-        width: 10rem;
-        min-width: 10rem !important;
-        height: 10rem;
-        margin-left: 20px;
-        margin-top: 15px; } }
-    @media screen and (min-width: 500px) and (max-width: 770px) {
-      .cardsContainer__cards {
-        width: 9.5rem;
-        min-width: 9.5rem !important;
-        height: 10rem;
-        margin-left: 20px; } }
-    @media screen and (max-width: 500px) {
-      .cardsContainer__cards {
-        width: 75px;
-        min-width: 75px !important;
-        height: 90px;
-        margin: 0rem 0.8rem; } }
-
 .header-quienes-somos {
   background-image: url("../assets/headerquienes.png") !important;
   background-position: center 80% !important; }
 
 .quienes-somos_main .quienes-somos_section .quienes-somos_subtitulo {
   text-align: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .quienes-somos_main .quienes-somos_section .quienes-somos_subtitulo {
       font-weight: 500;
       padding: 0rem 0rem 1rem 0rem;
@@ -1170,7 +1243,7 @@
 .quienes-somos_main .quienes-somos_section .quienes-somos_p2, .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
   text-align: center;
   font-style: italic; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .quienes-somos_main .quienes-somos_section .quienes-somos_p2, .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
       font-size: 1.7rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -1180,7 +1253,7 @@
     .quienes-somos_main .quienes-somos_section .quienes-somos_p2, .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
       font-size: 1.2rem; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .quienes-somos_main .quienes-somos_section #quienes-somos_p2-1 {
     font-size: 1.7rem;
     margin: -1.5rem 0rem -0.2rem 0rem; } }
@@ -1198,7 +1271,7 @@
 .quienes-somos_main .quienes-somos_section .quienes-somos_div-img {
   display: flex;
   justify-content: flex-end; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .quienes-somos_main .quienes-somos_section .quienes-somos_div-img .quienes-somos_img {
       padding: 2rem 25rem 0rem 0rem;
       height: 18vh; } }
@@ -1218,7 +1291,7 @@
 .quienes-somos_main .quienes-somos_barLine {
   display: flex;
   justify-content: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .quienes-somos_main .quienes-somos_barLine {
       padding: 2rem 0rem 1rem 0rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -1228,7 +1301,7 @@
     .quienes-somos_main .quienes-somos_barLine {
       padding: 1rem 0rem; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .quienes-somos_main #quienes-somos_barLine2 {
     margin: -1rem 0rem 1rem 0rem; } }
 
@@ -1236,7 +1309,7 @@
   .quienes-somos_main #quienes-somos_barLine2 {
     margin: -1.5rem 0rem -1rem 0rem; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .quienes-somos_main #quienes-somos_barLine3 {
     margin: 1rem 0rem -2rem 0rem; } }
 
@@ -1250,7 +1323,7 @@
 
 .quienes-somos_main .embajadores_section .embajadores_titulo {
   text-align: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .quienes-somos_main .embajadores_section .embajadores_titulo {
       font-size: 2.2rem;
       padding: 0rem 0rem 1rem 0rem;
@@ -1272,7 +1345,7 @@
 .quienes-somos_main .embajadores_p a {
   text-decoration: none; }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .quienes-somos_main .embajadores_p {
     font-size: 1.4rem; } }
 
@@ -1293,7 +1366,7 @@
 .logo-seccion_quienes-somos {
   display: flex;
   justify-content: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .logo-seccion_quienes-somos {
       height: 30vh; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -1312,7 +1385,7 @@
 .seguros-main .seguros-main_img-assist {
   display: flex;
   justify-content: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .seguros-main .seguros-main_img-assist {
       height: 32vh;
       margin: -1.5rem 0rem; } }
@@ -1328,7 +1401,7 @@
 .seguros-main .seguros-main_img-universal {
   display: flex;
   justify-content: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .seguros-main .seguros-main_img-universal img {
       height: 14vh;
       margin: 1rem 0rem 3rem 0rem; } }
@@ -1345,7 +1418,7 @@
   display: flex;
   justify-content: center; }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .seguros-main .seguros_barLine1 {
     padding: 2rem 0rem; } }
 
@@ -1357,7 +1430,7 @@
   .seguros-main .seguros_barLine1 {
     padding: 1rem 0rem; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .seguros-main .seguros_barLine2 {
     margin: -1rem 0rem 2rem 0rem; } }
 
@@ -1369,7 +1442,7 @@
   .seguros-main .seguros_barLine2 {
     padding-bottom: 1rem; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .seguros-main .seguros_barLine3 {
     margin: 2rem 0rem 1rem 0rem; } }
 
@@ -1381,7 +1454,7 @@
   .seguros-main .seguros_barLine3 {
     padding-bottom: 1rem; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .seguros-main .seguros_barLine4 {
     margin: 3rem 0rem -1rem 0rem; } }
 
@@ -1393,7 +1466,7 @@
   .seguros-main .seguros_barLine4 {
     padding-bottom: 1rem; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .seguros-main .seguros-div_experiencia div {
     padding-bottom: 2rem; } }
 
@@ -1407,7 +1480,7 @@
   text-decoration: none;
   font-weight: 600;
   color: #5f5fa7; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .seguros-main .seguros-div_experiencia a {
       font-size: 1.5rem;
       padding-bottom: 0rem; } }
@@ -1420,7 +1493,7 @@
       font-weight: 500;
       text-align: center; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .seguros-main .seguros-div_experiencia .seguros_p1-experiencia {
     font-size: 1.4rem; } }
 
@@ -1435,24 +1508,24 @@
 .seguros-main .seguros-btn {
   display: flex;
   justify-content: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .seguros-main .seguros-btn {
       padding: 1rem 0rem 3rem 0rem; } }
   .seguros-main .seguros-btn .btn {
     display: flex;
     justify-content: center; }
-    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    @media screen and (min-width: 1000px) {
       .seguros-main .seguros-btn .btn {
         width: 11rem;
         height: 3rem; } }
     .seguros-main .seguros-btn .btn a {
       text-decoration: none;
       color: white; }
-      @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      @media screen and (min-width: 1000px) {
         .seguros-main .seguros-btn .btn a {
           font-size: 1.3rem; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .seguros-main .seguros_p1 {
     font-size: 1.4rem; } }
 
@@ -1468,7 +1541,7 @@
 .logo-seccion_seguros {
   display: flex;
   justify-content: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .logo-seccion_seguros {
       height: 30vh; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -1570,7 +1643,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; }
-    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    @media screen and (min-width: 1000px) {
       .workHolidayMain__textContainer {
         padding-bottom: 1rem; } }
     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -1581,7 +1654,7 @@
         padding-bottom: 0.5rem; } }
     .workHolidayMain__textContainer__text {
       width: 90%; }
-      @media screen and (min-width: 1000px) and (max-width: 1800px) {
+      @media screen and (min-width: 1000px) {
         .workHolidayMain__textContainer__text {
           font-size: 1.4rem; } }
       @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -1592,7 +1665,7 @@
   .workHolidayMain__textContainer__text {
     font-size: 1rem;
     padding: 0rem 1.5rem; } }
-    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    @media screen and (min-width: 1000px) {
       .workHolidayMain__textContainer h5 {
         padding-top: 1.5rem; } }
     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -1925,7 +1998,7 @@
 .beneficios-main a {
   color: white;
   text-align: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main a {
       font-size: 1.1rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -1943,7 +2016,7 @@
 .beneficios-main p {
   text-align: center;
   padding-top: 1rem; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main p {
       font-size: 1.7rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -1955,7 +2028,7 @@
 
 .beneficios-main button {
   text-align: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main button {
       width: 14rem;
       height: 3rem; } }
@@ -1973,7 +2046,7 @@
       height: 2.5rem;
       width: 9.5rem;
       padding-top: 0.5rem; } }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main button img {
       height: 0.9rem;
       padding-left: 0.5rem; } }
@@ -1991,7 +2064,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main .beneficios_wetag > img {
       height: 3.5rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -2005,7 +2078,7 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main .beneficios_ef > img {
       height: 6rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -2014,7 +2087,7 @@
   @media screen and (max-width: 500px) {
     .beneficios-main .beneficios_ef > img {
       height: 4.5rem; } }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main .beneficios_ef button {
       margin: 0rem 0.8rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -2028,7 +2101,7 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main .beneficios_world-packers > img {
       height: 6rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -2042,7 +2115,7 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main .beneficios_ciudadania-italiana > img {
       height: 10.5rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -2051,7 +2124,7 @@
   @media screen and (max-width: 500px) {
     .beneficios-main .beneficios_ciudadania-italiana > img {
       height: 7rem; } }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main .beneficios_ciudadania-italiana button {
       margin: 0rem 0.8rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -2065,7 +2138,7 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main .beneficios_visa > img {
       height: 10rem; } }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -2082,7 +2155,7 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
-  @media screen and (min-width: 1000px) and (max-width: 1800px) {
+  @media screen and (min-width: 1000px) {
     .beneficios-main .beneficios_assist-card > img {
       height: 12rem;
       margin: -3rem 0rem; } }
@@ -2101,7 +2174,7 @@
   align-items: center; }
   .beneficios-main .beneficios_open-english > img {
     margin: -1rem 0rem; }
-    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    @media screen and (min-width: 1000px) {
       .beneficios-main .beneficios_open-english > img {
         height: 11rem; } }
     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -2117,7 +2190,7 @@
   align-items: center; }
   .beneficios-main .beneficios_bien-argentino > img {
     margin: -0.5rem 0rem -0.2rem 0rem; }
-    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    @media screen and (min-width: 1000px) {
       .beneficios-main .beneficios_bien-argentino > img {
         height: 10rem; } }
     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -2133,7 +2206,7 @@
   align-items: center; }
   .beneficios-main .beneficios_coderhouse a {
     color: white; }
-    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    @media screen and (min-width: 1000px) {
       .beneficios-main .beneficios_coderhouse a {
         font-size: 1.1rem; } }
     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -2149,7 +2222,7 @@
         margin-top: -2rem; } }
   .beneficios-main .beneficios_coderhouse > img {
     margin: -1rem 0rem; }
-    @media screen and (min-width: 1000px) and (max-width: 1800px) {
+    @media screen and (min-width: 1000px) {
       .beneficios-main .beneficios_coderhouse > img {
         height: 7.5rem; } }
     @media screen and (min-width: 500px) and (max-width: 1000px) {
@@ -2164,7 +2237,7 @@
       width: 11rem;
       padding-top: 0.5rem; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .beneficios-main .blog_barLine1, .beneficios-main .blog_barLine2, .beneficios-main .blog_barLine3, .beneficios-main .blog_barLine4, .beneficios-main .blog_barLine5, .beneficios-main .blog_barLine6, .beneficios-main .blog_barLine7, .beneficios-main .blog_barLine8, .beneficios-main .blog_barLine9 {
     padding: 2rem 0rem 1rem 0rem; } }
 
@@ -2176,7 +2249,7 @@
   .beneficios-main .blog_barLine1, .beneficios-main .blog_barLine2, .beneficios-main .blog_barLine3, .beneficios-main .blog_barLine4, .beneficios-main .blog_barLine5, .beneficios-main .blog_barLine6, .beneficios-main .blog_barLine7, .beneficios-main .blog_barLine8, .beneficios-main .blog_barLine9 {
     padding: 0.5rem 0rem 0.5rem 0rem; } }
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) {
   .beneficios-main .blog_barLine10 {
     margin: 2rem 0rem -2rem 0rem; } }
 
@@ -2652,6 +2725,8 @@
     @media screen and (max-width: 500px) {
       .mala-experiencia .news-p .experiencia_imgs img {
         height: 40vh; } }
+    .mala-experiencia .news-p .experiencia_imgs img:hover {
+      transform: scale(1.5); }
 
 .mala-experiencia .card1 {
   background-image: url("../assets/blog/news.png") !important; }
